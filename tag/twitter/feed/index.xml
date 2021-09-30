@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Twitter &#8211; iMobilize Ltd</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>iPhone Android and Mobile web app development</description>
+	<lastBuildDate>Sun, 10 Apr 2016 22:46:27 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Why you should be using Twitter&#8217;s Fabric SDK in your mobile apps</title>
+		<link>./../../../why-you-should-be-using-twitters-fabric-sdk-in-your-mobile-apps/index.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=why-you-should-be-using-twitters-fabric-sdk-in-your-mobile-apps</link>
+					<comments>./../../../why-you-should-be-using-twitters-fabric-sdk-in-your-mobile-apps/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Andre Barrett]]></dc:creator>
+		<pubDate>Sun, 10 Apr 2016 21:38:51 +0000</pubDate>
+				<category><![CDATA[Mobile App Development]]></category>
+		<category><![CDATA[Frabic SDK]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=594</guid>
+
+					<description><![CDATA[<p>Twitter&#8217;s Fabric SDK is one of the best tools to have in a mobile developers toolkit iMobilize was fortunate enough to be invited to Twitter&#8217;s Hello World developer conference (more about it here: https://www.twitterhelloworld.com) where/ they showcased the tools that Twitter have developed that help mobile app developers to be more productive and better informed about their users. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="./../../../why-you-should-be-using-twitters-fabric-sdk-in-your-mobile-apps/index.html">Why you should be using Twitter&#8217;s Fabric SDK in your mobile apps</a> appeared first on <a rel="nofollow" href="./../../../index.html">iMobilize Ltd</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>./../../../why-you-should-be-using-twitters-fabric-sdk-in-your-mobile-apps/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

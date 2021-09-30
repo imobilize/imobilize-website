@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>software craftsmanship &#8211; iMobilize Ltd</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>iPhone Android and Mobile web app development</description>
+	<lastBuildDate>Thu, 24 Nov 2016 07:15:28 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>How to explain what is a software design pattern to your grandma</title>
+		<link>./../../../how-to-explain-what-is-a-software-design-pattern-to-your-grandma/index.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-explain-what-is-a-software-design-pattern-to-your-grandma</link>
+					<comments>./../../../how-to-explain-what-is-a-software-design-pattern-to-your-grandma/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Andre Barrett]]></dc:creator>
+		<pubDate>Sat, 09 May 2015 15:13:32 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[design patterns]]></category>
+		<category><![CDATA[software craftsmanship]]></category>
+		<category><![CDATA[software development]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=272</guid>
+
+					<description><![CDATA[<p>Albert Einstein once said “you don&#8217;t understand something until you can explain it to your grandmother”. This must have been difficult for him, not only because of the complexity of his work, but also because by the time he became globally famous, he was already quite elder. Imagine how old his grandmother must have been. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="./../../../how-to-explain-what-is-a-software-design-pattern-to-your-grandma/index.html">How to explain what is a software design pattern to your grandma</a> appeared first on <a rel="nofollow" href="./../../../index.html">iMobilize Ltd</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>./../../../how-to-explain-what-is-a-software-design-pattern-to-your-grandma/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

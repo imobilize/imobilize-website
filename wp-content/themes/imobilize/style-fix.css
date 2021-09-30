@@ -1,0 +1,16 @@
+.c-content-title-1 > h3, .c-content-title-1.c-title-md > h3 { margin-bottom: 10px;  }
+#owlPortfolios.owl-theme h3.title, .contact_box .c-content-title-1 > h3 {font-weight: 900 !important; }
+
+.contact_box .c-content-title-1 > h3 { line-height: 1em; }
+
+.c-tab-content .c-tab-pane > h4 { padding-bottom: 40px; }
+
+.contact_box  .tab-content { padding-top: 40px !important;  }
+
+@media (max-width: 991px){
+    .map_box.c-content-box.c-size-md { padding-bottom: 0px;  }
+}
+
+
+.c-content-blog-post-1 .c-title { line-height: 1em; }
+.portfolio_scope img {max-width: 100%;}
