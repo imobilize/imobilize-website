@@ -29,13 +29,13 @@ link = "plugins/google-map/map.js"
 
 # menu
 [[menu.main]]
-URL = "about"
-name = "About"
+URL = "home"
+name = "Home"
 weight = 1
 
 [[menu.main]]
-URL = "blog"
-name = "Blog"
+URL = "us"
+name = "Who are we"
 weight = 2
 
 [[menu.main]]
@@ -45,14 +45,18 @@ weight = 3
 
 [[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Get In Touch"
 weight = 4
 
+[[menu.blog]]
+URL = "blog"
+name = "Blog"
+weight = 5
 
 # default parameters
 [params]
 home = "Home"
-logo = ""
+logo = "images/iMobilize_white.png"
 # theme color
 theme_color = "#41228e"
 # contact info
