@@ -29,7 +29,7 @@ link = "plugins/google-map/map.js"
 
 # menu
 [[menu.main]]
-URL = "home"
+URL = "parallax"
 name = "Home"
 weight = 1
 
