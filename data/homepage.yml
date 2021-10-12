@@ -105,20 +105,33 @@ testimonial:
   enable: true
   title: "Testimonials"
   item:
-    - name: "Jesica Gomez"
-      image: "images/testimonial/client-1.png"
+    - name: "SKYQ"
+      image: "images/portfolio/SkyQ.png"
       designation: "CEO, Funder"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      content: "Watching your favourite shows has never been simpler with SkyQ."
+      color: "skyq"
+      url: "/portfolio/project-1/"
 
-    - name: "Shirley Scot"
-      image: "images/testimonial/client-1.png"
+    - name: "BUDDY BOUNCE"
+      image: "images/portfolio/Buddybounce.png"
       designation: "CEO, Funder"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      content: "Discover hundreds of clubs where you can connect with your celebrity fandom(s)."
+      color: "buddybounce"
+      url: "/portfolio/project-2/"
 
-    - name: "Jessica Julie"
-      image: "images/testimonial/client-1.png"
+    - name: "ONIT"
+      image: "images/portfolio/Onit.png"
       designation: "CEO, Funder"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      content: "Onit enables anyone to create, promote and sell tickets to any event imaginable."
+      color: "onit"
+      url: "/portfolio/project-3/"
+
+    - name: "SKYGO"
+      image: "images/portfolio/SkyGo.png"
+      designation: "CEO, Funder"
+      content: "Watch videos on the go, live and on-demand, wherever and whenever you want."
+      color: "skygo"
+      url: "/portfolio/project-4/"
 
 # client logo slider
 clients_logo_slider:
