@@ -99,7 +99,7 @@ h6,
   z-index: 1;
   transition: 0.2s ease;
   background: none;
-  border-color: #117cbe;
+  border-color: black;
   color: #117cbe;
 }
 
@@ -238,10 +238,6 @@ a:hover {
   padding-bottom: 80px;
 }
 
-.testimonial-section {
-  padding-top: 100px;
-  padding-bottom: 80px;
-}
 .skygo {
   background-color: #0f3371;
 }

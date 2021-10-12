@@ -110,24 +110,28 @@ testimonial:
       designation: "CEO, Funder"
       content: "Watching your favourite shows has never been simpler with SkyQ."
       color: "skyq"
+      url: "/portfolio/project-1/"
 
     - name: "BUDDY BOUNCE"
       image: "images/portfolio/Buddybounce.png"
       designation: "CEO, Funder"
       content: "Discover hundreds of clubs where you can connect with your celebrity fandom(s)."
       color: "buddybounce"
+      url: "/portfolio/project-2/"
 
     - name: "ONIT"
       image: "images/portfolio/Onit.png"
       designation: "CEO, Funder"
       content: "Onit enables anyone to create, promote and sell tickets to any event imaginable."
       color: "onit"
+      url: "/portfolio/project-3/"
 
     - name: "SKYGO"
       image: "images/portfolio/SkyGo.png"
       designation: "CEO, Funder"
       content: "Watch videos on the go, live and on-demand, wherever and whenever you want."
       color: "skygo"
+      url: "/portfolio/project-4/"
 
 # client logo slider
 clients_logo_slider:
