@@ -3,21 +3,25 @@
 PROJECT: Project Name
 VERSION: Versoin Number
 -------------------------------------------------------------------*/
-@import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap";
 
 @font-face {
-  font-family: bwnistaint-xbd;
-  src: url(../fonts/BwNistaInt-xBd.woff) format("woff");
+  font-family: lato;
+  src: url(../fonts/lato-Bold.ttf) format("ttf");
   font-style: normal;
   font-display: swap;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   line-height: 1.2;
-  font-family: roboto, sans-serif;
+  font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #4c4c4c;
+  color: #5c6873;
 }
 
 p {
@@ -25,7 +29,7 @@ p {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: roboto, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h1,
@@ -35,7 +39,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: playfair display, serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.2;
 }
 
@@ -84,16 +88,23 @@ h6,
 }
 
 .btn {
-  font-size: 22px;
-  font-family: playfair display, serif;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
   text-transform: capitalize;
-  padding: 16px 44px;
-  border-radius: 5px;
-  font-weight: 600;
-  border: 0;
+  padding: 7px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  border: 1;
   position: relative;
   z-index: 1;
   transition: 0.2s ease;
+  background: none;
+  border-color: black;
+  color: #117cbe;
+}
+
+.btn:hover {
+  background-color: #117cbe;
 }
 
 .btn:focus {
@@ -116,7 +127,7 @@ h6,
 }
 
 .btn-primary {
-  background: var(--primary-color);
+  background: #14286a;
   color: #fff;
 }
 
@@ -125,28 +136,28 @@ h6,
 }
 
 .btn-primary:active {
-  background: var(--primary-color) !important;
+  background: #14286a !important;
 }
 
 .btn-primary:hover {
-  background: var(--primary-color);
+  background: #14286a;
 }
 
 .btn-primary.focus,
 .btn-primary.active {
-  background: var(--primary-color) !important;
+  background: #14286a !important;
   box-shadow: none !important;
 }
 
 .btn-transparent {
   background: transparent;
-  color: var(--primary-color);
+  color: #14286a;
   font-weight: 700;
 }
 
 .btn-transparent:active,
 .btn-transparent:hover {
-  color: var(--primary-color);
+  color: #14286a;
 }
 
 body {
@@ -155,7 +166,7 @@ body {
 }
 
 ::selection {
-  background: var(--primary-color);
+  background: #14286a;
   color: #fff;
 }
 
@@ -203,25 +214,45 @@ select:focus {
 }
 
 a.text-dark:hover {
-  color: var(--primary-color) !important;
+  color: #14286a !important;
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: #14286a;
 }
 
 .slick-slide {
   outline: 0;
 }
 
+.about-us-color {
+  color: #117cbe;
+}
+
+.about-us-text {
+  font-size: 28px;
+  line-height: 1.4;
+}
 .section {
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 80px;
 }
 
+.skygo {
+  background-color: #0f3371;
+}
+.buddybounce {
+  background-color: #d69637;
+}
+.skyq {
+  background-color: #1965c1;
+}
+.onit {
+  background: #058778;
+}
 .section-title {
   margin-bottom: 80px;
-  font-family: bwnistaint-xbd;
+  font-family: lato;
 }
 
 .bg-cover {
@@ -254,7 +285,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: var(--primary-color) !important;
+  background: #14286a !important;
 }
 
 .bg-gray {
@@ -262,7 +293,7 @@ a:hover {
 }
 
 .text-primary {
-  color: var(--primary-color) !important;
+  color: #14286a !important;
 }
 
 .text-color {
@@ -330,15 +361,16 @@ a:hover {
 }
 
 .font-primary {
-  font-family: roboto, serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 .font-secondary {
-  font-family: playfair display, serif !important;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 900;
 }
 
 .font-tertiary {
-  font-family: bwnistaint-xbd !important;
+  font-family: lato !important;
 }
 
 .shadow {
@@ -398,7 +430,7 @@ a:hover {
 }
 
 .form-control:focus {
-  border-color: var(--primary-color);
+  border-color: #14286a;
   outline: 0;
   box-shadow: none !important;
 }
@@ -425,7 +457,7 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: var(--primary-color);
+  background-color: #14286a;
   padding: 15px 100px;
 }
 
@@ -438,12 +470,12 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: var(--primary-color);
+    background: #14286a;
   }
 }
 
 .navbar .nav-item .nav-link {
-  font-family: bwnistaint-xbd;
+  font-family: lato;
   text-transform: uppercase;
   padding: 15px;
 }
@@ -457,8 +489,9 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 250px 0 200px;
+  padding: 200px 0 200px;
   position: relative;
+  height: auto;
 }
 
 @media (max-width: 767px) {
@@ -466,6 +499,13 @@ textarea.form-control {
     padding: 200px 0 150px;
     overflow: hidden;
   }
+}
+
+.block-line {
+  width: 30px;
+  height: 3px;
+  background-color: #117cbe;
+  /* margin: 0 0 30px 0; */
 }
 
 .hero-area h1 {
@@ -751,7 +791,7 @@ blockquote {
   display: inline-block;
   padding: 10px 20px;
   background: #eaeaea;
-  border-left: 2px solid var(--primary-color);
+  border-left: 2px solid #14286a;
   font-style: italic;
   font-size: 22px;
 }
@@ -761,7 +801,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: playfair display, serif;
+  font-family: "Lato", sans-serif;
   font-size: 22px;
   font-weight: 400;
   color: #000;
@@ -899,7 +939,7 @@ blockquote {
   display: block;
   box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, 0.34);
   color: #fff;
-  background-color: var(--primary-color);
+  background-color: #14286a;
   font-size: 20px;
   text-align: center;
 }
@@ -914,7 +954,7 @@ blockquote {
   min-width: 100px;
   line-height: 100px;
   background-color: #fff;
-  color: var(--primary-color);
+  color: #14286a;
   border-radius: 50%;
   text-align: center;
   display: block;
