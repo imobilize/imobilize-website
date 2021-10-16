@@ -1,46 +1,34 @@
 ---
-title: "Amazon increase income 1.5 Million"
-date: 2019-05-12T12:14:34+06:00
-image: "images/blog/post-2.jpg"
+title: "WHY YOU SHOULD BE USING TWITTER’S FABRIC SDK IN YOUR MOBILE APPS"
+date: 2016-04-10T12:14:34+06:00
+author: "ANDRE BARRETT"
+image: "images/blog/FabricIntro.png"
 description: "This is meta description."
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+##### Twitter’s Fabric SDK is one of the best tools to have in a mobile developers toolkit
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+iMobilize was fortunate enough to be invited to Twitter’s Hello World developer conference (more about it here: [https://www.twitterhelloworld.com](https://www.twitterhelloworld.com "Twitter Hello World Developer Conference")) where they showcased the tools that Twitter have developed that help mobile app developers to be more productive and better informed about their users.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+![TwitterHelloWorld](/images/blog/TwitterHelloWorld.png)
 
-> Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+One of their main SDK’s is called Fabric which is a suite of mobile tools available for iOS and Android. It was released in 2014 with a few components but since then, the offerings have increased substantially making it the silver bullet SDK for mobile app development.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+You can get a brief overview of some of the main tools in the Fabric SDK in this video:
+
+[![TwitterHelloWorld](https://res.cloudinary.com/marcomontalbano/image/upload/v1634387000/video_to_markdown/images/youtube--tgsRdZ306Ko-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/embed/tgsRdZ306Ko "fabric sdk")
+
+The key components in Fabric are now:
+
+- **Crashlytics**The already well known crash analytics and beta testing tool that help developers debug and test new apps which leads to a reliable and stable app with good app store ratings
+
+- **Answers**The real time analytics product. Lets you know who is using your app and how they are using it enabling you to make informed decisions about your product
+
+- **Digits**Their phone number sign in solution. Allows apps to use the phone number as the primary identity source for signing into an app. Also supports email signup.
+
+- **MoPub**An ad service for mobile developers Twitter. Aids developers monetise the traffic through their apps.
+
+- **TwitterKit**Which will allow apps to seamlessly integrate Twitter’s real-time information such as Tweets and Tweet conversations.
+
+If you want to read more about Twitter’s Fabric SDK and what it has to offer you can visit the Fabric homepage here: [https://get.fabric.io](https://get.fabric.io "Twitter Fabric SDK")
