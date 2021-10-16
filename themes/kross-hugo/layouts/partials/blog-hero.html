@@ -1,0 +1,24 @@
+<!-- blog hero -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#heading").fadeIn(3000);
+    });
+</script>
+
+<section class="page-title  bg-primary position-relative overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center" id="heading" style="display: none;">
+                <h3 class="text-white font-tertiary font-weight-bold">{{.Title}}</h3>
+            </div>
+        </div>
+    </div>
+    <img src="{{`images/illustrations/Star-1-B.png`| relURL}}" alt="illustrations" class="bg-shape-1 w-75">
+  <img src="{{`images/illustrations/Star-1.png`| relURL}}" alt="illustrations" class="bg-shape-2">
+  <img src="{{`images/illustrations/dots-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-3">
+  <img src="{{`images/illustrations/Star-3.png`| relURL}}" alt="illustrations" class="bg-shape-4">
+  <img src="{{`images/illustrations/dots-group-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-6">
+</section>
+
+<!-- /blog hero -->

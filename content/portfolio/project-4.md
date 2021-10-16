@@ -1,30 +1,56 @@
 ---
-title: "Artwork Design"
-date: 2019-05-12T12:14:34+06:00
-image: "images/portfolio/item-5.png"
-client: "John Doe"
-project_url : "https://themefisher.com/"
-categories: ["design"]
+title: "SKYGO"
+subtitle: "Watch videos on the go, live and on-demand, wherever and whenever you want."
+images:
+  [
+    "images/portfolio/SkyGo_1.jpg",
+    "images/portfolio/SkyGo_2.jpg",
+    "images/portfolio/SkyGo_3.jpg",
+    "images/portfolio/SkyGo_4.jpg",
+    "images/portfolio/SkyGo_5.jpg",
+    "images/portfolio/SkyGo_6.jpg",
+    "images/portfolio/SkyGo_7.jpg",
+    "images/portfolio/SkyGo_8.jpg",
+    "images/portfolio/SkyGo_9.jpg"
+  ]
+
+process_images:
+  [
+    "images/portfolio/SKYsketches2_process1.jpg",
+    "images/portfolio/SKYsketches2_process2.jpg",
+    "images/portfolio/SkyGo_workflow_process3.jpg",
+  ]
+
+technologies:
+  [
+    "iOS",
+    "Objective C",
+    "Swift",
+    "Cisco DRM",
+    "Arxan Obfuscation",
+  ]
+logo: "images/portfolio/skygo_Logo.jpg"
 description: "This is meta description."
+bg: "skygo"
+cover: "skygo"
 draft: false
+content: "Sky Go - the award-winning mobile video service that lets you watch tv shows, movies, sports highlights and the latest news, wherever and whenever you want!
+The service allows you to:
+Watch live and on-demand video content from a compatible PC, Mac, mobile, or tablet, or the latest gaming consoles (Xbox One & 360, PS3 & PS4) via internet connection
+Watch live on up to 2 registered devices at the same time, with the ability to go on up to 4 devices with Sky Go Extra for a monthly fee.
+Over 800 movies, hundreds of entertainment programmes, sports highlights and a great range of kids shows
+Up to 54 live channels available depending on your Sky TV subscription, including:
+Sky Atlantic, Sky 1, Sky Living and Sky Arts 1
+A wide range of entertainment channels including MTV, Comedy Central, Fox and Dave
+All Sky Sports channels including Sky Sports F1 and British Eurosport
+All 11 Sky Movies Channels and Film 4
+Eight kids channels including Cartoon Network, Nickelodeon and Disney Channel
+All at no extra cost for existing Sky TV customers."
+
+process: "iMobilize was part of the team that built the Sky Go iOS app. This award winning mobile app allows a Sky customer to watch the shows they know and love wherever and whenever they want. Some of the technical challenges included DRM (Digital Rights Management) protection of the content, applying business rules around content entitlements, reliability of the video stream over poor network connections all while providing a good user interface and seamless user experience. Some of the mobile app features include: 
+<br>
+<br>– Download selected On Demand content depending on your Sky TV subscription to PC, Mac, iPhone, iPod Touch, iPad 
+<br>– Watch downloaded content anywhere, even without WiFi or 3G/4G 
+<br>– Register up to four devices 
+<br>– Watch live on up to two devices at the same time (streaming)."
 ---
-
-#### Project Requirements
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-
-
-#### Project Details
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.

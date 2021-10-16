@@ -1,20 +1,63 @@
+
+#About company
+company:
+  enable: true
+  title : "About Us"
+  content: "We are iMobilize, a mobile app and web development studio based in London that offers additional services such as strategy and marketing consultation.<br>
+  We aim to provide you with innovative, custom-made mobile apps and web platforms that give you an edge over the competition and if you so choose, impartial, strategic, practical advice that will enhance and grow your business.<br>
+  Using scrum, data-driven development, and taking ergonomics into consideration in our analytical process, our team will craft crisp, cutting-edge solutions tailored to your specifications in order to see your idea become a seamless user experience.<br>
+  Whether you want to restructure your internal processes, develop an entrepreneurial idea, or simply raise the profile of your brand – get in touch with us today and allow us to mobilize you and set your ideas free.
+
+  "
+
+
 # work process
 work_process:
   enable : true
   title : "Work Process"
   item:
-  - title : "Research and Plan"
-    icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "STRATEGY"
+    icon : "images/about/icon-strategy.png"
+    content : "A series of steps is taken to enable us to choose the right approach for a project. Firstly, a project briefing is had with a client where we try to gain as much information as we can about requirements and potential constraints. When we have analysed this information, we then start working on product design.<br><strong>60% of the apps never been downloaded
+          80%-90% deleted after 1 year</strong>"
+    image : "images/about/strategy.png"
+    width: "w-100"
+    id: "s"
+    class: "strategy"
     
-  - title : "Design and Develop"
-    icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Deliver"
-    icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "DESIGN"
+    icon : "images/about/icon-design.png"
+    content : "Our design stage involves creating initial sketches, mock-ups and wireframes for the client and for ourselves, in order for all parties to be able to visualise what the product could look like. The outcome of the creative process is formed from the best practices, as well as the latest trends, and with an awareness of competitor products, ending in a high quality project design.<br>"
+    image : "images/about/iMobilize_services_design_software.png"
+    width: "w-100"
+    id: "d"
+    class: "design"
 
+
+  - title : "DEVELOPMENT"
+    icon : "images/about/icon-development.png"
+    content : "– AGILE/SCRUM Agile defines a set of principles for software development that places emphasise on teamwork, frequent deliveries of a potentially shippable product, client interaction, and adaptability.
+    <br>– TDD (test driven development) TDD is a process that relies on the repetition of a short cycle involving test-first development and refactoring: requirements are turned into specific test cases, then only the minimum amount of code is written to fulfil the test."
+    image : "images/about/development.png"
+    width: "w-100"
+    id: "dev"
+    class: "development"
+
+  - title : "LAUNCH"
+    icon : "images/about/icon-launch.png"
+    content : "A product launch is a marketing strategy comprised of a precisely planned sequence of events that aim to make a buzz for the release and make as much sales as possible in a short time period. We create the initial buzz by spreading awareness through making use of social media in a effort to maximise the number of potential consumers pre-launch. The promotion is kept alive post-launch by sending out follow up messages, giving clients a re-run of all that happened during the launch."
+    image : "images/about/launch.png"
+    width: "w-75"
+    id: "l"
+    class: "launch"
+
+  - title : "LIFE CYCLE MANAGEMENT"
+    icon : "images/about/icon-life-cycle.png"
+    content : "Product lifecycle management is the process of managing the entire lifecycle of a product from inception, through to engineering, design, and production, to service and disposal of manufactured products."
+    image : "images/about/lifecycle.png"
+    width: "w-100"
+    id: "lc"
+    class: "lcm"
 
 # team
 team:

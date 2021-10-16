@@ -1,19 +1,31 @@
 <!-- page title -->
-<section class="page-title bg-primary position-relative overflow-hidden">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  
+    $("#heading").fadeIn(1000);
+    $("#cover").fadeIn(2000);
+    $("#logo").fadeIn(3000);
+  
+});
+</script>
+
+<section class="page-title-portfolio  {{.Params.bg}} position-relative overflow-hidden">
+  
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">{{.Title}}</h1>
+     
+      <div class="col-12 text-start" id="heading" style="display: none;">
+        
+        <h2 class="text-white font-tertiary font-weight-bold">{{.Title}}</h2>
+        <h5 class="text-white font-tertiary pb-4">{{.Params.subtitle}}</h5>
+
       </div>
     </div>
   </div>
-  <!-- background shapes -->
-  <img src="{{`images/illustrations/page-title.png`| relURL}}" alt="illustrations" class="bg-shape-1 w-100">
-  <img src="{{`images/illustrations/leaf-pink-round.svg`| relURL}}" alt="illustrations" class="bg-shape-2">
-  <img src="{{`images/illustrations/dots-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-3">
-  <img src="{{`images/illustrations/leaf-orange.svg`| relURL}}" alt="illustrations" class="bg-shape-4">
-  <img src="{{`images/illustrations/leaf-yellow.svg`| relURL}}" alt="illustrations" class="bg-shape-5">
-  <img src="{{`images/illustrations/dots-group-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-6">
-  <img src="{{`images/illustrations/leaf-cyan-lg.svg`| relURL}}" alt="illustrations" class="bg-shape-7">
+  <div class="portfolio_{{.Params.cover}}" id="cover" style="display: none;">
+  </div>
 </section>
+<img src="{{ .Params.logo | absURL }}" class="img-fluid logo-position" style="display: none;" id="logo" alt="{{ .Title }}">
+
 <!-- /page title -->
