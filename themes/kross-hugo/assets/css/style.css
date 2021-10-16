@@ -238,6 +238,16 @@ a:hover {
   padding-bottom: 80px;
 }
 
+.logo-position {
+  position: relative;
+  display: block;
+  height: 200px;
+  width: auto;
+  margin-top: -150px;
+  z-index: 3;
+  margin-left: 100px;
+}
+
 .skygo {
   background-color: #0f3371;
 }
@@ -407,14 +417,14 @@ a:hover {
 }
 
 .slick-dots li.slick-active button {
-  background: #fff;
+  background: yellow;
   width: 25px;
 }
 
 .slick-dots li button {
   height: 6px;
   width: 12px;
-  background: rgba(255, 255, 255, 0.5);
+  background: #14286a;
   color: transparent;
   border-radius: 10px;
   overflow: hidden;
@@ -493,11 +503,78 @@ textarea.form-control {
   position: relative;
   height: auto;
 }
+.portfolio_skyq {
+  background-image: url("/images/portfolio/skyQ_cover.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.portfolio_buddy_bounce {
+  background-image: url("/images/portfolio/Buddybounce_cover.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.portfolio_onit {
+  background-image: url("/images/portfolio/onit_cover.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.portfolio_skygo {
+  background-image: url("/images/portfolio/skygo_cover.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 
 @media (max-width: 767px) {
   .hero-area {
     padding: 200px 0 150px;
     overflow: hidden;
+  }
+  .portfolio_skyq {
+    background-image: url("/images/portfolio/skyQ_cover.jpg");
+    height: 460px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .portfolio_buddy_bounce {
+    background-image: url("/images/portfolio/Buddybounce_cover.jpg");
+    height: 460px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .portfolio_onit {
+    background-image: url("/images/portfolio/onit_cover.jpg");
+    height: 460px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .portfolio_skygo {
+    background-image: url("/images/portfolio/skygo_cover.jpg");
+    height: 460px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .logo-position {
+    position: relative;
+    display: block;
+    height: 200px;
+    width: auto;
+    margin-top: -150px;
+    z-index: 3;
+    margin-left: 20px;
   }
 }
 
@@ -645,11 +722,11 @@ textarea.form-control {
 }
 
 .hover-shadow {
-  transition: 0.2s ease;
+  transition: 0.5s ease;
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 18px 40px 8px rgba(224, 241, 255, 0.54) !important;
+  box-shadow: 0 18px 40px 8px #14286a !important;
 }
 
 .hover-wrapper {
@@ -765,6 +842,10 @@ textarea.form-control {
   position: relative;
 }
 
+.about-us-content {
+  line-height: 1.7;
+}
+
 .shadow-down::before {
   position: absolute;
   content: "";
@@ -785,6 +866,15 @@ textarea.form-control {
   .card-lg {
     flex-direction: column;
   }
+}
+hr.line-color {
+  border: 0.01px solid #14286a !important;
+}
+.potfolio-line-height {
+  line-height: 0.8;
+  font-size: 20px;
+  padding-top: 5px;
+  font-weight: 600;
 }
 
 blockquote {
@@ -872,6 +962,10 @@ blockquote {
 
 .page-title {
   padding: 250px 0 150px;
+}
+
+.page-title-portfolio {
+  padding: 150px 0 0px;
 }
 
 .page-title .container {

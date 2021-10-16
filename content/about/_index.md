@@ -1,13 +1,15 @@
 ---
-title: "About"
+title: "About Us"
 description: "This is meta description."
-author_image : "images/about/author.jpg"
-author_signature : "images/about/signature.png"
+author_image: "images/about/author.jpg"
+author_signature: "images/about/signature.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are iMobilize, a mobile app and web development studio based in London that offers additional services such as strategy and marketing consultation.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+We aim to provide you with innovative, custom-made mobile apps and web platforms that give you an edge over the competition and if you so choose, impartial, strategic, practical advice that will enhance and grow your business.
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Using scrum, data-driven development, and taking ergonomics into consideration in our analytical process, our team will craft crisp, cutting-edge solutions tailored to your specifications in order to see your idea become a seamless user experience.
+
+Whether you want to restructure your internal processes, develop an entrepreneurial idea, or simply raise the profile of your brand – get in touch with us today and allow us to mobilize you and set your ideas free.
