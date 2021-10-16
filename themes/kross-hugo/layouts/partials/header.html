@@ -22,7 +22,7 @@
         {{ end }}
         {{ range .Site.Menus.blog }}
         <li class="nav-item">
-          <a class="nav-link smoth-scroll font-weight-bold" href="/{{ .URL }}">{{ .Name }}</a>
+          <a class="nav-link smoth-scroll font-weight-bold" href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
 
@@ -35,7 +35,7 @@
         {{ end }}
         {{ range .Site.Menus.blog }}
         <li class="nav-item">
-          <a class="nav-link smoth-scroll font-weight-bold" href="{{ $.Site.BaseURL }}/{{ .URL }}">{{ .Name }}</a>
+          <a class="nav-link smoth-scroll font-weight-bold" href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
       </ul>
