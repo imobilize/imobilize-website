@@ -63,7 +63,7 @@ A great way to uncover opportunities for innovation is by considering the flaws 
 
 Furthermore, sizing up other apps and their features will provide a holistic understanding of the competitive landscape. A clearer picture of where your solution fits will provide you with further room for innovation.
 
-![designing a great app](http://www.imobilize.co.uk/wp-content/uploads/2016/08/graph-1024x569.jpg)
+![designing a great app](/images/blog/graph.jpg)
 
 A powerful way to innovate and build on existing solutions is through designing a rating system  
 for evaluating the effectiveness of different app features. This rating scale can be plotted on the Y-axis from 0 to 8, where 8 represents the best execution of a particular feature, or the best attempt at addressing users’ pain points.
@@ -80,7 +80,7 @@ What is the purpose of your app? How will your users achieve their objectives? H
 
 User flows are essential for outlining just that. You need a clear step-by-step blueprint of how the objectives of your customers and will be achieved through the app.
 
-![designing a great app](http://www.imobilize.co.uk/wp-content/uploads/2016/08/user_flow-1024x845.jpg)
+![designing a great app](/images/blog/user_flow.jpg)
 
 There is a variety of great flow charting tools that allow you to outline user flows. Consider for example:
 
