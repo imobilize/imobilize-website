@@ -3,6 +3,19 @@ title: "HOW TO FIND THE BEST MOBILE APP & WEB DEVELOPMENT COMPANY IN 4 STEPS"
 date: 2016-03-04T12:14:34+06:00
 author: "ANDRE BARRETT"
 image: "images/blog/portfolio.png"
+tags:
+  [
+    "android",
+    "website",
+    "web",
+    "mobile app",
+    "mobile",
+    "ios",
+    "developer",
+    "design",
+    "app",
+    "application",
+  ]
 description: "This is meta description."
 draft: false
 ---

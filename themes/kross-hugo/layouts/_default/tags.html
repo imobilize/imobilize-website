@@ -1,0 +1,15 @@
+<div class="col-lg-12 col-sm-12">
+    <div class="content">
+      <p class="text-secondary h4 font-weight-bold text-capitalize">Recent Posts on {{.Title}}</p>
+        {{ range .Data.Pages }}
+        <li class="ti-angle-right hide-bullets">
+          <a href="{{.Permalink}}" title="{{.Title }}">{{.Title }}</a>
+        </li>
+        {{end}}
+    </div>
+    <hr>
+    <div class="content d-inline ">
+      <p class="text-secondary h4 font-weight-bold">TAGS</p>
+        {{.Render "tags_list"}}
+    </div>
+  </div>
