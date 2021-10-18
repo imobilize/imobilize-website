@@ -1,8 +1,5 @@
 {{ define "main" }}
-
   {{ partial "blog-hero.html" . }}
-
-
   <section class="section">
     <div class="container">
       <div class="row justify-content-center">
@@ -15,29 +12,7 @@
                 {{.Content }}
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="content">
-            <p class="text-secondary h4 ml-4 font-weight-bold">recent post</p>
-            <ul>
-              <li>
-               list
-                <hr>
-              </li>
-            </ul>
-          </div>
-          <hr>
-          <div class="content">
-            <p class="text-secondary h4 ml-4 font-weight-bold">TAGS</p>
-            <ul>
-              <li>
-               list
-                <hr>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
   </section>
-
 {{ end }}

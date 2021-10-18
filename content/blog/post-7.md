@@ -3,6 +3,7 @@ title: "HOW TO CHOOSE THE RIGHT TECHNOLOGY WHEN DEVELOPING YOUR APP"
 date: 2015-03-28T12:14:34+06:00
 author: "ANDRE BARRETT"
 image: "images/blog/animation2.jpg"
+tags: ["app development", "open source", "technology"]
 description: "This is meta description."
 draft: false
 ---

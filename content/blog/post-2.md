@@ -3,6 +3,7 @@ title: "WHY YOU SHOULD BE USING TWITTER’S FABRIC SDK IN YOUR MOBILE APPS"
 date: 2016-04-10T12:14:34+06:00
 author: "ANDRE BARRETT"
 image: "images/blog/FabricIntro.png"
+tags: ["frabic sdk", "twitter"]
 description: "This is meta description."
 draft: false
 ---
