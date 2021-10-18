@@ -893,6 +893,9 @@ blockquote {
   font-style: italic;
   font-size: 22px;
 }
+.hide-bullets {
+  list-style-type: none;
+}
 
 .content * {
   margin-bottom: 20px;

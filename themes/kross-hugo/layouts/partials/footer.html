@@ -40,8 +40,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
+          
           <h5 class="text-light">Email</h5>
           <p class="text-white paragraph-lg font-secondary"><a href="mailto:{{site.Params.email}}">{{site.Params.email}}</a></p>
+          <ul class="list-unstyled  mt-0 pt-0 mb-3 position-relative zindex-1">
+            {{ range site.Params.social }}
+           <a class="text-white p-2" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a>
+            {{ end }}
+          </ul>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Phone</h5>
