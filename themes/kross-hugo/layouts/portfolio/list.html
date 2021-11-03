@@ -1,8 +1,63 @@
 {{ define "main" }}
+<style>
+  .subheading {
+    color: #3c3c3c;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  }
 
-{{ partial "page-title.html" . }}
+</style>
+<section class="feature-list section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-bold p-5 text-color">{{.Title}}</h1>
+      </div>
+    </div>
+    <div class="p-3"></div>
+    {{ range $index, $element := (where .Site.RegularPages "Section" "portfolio") }}
+    {{- if ne (mod $index 2) 1 }}
+    <div class="row mb-40 {{.Params.bg}} rounded-right">
+      <div class="col-md-6 text-center mb-5 mb-lg-0">
+        <div class="align-middle">
+          <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-5 mt-5 rounded-circle zoom" src="{{ .Params.image | relURL }}" alt="">
+        </a>
+          </div>
+      </div>
+      <div class="col-md-6 align-self-center text-center text-md-left">
+        <div class="content">
+          <h4 class="subheading pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h4>
+          {{ with .Params.content}}
+        <p class="text-white h5 text-justify font-weight-bold">{{. | markdownify}}</p>
+        {{ end }}
+          <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-white">Read More</a>
+        </div>
+      </div>
+    </div>
+    {{- else }}
+    <div class="row mb-40 {{.Params.bg}} rounded-left">
+      <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
+        <div class="content">
+          <h4 class="subheading pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h4>
+          {{ with .Params.content}}
+        <p class="text-white h5 text-justify font-weight-bold">{{. | markdownify}}</p>
+        {{ end }}
+          <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-white">Read More</a>
+        </div>
+      </div>
+      <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0 ">
+        <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-5 rounded-circle zoom" src="{{ .Params.image | relURL }}" alt=""></a>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
 
-portfolio
+<!-- portfolio
 <section class="section">
   <div class="container">
     <div class="row mb-5">
@@ -47,6 +102,6 @@ portfolio
   <div class="container">
     {{ partial "client-slider.html" . }}
   </div>
-</section>
+</section> -->
 
 {{ end }}

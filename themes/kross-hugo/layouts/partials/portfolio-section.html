@@ -1,0 +1,32 @@
+<!-- testimonial -->
+
+<section id="portfolio">
+    <div class="container-fluid">
+      <div class="row">
+        <p class="h3 ml-3 text-uppercase text-secondary font-weight-bold">Portfolio</p>
+      </div>
+      <div class="row">
+        <div class="block-line ml-3 mb-3"></div>
+      </div>
+      <div class="row-fluid">
+        <div class="col-md-12 testimonial-slider">
+          {{ range .item }}
+          <!-- slider-item -->
+          <div class="testimonial-content {{.color}}">
+            <div class="row align-items-center">
+              <div class="col-sm-6 align-self-center">
+                <h2 class="text-white text-center font-weight-bold">{{.name }}</h2>
+                <p class="text-white text-center font-weight-bold h4 mb-4">{{.content | markdownify}} <br> <a href="{{.url}}" class="btn btn-outline-dark text-white text-uppercase mt-5 mb-3">Explore
+                  <i class="ti-angle-right"></i></a></p>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-center">
+                <img class="img-fluid d-inline-block" src="{{.image | absURL }}" alt="client-image">
+                
+              </div>
+            </div>
+          </div>
+          
+        {{ end }}
+      </div>
+    </div>
+</section>
