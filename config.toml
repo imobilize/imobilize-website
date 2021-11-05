@@ -29,12 +29,12 @@ link = "plugins/google-map/map.js"
 
 # menu
 [[menu.main]]
-URL = "parallax"
+URL = "/"
 name = "Home"
 weight = 1
 
 [[menu.main]]
-URL = "us"
+URL = "#us"
 name = "Who are we"
 weight = 2
 
@@ -49,9 +49,14 @@ name = "Get In Touch"
 weight = 4
 
 [[menu.blog]]
+URL = "packages"
+name = "Packages"
+weight = 5
+
+[[menu.blog]]
 URL = "blog"
 name = "Blog"
-weight = 5
+weight = 6
 
 
 
@@ -82,7 +87,7 @@ copyright = "© Copyright 2016 iMobilize Ltd. All rights reserved. Company Numbe
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use png, jpg, svg or gif format
+preloader = "images/259.gif" # use png, jpg, svg or gif format
 
 # contact
 [params.contact]

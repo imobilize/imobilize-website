@@ -1,13 +1,51 @@
 {{ define "main" }}
 
-{{ partial "page-title.html" . }}
+
+{{ if site.Data.contact.contactus.enable }}
+{{ with site.Data.contact.contactus }}
+<!-- page title -->
+<section class="page-title-alt bg-primary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-white font-tertiary">{{ .title | markdownify }}</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <img src="{{`images/illustrations/Star-1-B.png`| relURL}}" alt="illustrations" class="bg-shape-1">
+  <img src="{{`images/illustrations/Star-1.png`| relURL}}" alt="illustrations" class="bg-shape-2">
+  <img src="{{`images/illustrations/Star-2-1.png`| relURL}}" alt="illustrations" class="bg-shape-3">
+  <img src="{{`images/illustrations/Star-3.png`| relURL}}" alt="illustrations" class="bg-shape-4">
+</section>
+<!-- /page title -->
+{{ end }}
+{{ end }}
+
+<section class="pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="text-dark">Schedule a meeting with us</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/imobilizeltd?hide_landing_page_details=1&hide_gdpr_banner=1" style="min-width:320px;height:750px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+      </div>
+    </div>
+  </div>
+</section>
 
 {{ if site.Params.map.enable }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Find me on Google Map</h2>
+        <h2 class="section-title">Find us on Google Map</h2>
       </div>
       <div class="col-12">
         {{ with site.Params.map }}
@@ -25,7 +63,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Follow me on Social</h2>
+        <h2 class="section-title">Follow us on Social</h2>
       </div>
       <div class="col-12">
         <ul class="list-inline social-icons text-center">
@@ -37,5 +75,4 @@
     </div>
   </div>
 </section>
-
 {{ end }}

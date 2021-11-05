@@ -51,7 +51,7 @@ h1,
 @media (max-width: 991px) {
   h1,
   .h1 {
-    font-size: 65px;
+    font-size: 55px;
   }
 }
 @media (max-width: 530px) {
@@ -302,7 +302,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #14286a !important;
+  background-image: linear-gradient(to right, #14286a , rgb(0, 0, 0))
 }
 
 .bg-gray {
@@ -510,6 +510,24 @@ textarea.form-control {
   position: relative;
   height: auto;
 }
+
+.portfolio_webdevelopment-bg {
+  background-image: url("/images/packages/new-web-development-bg.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.portfolio_socialmedia {
+  background-image: url("/images/packages/social-media-bg.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
 .portfolio_skyq {
   background-image: url("/images/portfolio/skyQ_cover.jpg");
   height: 500px;
@@ -1374,3 +1392,40 @@ blockquote {
 
 /* About section */
 
+/* Packages */
+
+.Socialmediapackage {
+    background-image: linear-gradient(to right, #1A4789,#0E93D1,#8C52FF);
+}
+
+/* Packages end */
+
+/* Color gradeints for backgrounds */
+
+.blackgradeint {
+  background:linear-gradient(to right, #040404, #000000, #656565);
+}
+.goldgradient {
+  background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+.lightbluegradient {
+  background:linear-gradient(120deg, #414b56, #00a2e1);
+}
+
+.sunrisegradient {
+  background:linear-gradient(to top, #58151A, #BC2909, #BA6D09, #71A8EE, #3072EB, #1552C6, #0542A8);
+}
+
+.googlegrad {
+  background:linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
+}
+
+.instagrad {
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.darkbluegrad {
+  background:linear-gradient(120deg, #1B1E3E, #43455e);
+}
+/* Gradient end */

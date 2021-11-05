@@ -10,10 +10,10 @@
   }
 
 </style>
-{{ if site.Data.Portfolio.heading.enable }}
-{{ with site.Data.Portfolio.heading }}
+{{ if site.Data.packages.heading.enable }}
+{{ with site.Data.packages.heading }}
 <!-- page title -->
-<section class="page-title-alt bg-primary position-relative overflow-hidden">
+<section class="page-title-alt skyq position-relative overflow-hidden">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -33,12 +33,12 @@
 <section class="feature-list section">
   <div class="container">
     <div class="p-3"></div>
-    {{ range $index, $element := (where .Site.RegularPages "Section" "portfolio") }}
+    {{ range $index, $element := (where .Site.RegularPages "Section" "packages") }}
     {{- if ne (mod $index 2) 1 }}
     <div class="row mb-40 {{.Params.bg}} rounded-right">
       <div class="col-md-6 text-center mb-5 mb-lg-0">
         <div class="align-middle">
-          <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-5 mt-5 rounded-circle zoom" src="{{ .Params.image | relURL }}" alt="">
+          <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-5 mt-5 zoom" src="{{ .Params.image | relURL }}" alt="">
         </a>
           </div>
       </div>
@@ -64,7 +64,7 @@
         </div>
       </div>
       <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0 ">
-        <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-5 rounded-circle zoom" src="{{ .Params.image | relURL }}" alt=""></a>
+        <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid zoom" src="{{ .Params.image | relURL }}" alt=""></a>
       </div>
     </div>
     {{ end }}
@@ -72,51 +72,5 @@
   </div>
 </section>
 
-<!-- portfolio
-<section class="section">
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-12">
-        <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
-          <label class="btn btn-sm btn-primary active">
-            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
-          </label>
-					{{ $categories := slice }}
-					{{ range .Data.Pages }}
-					{{ range .Params.categories }}
-					{{ $categories = $categories | append . }}
-					{{ end }}
-					{{ end }}
-					{{ range ( $categories | uniq ) }}
-          <label class="btn btn-sm btn-primary">
-            <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
-          </label>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-    <div class="row shuffle-wrapper">
-      {{ range .Data.Pages }}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ .Permalink }}">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-/portfolio
-
-<section class="section bg-light">
-  <div class="container">
-    {{ partial "client-slider.html" . }}
-  </div>
-</section> -->
 
 {{ end }}
