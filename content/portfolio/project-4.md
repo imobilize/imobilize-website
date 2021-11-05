@@ -1,6 +1,7 @@
 ---
 title: "SKYGO"
 subtitle: "Watch videos on the go, live and on-demand, wherever and whenever you want."
+image: "images/portfolio/skygo_Logo.jpg"
 images:
   [
     "images/portfolio/SkyGo_1.jpg",
@@ -30,7 +31,7 @@ technologies:
     "Arxan Obfuscation",
   ]
 logo: "images/portfolio/skygo_Logo.jpg"
-description: "This is meta description."
+description: "Sky Go – the award-winning mobile video service lets you watch the shows you love from Sky whenever and wherever you want – at no extra cost for all Sky TV customers. SKY GO &#8211; KEY FEATURES •Watch Sky TV live or On Demand on your compatible laptop, mobile or tablet •Over 800 movies, hundreds"
 bg: "skygo"
 cover: "skygo"
 draft: false

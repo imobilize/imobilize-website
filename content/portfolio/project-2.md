@@ -1,7 +1,8 @@
 ---
 title: "BUDDY BOUNCE"
 subtitle: "Discover hundreds of clubs where you can connect with your celebrity fandom(s)."
-images:
+image: "images/portfolio/Buddybounce_logo.jpg"
+images: 
   [
     "images/portfolio/Buddybounce_1.jpg",
     "images/portfolio/Buddybounce_2.jpg",
@@ -30,7 +31,7 @@ technologies: [
     "REST",
   ]
 
-description: "This is meta description."
+description: "Buddybounce is a FREE fan club that connects you with the celebrities and brands you love, support and are passionate about. By joining a fan club you will be able to: Discover the latest content about your artist across all social media platforms. Participate in competitions and rewards to win Meet &amp; Greets, Skype Calls"
 bg: "buddybounce"
 cover: "buddy_bounce"
 draft: false

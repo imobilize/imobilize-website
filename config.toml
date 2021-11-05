@@ -38,7 +38,7 @@ URL = "us"
 name = "Who are we"
 weight = 2
 
-[[menu.main]]
+[[menu.portfolio]]
 URL = "portfolio"
 name = "Portfolio"
 weight = 3
@@ -53,6 +53,9 @@ URL = "blog"
 name = "Blog"
 weight = 5
 
+
+
+
 # default parameters
 [params]
 home = "Home"
@@ -60,11 +63,11 @@ logo = "images/iMobilize_white.png"
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+44 020 3761 4998"
+phone = "0333 090 2401"
 email = "info@imobilize.co.uk"
-address = "Unit 3MR, BURFORD ROAD BUSINESS CENTRE, 11 BURFORD ROAD, LONDON, E15 2SP"
+address = "Kemp House, 160 City Road, London, EC1V 2NX"
 # meta description
-author = "Andre Barret"
+author = "iMobilize ltd"
 description = "This is meta description"
 # google analytics
 google_analytics_id = "" # Your ID
