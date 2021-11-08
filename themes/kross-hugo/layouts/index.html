@@ -9,6 +9,7 @@
 {{ partial "how-can-we-help.html" . }}
 
 
+
 {{ if site.Data.homepage.testimonial.enable }}
 {{ with site.Data.homepage.testimonial }}
 <!-- testimonial -->
@@ -45,6 +46,9 @@
 </div>
 
 </section>
+
+{{ partial "latest-blogs.html" . }}
+
 {{ end }}
 {{ end }}
 {{ end }}
