@@ -51,10 +51,15 @@ h1,
 @media (max-width: 991px) {
   h1,
   .h1 {
-    font-size: 65px;
+    font-size: 55px;
   }
 }
-
+@media (max-width: 530px) {
+  h1,
+  .h1 {
+    font-size: 45px;
+  }
+}
 h2,
 .h2 {
   font-size: 60px;
@@ -249,16 +254,18 @@ a:hover {
 }
 
 .skygo {
-  background-color: #0f3371;
+  background-image:  linear-gradient(to right, #0f3371 , rgb(0, 0, 0));
 }
 .buddybounce {
-  background-color: #d69637;
+  background-image:  linear-gradient(to right, #d69637 , rgb(116, 116, 116));
 }
 .skyq {
-  background-color: #1965c1;
+  background-image:  linear-gradient(to right, #1965c1 , rgb(0, 0, 0));
+
 }
 .onit {
-  background: #058778;
+  background-image:  linear-gradient(to left, #058778 , rgb(255, 0, 0));
+
 }
 .section-title {
   margin-bottom: 80px;
@@ -295,7 +302,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #14286a !important;
+  background-image: linear-gradient(to right, #14286a , rgb(0, 0, 0))
 }
 
 .bg-gray {
@@ -503,6 +510,24 @@ textarea.form-control {
   position: relative;
   height: auto;
 }
+
+.portfolio_webdevelopment-bg {
+  background-image: url("/images/packages/new-web-development-bg.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.portfolio_socialmedia {
+  background-image: url("/images/packages/social-media-bg.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
 .portfolio_skyq {
   background-image: url("/images/portfolio/skyQ_cover.jpg");
   height: 500px;
@@ -1082,3 +1107,325 @@ blockquote {
 .project-meta p {
   margin-bottom: 0;
 }
+
+/* Hero section */
+
+.h-50 {
+  height: 300px;
+  width: auto;
+
+}
+
+.banner {
+  background-image: url("/images/hero/background-1.png");
+  width: 100%;
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+
+}
+.bg-orange {
+  color: #FF882E
+}
+.banner-mockup {
+  position: relative;
+  width: 65%;
+  z-index: 2;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 400ms;
+  transition-delay: 0ms;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .div-mobile {
+      display: block;
+  }
+
+  .div-desktop {
+      display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 3000px) {
+  .div-mobile {
+      display: none;
+  }
+
+  .div-desktop {
+      display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .ag-slider-wrapper {
+      position: relative;
+      left: 10px;
+      width: 100px;
+      float: left;
+  }
+
+}
+
+.owl-dots {
+  position: relative;
+  /* right: 810px; */
+  bottom: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.banner-wrapper {
+  position: relative;
+  z-index: 5;
+
+  width: 100% !important;
+  /* height: auto; */
+}
+
+.ag-slider-wrapper {
+  position: relative;
+  /* z-index: 4; */
+  left: 10px;
+  width: 300px;
+  float: left;
+}
+
+.item {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  z-index: 4;
+}
+
+.empty-iphone {
+  position: absolute;
+}
+
+.mob-right {
+  position: relative;
+  margin-left: auto;
+}
+
+.pt-10 {
+  padding-top: 100px;
+}
+
+/* Hero End */
+
+/* How can we help section */
+
+.object {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.object__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid var(--highlight-color);
+  border-radius: 50%;
+}
+
+.object__intro {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: 300px;
+  padding-left: 20px;
+  color: var(--highlight-color);
+}
+
+.object__intro-text {
+  line-height: 1.5;
+}
+
+.arrow1 {
+  position: absolute;
+  bottom: -30PX;
+  left: 450px;
+  width: calc(50% - 200px);
+  transform: scaleX(-1);
+  height: 100%;
+  /* uncomment to see the arrow's rectangle bg*/
+/*   background: white;  */
+}
+
+.arrow__body1 {
+  width: 320px;
+  height: 112%;
+  margin-left: 11px;
+  border-width: 5px 0 0 5px;
+  border-style: dashed;
+  border-color: var(--highlight-color);
+  border-top-left-radius: 100%;
+}
+
+.arrow__body1::after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: -10px;
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #555;
+}
+
+@media (max-width: 768px) {
+  .object__intro {
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 70vw;
+    padding: 0;
+  }
+}
+
+.flip-horizontally {
+  transform: scaleX(-1);
+}
+
+
+.arrow2 {
+  position: absolute;
+  bottom: -100px;
+  left: -200px;
+  width: calc(50% - 200px);
+  height: 80%;
+  /* uncomment to see the arrow's rectangle bg*/
+/*   background: white;  */
+}
+
+.arrow__body2 {
+  width: 500px;
+  height: 85%;
+  margin-left: 11px;
+  border-width: 5px 0 0 5px;
+  border-style: dashed;
+  border-color: #117cbe;
+  border-top-left-radius: 100%;
+}
+
+.arrow__body2::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: -10px;
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #117cbe;
+}
+
+@media (max-width: 768px) {
+  .circle {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 6px solid  #117cbe;
+  }	
+  .circle2 {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 6px solid #DA530A;
+  }	
+  .circle3 {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 6px solid #33a532;
+  }	
+}
+
+.circle {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 6px solid  #117cbe;
+}	
+
+.circle2 {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 6px solid #DA530A;
+}	
+
+.circle3 {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 6px solid #33a532;
+}	
+
+#circle-number {
+  position: relative;
+  bottom: 7px;
+  left: -1spx;
+}
+
+
+/* How can we help section end */
+
+/* Portfolio Start */
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+/* Porfolio End */
+
+/* About section */
+
+/* Packages */
+
+.Socialmediapackage {
+    background-image: linear-gradient(to right, #1A4789,#0E93D1,#8C52FF);
+}
+
+/* Packages end */
+
+/* Color gradeints for backgrounds */
+
+.blackgradeint {
+  background:linear-gradient(to right, #040404, #000000, #656565);
+}
+.goldgradient {
+  background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+.lightbluegradient {
+  background:linear-gradient(120deg, #414b56, #00a2e1);
+}
+
+.sunrisegradient {
+  background:linear-gradient(to top, #58151A, #BC2909, #BA6D09, #71A8EE, #3072EB, #1552C6, #0542A8);
+}
+
+.googlegrad {
+  background:linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
+}
+
+.instagrad {
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.darkbluegrad {
+  background:linear-gradient(120deg, #1B1E3E, #43455e);
+}
+/* Gradient end */

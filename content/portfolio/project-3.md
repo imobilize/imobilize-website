@@ -1,6 +1,7 @@
 ---
 title: "ONIT"
 subtitle: "Onit enables anyone to create, promote and sell tickets to any event imaginable."
+image: "images/portfolio/Onit_Logo.jpg"
 images:
   [
     "images/portfolio/Onit_1.jpg",
@@ -30,7 +31,7 @@ technologies: [
   ]
 
 logo: "images/portfolio/Onit_Logo.jpg"
-description: "This is meta description."
+description: "Onit – Get on it with this nights out and fun things to do, event discovery app. Onit enables anyone to create, promote, and sell tickets (coming soon) to any event imaginable, while also helping people discover and share events that match their passions. Whether you are an up and coming DJ trying to fill"
 bg: "onit"
 cover: "onit"
 draft: false

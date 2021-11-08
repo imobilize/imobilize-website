@@ -29,16 +29,16 @@ link = "plugins/google-map/map.js"
 
 # menu
 [[menu.main]]
-URL = "parallax"
+URL = "/"
 name = "Home"
 weight = 1
 
 [[menu.main]]
-URL = "us"
+URL = "#us"
 name = "Who are we"
 weight = 2
 
-[[menu.main]]
+[[menu.portfolio]]
 URL = "portfolio"
 name = "Portfolio"
 weight = 3
@@ -49,9 +49,17 @@ name = "Get In Touch"
 weight = 4
 
 [[menu.blog]]
+URL = "packages"
+name = "Packages"
+weight = 5
+
+[[menu.blog]]
 URL = "blog"
 name = "Blog"
-weight = 5
+weight = 6
+
+
+
 
 # default parameters
 [params]
@@ -60,11 +68,11 @@ logo = "images/iMobilize_white.png"
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+44 020 3761 4998"
+phone = "0333 090 2401"
 email = "info@imobilize.co.uk"
-address = "Unit 3MR, BURFORD ROAD BUSINESS CENTRE, 11 BURFORD ROAD, LONDON, E15 2SP"
+address = "Kemp House, 160 City Road, London, EC1V 2NX"
 # meta description
-author = "Andre Barret"
+author = "iMobilize ltd"
 description = "This is meta description"
 # google analytics
 google_analytics_id = "" # Your ID
@@ -79,12 +87,12 @@ copyright = "© Copyright 2016 iMobilize Ltd. All rights reserved. Company Numbe
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use png, jpg, svg or gif format
+preloader = "images/259.gif" # use png, jpg, svg or gif format
 
 # contact
 [params.contact]
 enable = true
-form_action = "#" # contact form works with : https://formspree.io
+form_action = "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" # contact form works with : https://formspree.io
 
 # google map
 [params.map]

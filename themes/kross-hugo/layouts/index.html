@@ -1,229 +1,13 @@
 {{ define "main" }}
 
-<!-- hero area -->
-<section class="hero-area bg-primary overflow-hidden" id="parallax">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 mx-auto">
-        <h2 class="text-white font-tertiary">{{ site.Data.homepage.banner.title | safeHTML }}</h2>
-      </div>
-      <div class="col-lg-6 mx-auto">
-        <img class="img-fluid w-100 hero-image" src="{{`images/illustrations/Process.png` | relURL}}">
+<!-- {{ partial "hero.html" . }} -->
 
-      </div>
-    </div>
-  </div>
-  <div class="layer-bg w-100">
-    <!-- <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape"> -->
-  </div>
-  <div class="layer" id="l2">
-    <img class="img-fluid w-50" src="{{`images/illustrations/Star-1.png` | relURL}}" alt="bg-shape">
-  </div>
-  <div class="layer" id="l3">
-    <!-- <img class="img-fluid w-50" src="{{`images/illustrations/Glow-1.png` | relURL}}" alt="bg-shape"> -->
-  </div>
-  <div class="layer" id="l4">
-    <img class="img-fluid w-75" src="{{`images/illustrations/Star-1-B.png` | relURL}}" alt="bg-shape">
-  </div>
-  <div class="layer" id="l5">
-    <img class="img-fluid w-75" src="{{`images/illustrations/Star-2-1.png` | relURL}}" alt="bg-shape">
-  </div>
-  <div class="layer" id="l6">
-    <img class="img-fluid w-75" src="{{`images/illustrations/Star-3.png` | relURL}}" alt="bg-shape">
-  </div>
-  <div class="layer" id="l7">
-    <!-- <img src="{{`images/illustrations/dots-group-orange.svg` | relURL}}" alt="bg-shape"> -->
-  </div>
-  <div class="layer" id="l8">
-    <!-- <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL}}" alt="bg-shape"> -->
-  </div>
-  <div class="layer" id="l9">
-    <!-- <img src="{{`images/illustrations/leaf-cyan-2.svg` | relURL}}" alt="bg-shape"> -->
-  </div>
-  <!-- social icon -->
-  <!-- <ul class="list-unstyled ml-5 mt-0 pt-0 position-relative zindex-1">
-      {{ range site.Params.social }}
-      <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
-      {{ end }}
-    </ul> -->
-  <!-- /social icon -->
-</section>
-<!-- /hero area -->
+{{ partial "hero-2.html" . }}
 
-{{ if site.Data.homepage.about.enable }}
-<!-- about -->
-<section class="section" id="us">
-  <div class="container">
-    <div class="row">
-      <p class="h3 ml-3 text-uppercase text-secondary font-weight-bold">WHO WE ARE</p>
-    </div>
-    <div class="row">
-      <div class="block-line ml-3"></div>
-    </div>
-    <div class="row">
-      <div class="col-lg-5">
-        <p class="h2 pt-5 text-uppercase about-us-color font-weight-bold">About us</p>
+{{ partial "about-section.html" . }}
 
-        <a href="/about" class="btn btn-outline-primary text-uppercase mt-5 mb-3">Explore
-          <i class="ti-angle-right"></i></a>
-      </div>
-      <div class="col-lg-7 d-flex justify-content-end text-secondary text-center">
-        <p class="font-secondary text-justify  about-us-text">
-          <span class="about-us-color">iMobilize</span> is a mobile app design and development studio based in
-          London.<br>
-          <span class="about-us-color">Mobile apps</span> and mobile optimised websites are our speciality.<br>
-          We design and build <span class="about-us-color">custom-made</span> mobile apps and web systems that make a
-          difference.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /about -->
-{{ end }}
+{{ partial "how-can-we-help.html" . }}
 
-
-<!-- {{ if site.Data.homepage.skill.enable }}
-{{ with site.Data.homepage.skill }}
-skills
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-      {{ range .item }}
-      <div class="col-lg-3 col-sm-6 mb-4">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="{{.color}}">
-            <div class="wave" data-progress="{{.progress}}"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">{{.title }} ({{.progress}})</h4>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-/skills
-{{ end }}
-{{ end }} -->
-
-<!-- {{ if site.Data.homepage.experience.enable }}
-{{ with site.Data.homepage.experience }}
-experience
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-      {{ range .item }}
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="{{.logo | relURL }}" alt="icon">
-        <p class="mb-0">{{.duration}}</p>
-        <h4>{{.title }}</h4>
-        <h6 class="text-light">{{.company }}</h6>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-/experience
-{{ end }}
-{{ end }} -->
-
-<!-- {{ if site.Data.homepage.education.enable }}
-{{ with site.Data.homepage.education }}
-education
-<section class="section position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-      {{ range .item }}
-      <div class="col-lg-6 col-md-6 mb-80">
-        <div class="d-flex">
-          <div class="mr-lg-5 mr-3">
-            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
-          </div>
-          <div>
-            <p class="text-dark mb-1">{{.year}}</p>
-            <h4>{{ .title }}</h4>
-            <p class="mb-0 text-light">{{.academy}}</p>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-  bg image
-  <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
-</section>
-/education
-{{ end }}
-{{ end }} -->
-
-
-<!-- {{ if site.Data.homepage.service.enable }}
-{{ with site.Data.homepage.service }}
-services
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-      {{ range .item }}
-      <div class="col-md-4 mb-4">
-        <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
-          <div class="card-body text-center px-4 py-5">
-            <i class="{{.icon }} icon mb-5 d-inline-block"></i>
-            <h4 class="mb-4">{{.title}}</h4>
-            <p>{{.content | markdownify}}</p>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-/services
-{{ end }}
-{{ end }} -->
-
-
-<!-- {{ if site.Data.homepage.portfolio.enable }}
-portfolio
-<section class="section" id="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ site.Data.homepage.portfolio.title | markdownify }}</h2>
-      </div>
-    </div>
-    <div class="row shuffle-wrapper">
-      {{ $item:= site.Data.homepage.portfolio.item_show }}
-      {{ range first $item (where .Site.RegularPages "Section" "portfolio") }}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ .Permalink | safeURL }}">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-/portfolio
-{{ end }} -->
 
 
 {{ if site.Data.homepage.testimonial.enable }}
@@ -236,10 +20,10 @@ portfolio
       <p class="h3 ml-3 text-uppercase text-secondary font-weight-bold">Portfolio</p>
     </div>
     <div class="row">
-      <div class="block-line ml-3 mb-3"></div>
+      <div class="block-line ml-3 mb-5"></div>
     </div>
     <div class="row">
-      <div class="col-sm-12 mx-auto testimonial-slider">
+      <div class="col-sm-12 testimonial-slider pl-0 pr-0">
         {{ range .item }}
         <!-- slider-item -->
         <div class="testimonial-content {{.color}}">
@@ -260,37 +44,11 @@ portfolio
     </div>
   </div>
 </div>
+
 </section>
+
+{{ partial "latest-blogs.html" . }}
+
 {{ end }}
 {{ end }}
-
-
-<!-- {{ if site.Data.homepage.clients_logo_slider.enable }}
-client logo slider
-<section class="section pb-0">
-  <div class="container">
-    {{ partial "client-slider.html" . }}
-  </div>
-</section>
-/client logo slider
-{{ end }} -->
-
-<!-- {{ if site.Data.homepage.blog.enable }}
-blog
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{site.Data.homepage.blog.title | markdownify }}</h2>
-      </div>
-      {{ range first 3 (where .Site.RegularPages "Section" "blog")}}
-      {{ .Render "post" }}
-      {{ end }}
-    </div>
-  </div>
-</section>
-/blog
-{{ end }} -->
-
-
 {{ end }}

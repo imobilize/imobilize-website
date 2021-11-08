@@ -1,6 +1,7 @@
 ---
 title: "SKYQ"
 subtitle: "Watching your favourite shows has never been simpler with SkyQ."
+image: "images/portfolio/skyQ_Logo.jpg"
 images:
   [
     "images/portfolio/SkyQ-1.jpg",
@@ -19,7 +20,7 @@ process_images:
 logo: "images/portfolio/skyQ_Logo.jpg"
 
 technologies: ["iOS", "Objective C", "Swift", "Cisco DRM", "Websockets"]
-description: "This is meta description."
+description: "Sky Q is Sky's new home wireless entertainment system. It gives users the most premium TV viewing experience. We were involved in the development of the new Sky Q App. Some of the key features include. Record more, store more: Sky Q Silver lets you record four shows while you watch a fifth, and store."
 bg: "skyq"
 cover: "skyq"
 

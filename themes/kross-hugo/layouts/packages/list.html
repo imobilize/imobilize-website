@@ -1,0 +1,76 @@
+{{ define "main" }}
+<style>
+  .subheading {
+    color: #3c3c3c;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  }
+
+</style>
+{{ if site.Data.packages.heading.enable }}
+{{ with site.Data.packages.heading }}
+<!-- page title -->
+<section class="page-title-alt skyq position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-white font-tertiary">{{ .title | markdownify }}</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <img src="{{`images/illustrations/Star-1-B.png`| relURL}}" alt="illustrations" class="bg-shape-1">
+  <img src="{{`images/illustrations/Star-1.png`| relURL}}" alt="illustrations" class="bg-shape-2">
+  <img src="{{`images/illustrations/Star-2-1.png`| relURL}}" alt="illustrations" class="bg-shape-3">
+  <img src="{{`images/illustrations/Star-3.png`| relURL}}" alt="illustrations" class="bg-shape-4">
+</section>
+<!-- /page title -->
+{{ end }}
+{{ end }}
+<section class="feature-list section">
+  <div class="container">
+    <div class="p-3"></div>
+    {{ range $index, $element := (where .Site.RegularPages "Section" "packages") }}
+    {{- if ne (mod $index 2) 1 }}
+    <div class="row mb-40 {{.Params.bg}} rounded-right">
+      <div class="col-md-6 text-center mb-5 mb-lg-0">
+        <div class="align-middle">
+          <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-5 mt-5 zoom" src="{{ .Params.image | relURL }}" alt="">
+        </a>
+          </div>
+      </div>
+      <div class="col-md-6 align-self-center text-center text-md-left">
+        <div class="content">
+          <h4 class="subheading pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h4>
+          {{ with .Params.content}}
+        <p class="text-white h5 text-justify font-weight-bold">{{. | markdownify}}</p>
+        {{ end }}
+          <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-white">Read More</a>
+        </div>
+      </div>
+    </div>
+    {{- else }}
+    <div class="row mb-40 {{.Params.bg}} rounded-left">
+      <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
+        <div class="content">
+          <h4 class="subheading pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h4>
+          {{ with .Params.content}}
+        <p class="text-white h5 text-justify font-weight-bold">{{. | markdownify}}</p>
+        {{ end }}
+          <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-white">Read More</a>
+        </div>
+      </div>
+      <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0 ">
+        <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid zoom" src="{{ .Params.image | relURL }}" alt=""></a>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+
+{{ end }}
