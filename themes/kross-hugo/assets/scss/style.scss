@@ -726,7 +726,7 @@ textarea.form-control {
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 18px 40px 8px #14286a !important;
+  box-shadow: 0 0 11px rgba(33,33,33,.2) !important;
 }
 
 .hover-wrapper {
@@ -1155,3 +1155,9 @@ blockquote {
     }
   }
   
+  .subheading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    font-family: inherit;
+  }
