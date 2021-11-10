@@ -7,40 +7,26 @@
       <h3 class="text-white font-tertiary">{{site.Title}}</h3>
       {{ end }}
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
-        {{ if .IsHome }}
-        {{ range .Site.Menus.main }}
-        <li class="nav-item">
-          <a class="nav-link smoth-scroll font-weight-bold" href="{{ .URL }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-        {{ range .Site.Menus.portfolio }}
+        {{ range .Site.Menus.home }}
         <li class="nav-item">
           <a class="nav-link smoth-scroll font-weight-bold" href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
-        {{ range .Site.Menus.packages }}
+        {{ range .Site.Menus.about }}
         <li class="nav-item">
           <a class="nav-link smoth-scroll font-weight-bold" href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
-        {{ range .Site.Menus.blog }}
+        {{ range .Site.Menus.contact }}
         <li class="nav-item">
           <a class="nav-link smoth-scroll font-weight-bold" href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-
-        {{ else }}
-
-        {{ range .Site.Menus.main }}
-        <li class="nav-item">
-          <a class="nav-link smoth-scroll font-weight-bold" href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
         {{ range .Site.Menus.portfolio }}
@@ -59,7 +45,6 @@
         </li>
         {{ end }}
       </ul>
-      {{ end }}
     </div>
   </nav>
 </header>
