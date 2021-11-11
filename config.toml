@@ -28,14 +28,14 @@ link = "plugins/google-map/map.js"
 
 
 # menu
-[[menu.main]]
-URL = "/"
+[[menu.home]]
+URL = ""
 name = "Home"
 weight = 1
 
-[[menu.main]]
-URL = "#us"
-name = "Who are we"
+[[menu.about]]
+URL = "about"
+name = "About"
 weight = 2
 
 [[menu.portfolio]]
@@ -43,7 +43,7 @@ URL = "portfolio"
 name = "Portfolio"
 weight = 3
 
-[[menu.main]]
+[[menu.contact]]
 URL = "contact"
 name = "Get In Touch"
 weight = 4
@@ -92,11 +92,11 @@ preloader = "images/259.gif" # use png, jpg, svg or gif format
 # contact
 [params.contact]
 enable = true
-form_action = "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" # contact form works with : https://formspree.io
+form_action = "" # contact form works with : https://formspree.io
 
 # google map
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
