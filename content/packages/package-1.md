@@ -22,8 +22,8 @@ logo: "images/packages/social-media-package-transparent.png"
 
 Clients: ["Barrettventures", "Fit Freaks"]
 description: "This is meta discription."
-bg: "instagrad"
-cover: "socialmedia"
+bg: "newsocialmediapackage"
+cover: "socialmediacover"
 
 content: "When it comes to client’s business, iMobilize sets the following
 objectives:
@@ -31,7 +31,7 @@ objectives:
  Formalize the overall branding of the Client Business.</br></br>
 The objective of the whole digital marketing strategy is to
 increase business sales & market awareness about its unique
-brand proposition.</br></br>
+brand proposition.
 Create WOM about Client Business, through social media
 marketing.</br></br>
 Our first objective will be to run A/B Testing on the target market
@@ -39,16 +39,12 @@ to analyze how the audience reacts to the material we are sharing.</br>"
 
 process: "
 Our first objective will be to run A/B Testing on the target market
-to analyze how the audience reacts to the material we are sharing. <br><br>
-Content to be tested can be seen below:<br>
-English Content<br><br>
-Illustrations<br><br>
-Video Content / Gifs<br><br>
-Real-Life Images<br><br>
-Pictorial Content<br><br>
+to analyze how the audience reacts to the material we are sharing.
+</br> </br>
+Content to be tested can be seen below
 "
 draft: false
-Packagetitle: Social Media Packages
+Packagetitle: "Choose the Plan That’s Right For You"
 Packagename1: "Standard Package"
 Price1: "299£"
 list1: ["Social Channels(Facebook, Instagram)",
@@ -82,8 +78,8 @@ list2: ["Social Channels(Facebook, Instagram, Twitter)",
 Packagename3: "Elite Package"
 Price3: "599£"
 list3: [  "Social Channels
-(Facebook, Instagram, Twitter,
-LinkedIn, Pinterest )",
+  (Facebook, Instagram, Twitter,
+  LinkedIn, Pinterest )",
  "Social Media Audit",
  "Set Up and Optimization Of Business Page/Profile",
  "Page Management",
@@ -96,6 +92,12 @@ LinkedIn, Pinterest )",
  "Reputation Management",
  "Social Media Engagement Campaigns",
  "Advertisement Campaigns ( Ads Payment Not Included ) Upto $200",
- "Monthly Reporting & Goal Evaluation"]
+ "Monthly Reporting & Goal Evaluation"
+]
+question: "Why You need Social Media Marketing?"
+
+heading2: "Process"
+
+listcontent: ["English Content", "Illustrations", "Video Content / Gifs","Real-Life Images", "Pictorial Content" ]
 ---
 
