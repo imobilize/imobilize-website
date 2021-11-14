@@ -1247,6 +1247,7 @@ blockquote {
 }
 
 .object__intro-text {
+  font-size: large;
   line-height: 1.5;
 }
 
