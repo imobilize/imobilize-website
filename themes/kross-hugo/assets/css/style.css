@@ -92,6 +92,22 @@ h6,
   font-size: 14px;
 }
 
+.btn-orange {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  padding: 7px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  border: 1;
+  position: relative;
+  z-index: 1;
+  transition: 0.2s ease;
+  background: none;
+  border-color: rgb(255, 255, 255);
+  color: #ff882e;
+}
+
 .btn {
   font-size: 16px;
   font-family: "Lato", sans-serif;
@@ -780,13 +796,13 @@ textarea.form-control {
   color: #fff;
 }
 
-.hover-shadow {
+/* .hover-shadow {
   transition: 0.5s ease;
 }
 
 .hover-shadow:hover {
   box-shadow: 0 5px 3px 3px #14286a !important;
-}
+} */
 
 .hover-wrapper {
   overflow: hidden;
@@ -970,7 +986,7 @@ blockquote {
 }
 
 .page-title-alt {
-  padding: 350px 0 70px;
+  padding: 150px 0 70px;
 }
 
 .border-thick {
@@ -1582,3 +1598,6 @@ hr.packages-card{
 }
 
 
+.orange {
+  background-color: #ff882e;
+}
