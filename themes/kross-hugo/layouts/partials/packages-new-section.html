@@ -1,0 +1,28 @@
+<section class="pt-5 pb-5 {{.Params.bg}} position-relative overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          {{ with .Params.heading}}
+          <h2 class="text-white font-tertiary font-weight-bold p-3">{{. | markdownify}}</h2>
+          {{ end }}
+          {{ with .Params.mediatext}}
+          <h5 class="text-white font-tertiary p-3 mb-5">{{. | markdownify}}</h5>
+          {{ end }}
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-4">
+            {{ range .Params.marketing_images}}
+            <div class="row">
+            <img class="img-fluid d-inline-block" src="{{. | safeHTML | relURL }}">
+            </div>
+            {{ end }}
+            <div class="row">
+                {{ with .Params.marketing_text}}
+                <p class="text-center"></p>
+                {{ end }}
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>

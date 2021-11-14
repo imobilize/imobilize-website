@@ -20,30 +20,16 @@ logo: "images/packages/website-logo.png"
 
 Clients: ["Barrettventures", "Fit Freaks"]
 description: "bleh bleh"
-bg: "darkbluegrad"
-cover: "webdevelopment-bg"
-
-content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias natus beatae consectetur dolores dolor! Eveniet deserunt vel omnis possimus animi, maiores, quidem deleniti autem assumenda expedita repudiandae id molestias."
-
-process: "Developers at iMobilize have specialized in mobile software for many years and
-during this time we have witnessed many changes to this
-fast-moving and exciting
-industry. The mobile software industry really gathered pace after the initial launch of the first smartphones
-resulting in explosive growth and a fragmented ecosystem
-with many platforms to build software applications. Today there are 2 clear
-winners;
-Android and iOS who together dominate the mobile apps market with more than
-90% of the entire market share between them.
+bg: "purplebliss"
+cover: "webdevelopmentpackage-bg"
+heading2: "Process"
+content: "Developers at iMobilize have specialized in mobile software for many years and during this time we have witnessed many changes to this fast-moving and exciting industry. The mobile software industry really gathered pace after the initial launch of the first smartphones resulting in explosive growth and a fragmented ecosystem with many platforms to build software applications. Today there are 2 clear winners; Android and iOS who together dominate the mobile apps market with more than 90% of the entire market share between them.
 </br> </br>
-Our Specialists move with the market and there are many solutions our clients
-adopt to create applications across various mobile platforms
-and web browsers
-accessible on the many devices in the market today. Some clients seek Consultancy
-advice on how best to drive and
-deliver their mobile products to market. As such we
-do provide experienced Consultants who can implement strategy, advise on
-direction
-and analyse requirements. </br> </br>
+Our Specialists move with the market and there are many solutions our clients adopt to create applications across various mobile platforms and web browsers accessible on the many devices in the market today. Some clients seek Consultancy advice on how best to drive and deliver their mobile products to market. As such we do provide experienced Consultants who can implement strategy, advise on direction and analyse requirements.
+"
+question: "Why you need a Website for your business?"
+listcontent: ["Strategy", "Design", "Development", "Launch", "Life Cycle Managment", ]
+process: "
 iMobilize has groomed a pool of candidates who are experienced in developing,
 testing and distributing mobile websites and mobile
 applications. With the market

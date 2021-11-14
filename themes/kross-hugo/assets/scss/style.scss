@@ -1222,3 +1222,20 @@ blockquote {
 		animation-iteration-count: 1;
 	}
 }
+
+.white-rectangle {
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  .secure-checkout-text {
+    color: #14286A;
+    background-color: white;
+    }    
+}
+
+.startup-grad {
+  background: linear-gradient(90deg, rgba(250,250,210,1) 0%, rgba(238,215,170,1) 17%, rgba(233,150,81,1) 100%);
+}
