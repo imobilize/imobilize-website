@@ -41,7 +41,7 @@ talent our mobile development specialists have;"
 draft: false
 Packagetitle: Web Development Packages
 Packagename1: "Landing Page"
-Price1: "799£"
+Price1: "$799"
 list1: ["1 Page Website",
  "1 year domain and hositng",
  "Search Engine Optimization",
@@ -55,7 +55,7 @@ list1: ["1 Page Website",
 
 ]
 Packagename2: "Bussiness Website"
-Price2: "1200£"
+Price2: "$1200"
 list2: ["5 Page Website",
  "1 year domain and hosting",
  "Search Engine Optimization",
@@ -68,7 +68,7 @@ list2: ["5 Page Website",
 
 ]
 Packagename3: "Corporate Website"
-Price3: "1600£"
+Price3: "$1600"
 list3: [  "10 Page Website",
  "1 year domain and hosting",
  "Search Engine Optimization",

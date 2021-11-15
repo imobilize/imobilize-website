@@ -93,7 +93,7 @@ h6,
 }
 
 .btn-orange {
-  font-size: 16px;
+  font-size: 28px;
   font-family: "Lato", sans-serif;
   text-transform: capitalize;
   padding: 7px 30px;
@@ -103,9 +103,9 @@ h6,
   position: relative;
   z-index: 1;
   transition: 0.2s ease;
-  background: none;
+  background-color: #ff882e;
   border-color: rgb(255, 255, 255);
-  color: #ff882e;
+  color: #000000;
 }
 
 .btn {
@@ -494,9 +494,24 @@ textarea.form-control {
   padding: 15px 100px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .navigation.nav-bg {
     padding: 15px 20px;
+  }
+  .btn-orange {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    text-transform: capitalize;
+    padding: 7px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+    border: 1;
+    position: relative;
+    z-index: 1;
+    transition: 0.2s ease;
+    background-color: #ff882e;
+    border-color: rgb(255, 255, 255);
+    color: #ff882e;
   }
 }
 
@@ -1047,14 +1062,14 @@ blockquote {
 }
 
 .page-title {
-  padding: 200px 0 150px;
+  padding: 150px 0 0px;
 }
 
 .page-title-portfolio {
   padding: 150px 0 0px;
 }
 .blog-hero-portfolio {
-  padding: 200px 0 20px !important;
+  padding: 150px 0 0px !important;
 }
 .blog-hero-portfolio .container {
   position: relative;
@@ -1546,7 +1561,7 @@ blockquote {
 
 .subheading {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
 }
 

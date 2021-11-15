@@ -46,7 +46,7 @@ Content to be tested can be seen below
 draft: false
 Packagetitle: "Choose the Plan That’s Right For You"
 Packagename1: "Standard Package"
-Price1: "299£"
+Price1: "$299"
 list1: ["Social Channels(Facebook, Instagram)",
  "Social Media Audit",
  "Set Up and Optimization Of Business Page/Profile",
@@ -59,7 +59,7 @@ list1: ["Social Channels(Facebook, Instagram)",
 ", "Monthly Reporting & Goal Evaluation"
 ]
 Packagename2: "Midway Package"
-Price2: "449£"
+Price2: "$449"
 list2: ["Social Channels(Facebook, Instagram, Twitter)",
  "Social Media Audit",
  "Set Up and Optimization Of Business Page/Profile",
@@ -76,7 +76,7 @@ list2: ["Social Channels(Facebook, Instagram, Twitter)",
 "
 ]
 Packagename3: "Elite Package"
-Price3: "599£"
+Price3: "$599"
 list3: [  "Social Channels
   (Facebook, Instagram, Twitter,
   LinkedIn, Pinterest )",

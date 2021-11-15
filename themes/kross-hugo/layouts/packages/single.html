@@ -80,7 +80,7 @@
                     {{ end }}
                       <hr>
                       <div class="d-flex justify-content-center mt-3 mb-3">
-                          <a href="#" class="btn btn-main btn-lg">Get Started</a>
+                          <a href="/contact" class="btn btn-main btn-lg">Get Started</a>
                       </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                   {{ end }}
                   <hr>
                   <div class="d-flex justify-content-center mt-3 mb-3">
-                      <a href="#" class="btn btn-main btn-lg">Get Started</a>
+                      <a href="/contact" class="btn btn-main btn-lg">Get Started</a>
                   </div>
               </div>
           </div>
@@ -128,211 +128,12 @@
                 {{ end }}
                 <hr>
                 <div class="d-flex justify-content-center mt-3 mb-3">
-                    <a href="#" class="btn btn-main btn-lg">Get Started</a>
+                    <a href="/contact" class="btn btn-main btn-lg">Get Started</a>
                 </div>
             </div>
         </div>
     </div>
   </div>
 </section>
-<!-- <section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mb-5">
-        {{ with .Params.content}}
-        <p class="text-secondary h5 text-justify font-weight-bold">{{. | markdownify}}</p>
-        {{ end }}
-        <div class="col-sm-12 d-flex justify-content-center pt-1">
-          <div class="col-lg-12 mx-auto justify-content-center testimonial-slider">
-            {{ range .Params.images}}
-            <img class="img-fluid d-inline-block" src="{{. | safeHTML | relURL }}">
-            {{end}}
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-5 mb-lg-0 ">
-        <p class="h3 text-secondary font-weight-bold">Happy Clients</p>
-        {{ range .Params.Client}}
-        <p class="potfolio-line-height">
-          {{.| safeHTML}}
-          <hr class="line-color">
-        </p>
-        {{end}}
-      </div>
-      <div class="col-lg-12 mb-5">
-      <p class="h3 text-secondary font-weight-bold">Process</p>
-      {{with .Params.process}}
-      <p class="text-secondary h5 text-justify font-weight-bold">{{. | safeHTML}}</p>
-      {{end}}
-      </div>
-      <div class="col-md-12 d-flex justify-content-center pt-5">
-        <div class="col-md-8 mx-auto justify-content-center testimonial-slider">
-          {{ range .Params.process_images}}
-          <img class="img-fluid d-inline-block" src="{{. | safeHTML | relURL }}">
-          {{end}}
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- /portfolio -->
-
-<!-- Test section -->
-<!-- <section class="pt-5 pb-5 {{.Params.bg}} position-relative overflow-hidden">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        {{ with .Params.makerting_heading}}
-        <h2 class="text-white font-tertiary font-weight-bold p-3">{{. | markdownify}}</h2>
-        {{ end }}
-        {{ with .Params.makerting_text}}
-        <h5 class="text-white font-tertiary p-3 mb-5">{{. | markdownify}}</h5>
-        {{ end }}
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4 col-xs-12 p-3">
-        <center>
-          {{ with .Params.marketing_image1}}
-          <img class="img-fluid " src="{{. | safeHTML | relURL }}">
-          {{ end }}
-        </center>
-        <div class="pt-3">
-          {{ with .Params.marketingtext1}}
-          <p class="text-center text-white font-tertiary">
-            {{.| safeHTML}}
-          </p>
-          {{ end }}
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12 p-3">
-        <center>
-          {{ with .Params.marketing_image2}}
-          <img class="img-fluid " src="{{. | safeHTML | relURL }}">
-          {{ end }}
-        </center>
-        <div class="pt-3">
-          {{ with .Params.marketingtext2}}
-          <p class="text-center text-white font-tertiary">
-            {{.| safeHTML}}
-          </p>
-          {{ end }}
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12 p-3">
-        <center>
-          {{ with .Params.marketing_image3}}
-          <img class="img-fluid " src="{{. | safeHTML | relURL }}">
-          {{ end }}
-        </center>
-        <div class="pt-3">
-          {{ with .Params.marketingtext3}}
-          <p class="text-center text-white font-tertiary">
-            {{.| safeHTML}}
-          </p>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 col-xs-12 justify-content-center testimonial-slider align-middle pt-5">
-          {{ range .Params.images}}
-          <img class="img-fluid d-inline-block" src="{{. | safeHTML | relURL }}">
-          {{end}}
-      </div>
-      <div class="col-md-7 col-xs-12">
-        {{ with .Params.question}}
-        <h3 class="text-packages heading text-left pt-5 pb-3 font-weight-bold">{{. | markdownify}}</h3>
-        {{ end }}
-        {{ with .Params.content}}
-        <p class="text-left">{{. | markdownify}}</p>
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
-<section class="pt-5 pb-5 bg-dark position-relative overflow-hidden">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        {{ with .Params.development_heading}}
-        <h2 class="text-white font-tertiary font-weight-bold p-3">{{. | markdownify}}</h2>
-        {{ end }}
-        {{ with .Params.development_text}}
-        <h5 class="text-white font-tertiary p-3 mb-5">{{. | markdownify}}</h5>
-        {{ end }}
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4 col-xs-12 p-3">
-        <center>
-          {{ with .Params.development_image1}}
-          <img class="img-fluid " src="{{. | safeHTML | relURL }}">
-          {{ end }}
-        </center>
-        <div class="pt-3">
-          {{ with .Params.marketingtext1}}
-          <p class="text-center text-white font-tertiary">
-            {{.| safeHTML}}
-          </p>
-          {{ end }}
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12 p-3">
-        <center>
-          {{ with .Params.development_image2}}
-          <img class="img-fluid " src="{{. | safeHTML | relURL }}">
-          {{ end }}
-        </center>
-        <div class="pt-3">
-          {{ with .Params.marketingtext2}}
-          <p class="text-center text-white font-tertiary">
-            {{.| safeHTML}}
-          </p>
-          {{ end }}
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12 p-3">
-        <center>
-          {{ with .Params.development_image3}}
-          <img class="img-fluid " src="{{. | safeHTML | relURL }}">
-          {{ end }}
-        </center>
-        <div class="pt-3">
-          {{ with .Params.marketingtext3}}
-          <p class="text-center text-white font-tertiary">
-            {{.| safeHTML}}
-          </p>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-xs-12 justify-content-center d-flex">
-        <img src="/images/packages/money-back.png" class="img-fluid">
-      </div>
-    </div>
-    <div class="row pt-5">
-      <div class="col-md-12 col-xs-12 d-flex justify-content-center">
-        <div class="white-rectangle">
-          <h4 class="secure-checkout-text font-weight-bold">
-            GAURANTEED SAFE CHECHOUT
-          </h4>
-        </div>
-        <div class="checkout-rectangle">
-          <img src="/images/packages/secure-payment.png" class="img-fluid p-4">
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 <!-- Text end -->
 {{ end }}

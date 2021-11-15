@@ -102,8 +102,9 @@ $(window).on('load', function () {
 	$('.testimonial-slider').slick({
 		dots: true,
 		infinite: true,
-		speed: 300,
+		speed: 200,
 		slidesToShow: 1,
+		autoplay: true,
 		arrows: false,
 		adaptiveHeight: true
 	});

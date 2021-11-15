@@ -44,7 +44,7 @@ Generating customers is also the #1 expense a business will incur in it’s ques
 draft: false
 Packagetitle: Startup Bussiness Owner Packages
 Packagename1: "Standard Startup"
-Price1: "999£"
+Price1: "$999"
 list1: ["1 Page Website",
  "Logo Designs and studies",
  "Branding for Profit Book - a Perfect Startup guide",
@@ -52,7 +52,7 @@ list1: ["1 Page Website",
  "100% Money Back Guarantee",
 ]
 Packagename2: "Midway Startup"
-Price2: "1499£"
+Price2: "$1499"
 list2: ["5 Page Website",
     "3 Month Free Website Maintaince and Fixtures",
     "Logo Designs and Artwork",
@@ -62,7 +62,7 @@ list2: ["5 Page Website",
     "2 hour Bussiness Consultancy",
 ]
 Packagename3: "Elite Startup"
-Price3: "2000£"
+Price3: "$2000"
 list3: [
     "7 Page Website",
     "1 Sales Landing page website",

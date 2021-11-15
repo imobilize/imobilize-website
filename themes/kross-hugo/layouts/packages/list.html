@@ -1,20 +1,10 @@
 {{ define "main" }}
-<style>
-  .subheading {
-    color: #3c3c3c;
-  padding-bottom: 15px;
-  text-transform: capitalize;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 45px;
-  }
 
-</style>
 {{ if site.Data.packages.heading.enable }}
 {{ with site.Data.packages.heading }}
 <!-- page title -->
-<section class="page-title-alt skyq position-relative overflow-hidden">
-  <div class="container">
+<section class="page-title-alt darkblue position-relative overflow-hidden">
+  <div class="container mb-5">
     <div class="row">
       <div class="col-12">
         <h1 class="text-white font-tertiary">{{ .title | markdownify }}</h1>
@@ -45,7 +35,7 @@
       </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
-          <h4 class="subheading pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h4>
+          <h3 class="pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h3>
           {{ with .Params.content}}
         <p class="text-white h5 text-justify font-weight-bold">{{. | markdownify}}</p>
         {{ end }}
@@ -57,9 +47,9 @@
     <div class="row mb-40 {{.Params.bg}} rounded-left">
       <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
         <div class="content">
-          <h4 class="subheading pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h4>
+          <h3 class=" pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h3>
           {{ with .Params.content}}
-        <p class="text-white h5 text-justify font-weight-bold">{{. | markdownify}}</p>
+        <p class="text-white h5 text-justify font-weight-bolder">{{. | markdownify}}</p>
         {{ end }}
           <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-white">Read More</a>
         </div>
