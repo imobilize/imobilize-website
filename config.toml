@@ -35,7 +35,7 @@ weight = 1
 
 [[menu.about]]
 URL = "about"
-name = "About"
+name = "About Us"
 weight = 2
 
 [[menu.portfolio]]
@@ -45,7 +45,7 @@ weight = 3
 
 [[menu.contact]]
 URL = "contact"
-name = "Get In Touch"
+name = "Contact Us"
 weight = 4
 
 [[menu.blog]]
@@ -119,3 +119,7 @@ URL = "https://www.instagram.com/imobilizeltd/"
 [[params.social]]
 icon = "ti-twitter-alt"
 URL = "https://twitter.com/imobilizeltd"
+
+#blog
+[permalinks]
+  blog = "/:filename"

@@ -22,7 +22,7 @@ logo: "images/packages/social-media-package-transparent.png"
 
 Clients: ["Barrettventures", "Fit Freaks"]
 description: "This is meta discription."
-bg: "newsocialmediapackage"
+bg: "packagegradient"
 cover: "socialmediacover"
 
 content: "When it comes to client’s business, iMobilize sets the following

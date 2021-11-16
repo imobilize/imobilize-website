@@ -3,20 +3,27 @@
     color: #4c4c4c;
   }
 </style>
-<section class="bg-light div-desktop">
+
+<section class="bg-light div-desktop section">
   <div class="container">
     <div class="row pb-5">
       <div class="col-md-12">
-        <h2 class="heading font-weight-bold font-secondary p-3">Here's how we can <span class="about-us-color">help</span> you...</h2>
+        <h2 class="heading font-weight-bold font-secondary p-3">So how can we <span class="about-us-color">help</span> you?</h2>
         <div class="block-line ml-4"></div>
       </div>
     </div>
+
+    <!-- Step one Start -->
+
+    {{ if site.Data.howcanwehelp.stepone.enable }}
+    {{ with site.Data.howcanwehelp.stepone }}
+
     <div class="row pt-5">
       <div class="col-md-12 h-100">
         <div class="d-flex justify-content-start">
           <div class="object">
             <img
-              src="images/products/branding-for-profit.png"
+              src="{{ .image | relURL}} "
               alt="Branding for profit. A product by iMobilize ltd"
               class="w-100 pt-3"
             />
@@ -27,11 +34,10 @@
                 </div>
               </div>
               <h4 class="object__intro-title pt-3 font-secondary font-weight-bolder">
-                New here? Want to start a <span class="font-secondary about-us-color">brand</span>?
+                {{ .title | markdownify }} <span class="font-secondary about-us-color">{{ .span_text | safeHTML }}
               </h4>
               <p class="object__intro-text font-weight-bold text-secondary">
-                Branding For Profit is a brand new counterintuitive approach to
-                creating a highly profitable brand.
+                {{ .content | safeHTML }}
               </p>
               <div class="d-flex d-inline-block">
                 <a href="https://brandingforprofitbook.com/" class="btn btn-secondary">Get Started</a>
@@ -45,54 +51,65 @@
         </div>
       </div>
     </div>
+    {{ end }}
+    {{ end }}
+    <!-- Step one End -->
     <div class="row pt-5">
       <div class="col-md-12"></div>
     </div>
-
-    <div class="row pt-5">
-      <div class="col-md-4"></div>
-      <div class="col-md-8">
-        <div class="d-flex justify-content-center">
-          <div class="object">
-            <img
-              src="images/products/software-startup-academy-course.png"
-              alt="Software startup Academy, a product by iMobilize ltd"
-              class="img-fluid"
-            />
-            <div class="object__intro pl-0">
-              <div class="circle">
-                <div class="d-flex justify-content-center">
-                  <h2 id="circle-number" class="text-color">2</h2>
+    <!-- Step two Start -->
+    {{ if site.Data.howcanwehelp.step_two.enable }}
+    {{ with site.Data.howcanwehelp.step_two }}
+      <div class="row pt-5">
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <div class="d-flex justify-content-center">
+            <div class="object">
+              <img
+                src="{{ .image | relURL}}"
+                alt="Software startup Academy, a product by iMobilize ltd"
+                class="img-fluid"
+              />
+              <div class="object__intro pl-0">
+                <div class="circle">
+                  <div class="d-flex justify-content-center">
+                    <h2 id="circle-number" class="text-color">2</h2>
+                  </div>
+                </div>
+                <h4 class="object__intro-title mt-3 font-secondary font-weight-bolder">
+                  {{ .title | markdownify }} <span class="about-us-color font-secondary">{{ .span_text | safeHTML }}</span>
+                </h4>
+                <p class="object__intro-text">
+                  {{ .content | safeHTML }}
+                </p>
+                <div class="d-flex d-inline-block">
+                  <a href="https://www.softwarestartupacademy.com/" class="btn btn-secondary">Learn More</a>
                 </div>
               </div>
-              <h4 class="object__intro-title mt-3 font-secondary font-weight-bolder">
-                For Early Stage <span class="about-us-color font-secondary">Entrepreneurs</span> Who Want To Learn About Startups
-              </h4>
-              <p class="object__intro-text">
-                The arrow change its body length while still always point to a
-                certain position, even you resize the widow.
-              </p>
-              <div class="d-flex d-inline-block">
-                <a href="https://www.softwarestartupacademy.com/" class="btn btn-secondary">Learn More</a>
-              </div>
             </div>
-          </div>
-          
-          <div class="arrow2">
-            <div class="arrow__body2 skew"></div>
+            
+            <div class="arrow2">
+              <div class="arrow__body2 skew"></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    {{ end }}
+    {{ end }}
+        <!-- Step two End -->
     <div class="row">
       <div class="col-md-12"></div>
     </div>
+    <!-- Step two Start -->
+    {{ if site.Data.howcanwehelp.stepthree.enable }}
+    {{ with site.Data.howcanwehelp.stepthree }}
+
     <div class="row pt-5 pb-5">
       <div class="col-md-12 h-100 pt-5">
         <div class="d-flex justify-content-start">
           <div class="object">
             <img
-              src="images/products/Fit-freaks-app-website.png"
+              src="{{ .image | relURL}}"
               alt="Get your apps and website made by professionals. Fitfreaks designed and developed by iMobilize ltd"
               class="img-fluid"
             />
@@ -103,10 +120,10 @@
                 </div>
               </div>
               <h4 class="object__intro-title mt-3 font-secondary font-weight-bolder">
-                Want To <span class="about-us-color font-secondary">Improve</span> Or Build A New Website/App
+                {{ .title | markdownify }} <span class="about-us-color font-secondary">{{ .span_text | safeHTML }}</span> {{ .remaining_title | safeHTML }}
               </h4>
               <p class="object__intro-text">
-                Waiting to get your MVP designed and developed by US?
+                {{ .content | safeHTML }}
               </p>
               <div class="d-flex d-inline-block">
                 <a href="https://mobile-app-development-company.com/enquiry-form/" class="btn btn-secondary"
@@ -118,16 +135,24 @@
         </div>
       </div>
     </div>
+
+    {{ end }}
+    {{ end }}
+
+    <!-- Step three End -->
+
   </div>
 </section>
 <section class="div-mobile div-ipad">
   <div class="container">
     <div class="row pb-5">
       <div class="col-sm-12">
-        <h2 class="text-secondary font-weight-bold">Here's how we can  <span class="about-us-color">help</span> you</h2>
+        <h2 class="heading font-weight-bold font-secondary p-3">So how can we <span class="about-us-color">help</span> you?</h2>
       </div>
       <div class="block-line ml-3"></div>
     </div>
+    {{ if site.Data.howcanwehelp.stepone.enable }}
+    {{ with site.Data.howcanwehelp.stepone }}
     <div class="row">
       <div class="col-sm-12">
         <div class="d-flex d-inline-block">
@@ -139,16 +164,16 @@
             </div>
           </center>
           <h4 class="mt-3 font-weight-bold ml-3 font-secondary">
-            New here? Want to build a <span class="bg-orange font-weight-bold">brand</span> worth billions?
-        </h4>
+            {{ .title | markdownify }} <span class="font-secondary about-us-color">{{ .span_text | safeHTML }}
+            </h4>
         </div>
         <p class="object__intro-text mt-2 text-secondary font-weight-bold text-justify">
-            Branding For Profit is a brand new counterintuitive approach to
-            creating a highly profitable brand.
+          {{ .content | safeHTML }}
+
         </p>
         <div class="mt-3 mb-3">
           <img
-            src="images/products/branding-for-profit.png"
+            src="{{ .image | relURL}}"
             alt="Get your apps and website made by professionals. Fitfreaks designed and developed by iMobilize ltd"
             class="img-fluid"
           />
@@ -160,7 +185,11 @@
         </div>
       </div>
     </div>
+    {{ end }} 
+    {{ end }}
     <hr>
+    {{ if site.Data.howcanwehelp.stepone.enable }}
+    {{ with site.Data.howcanwehelp.stepone }}
     <div class="row mt-5">
         <div class="col-sm-12 pb-3">
           <div class="d-flex d-inline-block">
@@ -172,18 +201,18 @@
               </div>
             </center>
             <h4 class="mt-2 ml-3 font-weight-bold font-secondary">
-              For Early Stage <span class="bg-orange font-weight-bold">Entrepreneurs</span> Who Want To Learn About Startups
-          </h4>
+              {{ .title | markdownify }}<span class="about-us-color font-secondary">{{ .span_text | safeHTML }}</span>
+            </h4>
           </div>
 
         </div>
         <div class="col-sm-12">
           <p class="object__intro-text font-weight-bold text-secondary">
-            Enabling you to use your software development skills to launch your own successful startup
+            {{ .content | safeHTML }}
           </p>
           <div class="">
             <img
-              src="images/products/software-startup-academy-course.png"
+              src="{{ .image | relURL}}"
               alt="Software Startup Academy, a product of iMobilize ltd"
               class="img-fluid"
             />
@@ -195,40 +224,46 @@
           </div>
         </div>
     </div>
+    {{ end }}
+    {{ end }}
     <hr>
-    <div class="row mt-5">
-        <div class="col-sm-12 pb-3">
-          <div class="d-flex d-inline-block">
-            <center>
-              <div class="circle">
-                <div class="d-flex justify-content-center">
-                  <h2 id="circle-number" class="text-color">3</h2>
+    {{ if site.Data.howcanwehelp.stepone.enable }}
+    {{ with site.Data.howcanwehelp.stepone }}
+      <div class="row mt-5">
+          <div class="col-sm-12 pb-3">
+            <div class="d-flex d-inline-block">
+              <center>
+                <div class="circle">
+                  <div class="d-flex justify-content-center">
+                    <h2 id="circle-number" class="text-color">3</h2>
+                  </div>
                 </div>
-              </div>
-            </center>
-            <h4 class="mt-3 ml-3 font-weight-bold font-secondary">
-              Want To <span class="bg-orange">Improve</span> Or Build A New Website/App
-            </h4>
+              </center>
+              <h4 class="mt-3 ml-3 font-weight-bold font-secondary">
+                {{ .title | markdownify }} <span class="about-us-color font-secondary">{{ .span_text | safeHTML }}</span> {{ .remaining_title | safeHTML }}
+              </h4>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-12">
-          
-          <p class="object__intro-text font-weight-bold text-secondary">
-            Waiting to get your MVP designed and developed by US?
-          </p>
-          <div class="p-3">
-            <img
-              src="images/products/Fit-freaks-app-website.png"
-              alt="Get your apps and website made by professionals. Fitfreaks designed and developed by iMobilize ltd"
-              class="img-fluid"
-            />
+          <div class="col-sm-12">
+            
+            <p class="object__intro-text font-weight-bold text-secondary">
+              {{ .content | safeHTML }}
+            </p>
+            <div class="p-3">
+              <img
+                src="images/products/Fit-freaks-app-website.png"
+                alt="Get your apps and website made by professionals. Fitfreaks designed and developed by iMobilize ltd"
+                class="img-fluid"
+              />
+            </div>
           </div>
-        </div>
-        <div class="col-sm-12 mt-5">
-          <div class="d-flex justify-content-center">
-            <a href="#" class="btn btn-secondary">Estimate my project now</a>
+          <div class="col-sm-12 mt-5">
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-secondary">Estimate my project now</a>
+            </div>
           </div>
-        </div>
-    </div>
+      </div>
+    {{ end }}
+    {{ end }}
   </div>
 </section>

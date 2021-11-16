@@ -21,7 +21,7 @@ logo: "images/packages/logo-startup.png"
 
 Clients: ["Barrettventures", "Fit Freaks"]
 description: "bleh bleh"
-bg: "nighthawk"
+bg: "packagegradient"
 cover: "startup"
 question: "Growing a Business Should Not Be a Mystery."
 question2: "Social Media Marketing is a must

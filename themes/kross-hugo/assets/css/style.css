@@ -1313,6 +1313,7 @@ blockquote {
 
 .object__intro-text {
   line-height: 1.5;
+  
 }
 
 .arrow1 {
@@ -1339,7 +1340,7 @@ blockquote {
 .arrow__body1::after {
   content: '';
   position: absolute;
-  bottom: -50px;
+  bottom: -80px;
   left: -10px;
   width: 0;
 	height: 0;
@@ -1615,4 +1616,23 @@ hr.packages-card{
 
 .orange {
   background-color: #ff882e;
+}
+
+.text-orange {
+  color: #ff882e;
+}
+
+/* Shades of blue */
+
+.blue1 {
+  background-color: #23395d
+}
+
+.blue3 {
+  background-color: #1c2e4a
+}
+
+
+.packagegradient{
+  background-image: radial-gradient( circle 987px at 99% 2%,  rgba(22,183,229,1) 0%, rgba(9,54,103,1) 90% );
 }

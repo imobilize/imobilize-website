@@ -35,11 +35,13 @@
         {{ end }}
       </div>
     </div>
-    <div class="row mb-5">
+    <div class="row mb-5 d-flex">
       {{ range .Params.listcontent}}
-      <div class="col-md-2 col-xs-12 justify-content-center ml-3 mr-3">
-        <div class="packages-list-item font-tertiary font-weight-bolder text-center text-nowrap wobble-top">
-          {{. | markdownify}}
+      <div class="col-md-2 col-xs-12 ml-3 mr-3 mt-3 mb-3">
+        <div class="d-flex justify-content-center">
+          <div class="packages-list-item font-tertiary font-weight-bolder text-center text-nowrap wobble-top">
+            {{. | markdownify}}
+          </div>
         </div>
       </div>
       {{ end }}
