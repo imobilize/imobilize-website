@@ -23,7 +23,7 @@
   </div>
 </section>
 <!-- Second section -->
-<section class="pt-5 pb-5 {{.Params.bg}} position-relative overflow-hidden">
+<section class="pt-5 pb-5 {{.Params.bg}} position-relative overflow-hidden section">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -37,11 +37,14 @@
     </div>
     <div class="row mb-5 d-flex">
       {{ range .Params.listcontent}}
-      <div class="col-md-2 col-xs-12 ml-3 mr-3 mt-3 mb-3">
-        <div class="d-flex justify-content-center">
+      <div class="col-lg-2 col-md-12 col-xs-12 ml-3 mr-3 mt-3 mb-3">
+        <center>
           <div class="packages-list-item font-tertiary font-weight-bolder text-center text-nowrap wobble-top">
             {{. | markdownify}}
           </div>
+        </center>
+        <div class="d-flex justify-content-center">
+          
         </div>
       </div>
       {{ end }}
@@ -51,19 +54,43 @@
 
 <!-- Second section end -->
 
+<!-- Safe payment start  -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-xs-12 justify-content-center d-flex">
+        <img src="/images/packages/money-back.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-md-12 col-xs-12 d-flex justify-content-center">
+        <div class="white-rectangle">
+          <h5 class="secure-checkout-text font-weight-bold">
+            GAURANTEED SAFE CHECHOUT
+          </h5>
+        </div>
+        <div class="checkout-rectangle">
+          <img src="/images/packages/secure-payment.png" class="img-fluid p-4">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Safe payment end -->
+
+
 <!-- Packages Card Start -->
 <section class="section">
-  <div class="row">    
     <div class="container">
         <div class="row mt-5">
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 col-xs-12 text-center">
             {{with .Params.Packagetitle}}
             <h3 class="font-weight-bold text-packages heading mb-5 ">{{. | safeHTML}}</h3>
             {{ end }}
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 p-4">
+          <div class="col-lg-4 col-md-12 col-sm-12 p-4">
             <div class="card packages-card h-100">
                 <div class="card-body">
                   {{with .Params.Price1}}
@@ -87,7 +114,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 p-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 p-4">
           <div class="card packages-card h-100">
               <div class="card-body">
                 {{with .Params.Price2}}
@@ -111,7 +138,7 @@
               </div>
           </div>
       </div>
-      <div class="col-md-4 p-4">
+      <div class="col-lg-4 col-md-12 col-sm-12 p-4">
         <div class="card packages-card h-100">
             <div class="card-body">
               {{with .Params.Price3}}
@@ -135,7 +162,6 @@
             </div>
         </div>
     </div>
-  </div>
 </section>
 <!-- Text end -->
 {{ end }}
