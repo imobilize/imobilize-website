@@ -25,14 +25,14 @@
   <div class="container  pl-2 pr-2">
     {{ range $index, $element := (where .Site.RegularPages "Section" "packages") }}
     {{- if ne (mod $index 2) 1 }}
-    <div class="row mb-40 rounded-right shadow border border-dark rounded">
-      <div class="col-md-6 blue1 text-center mb-5 mb-lg-0">
+    <div class="row mb-40 rounded-right packages-card rounded h-100">
+      <div class="col-lg-4 col-md-12 col-xs-12 col-sm-12 border-right text-center mb-5 mb-lg-0">
         <div class="align-middle">
-          <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-3 mt-5" src="{{ .Params.image | relURL }}" alt="">
+          <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-3 mt-5 w-75" src="{{ .Params.icon | relURL }}" alt="">
         </a>
           </div>
       </div>
-      <div class="col-md-6 align-self-center text-center text-md-left">
+      <div class="col-lg-8 col-md-12 col-xs-12 col-sm-12 align-self-center text-center text-md-left">
         <div class="content">
           <h3 class="pt-3 font-weight-bold"><a class="text-packages" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h3>
           {{ with .Params.Price1}}
@@ -46,8 +46,8 @@
       </div>
     </div>
     {{- else }}
-    <div class="row mb-40 rounded-left shadow border border-dark rounded">
-      <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
+    <div class="row mb-40 rounded-left packages-card rounded h-100">
+      <div class="col-md-8 col-xs-12 col-sm-12 order-md-2 order-2 align-self-center text-center text-md-left">
         <div class="content">
           <h3 class=" pt-3 font-weight-bold"><a class="text-packages" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h3>
           {{ with .Params.Price1}}
@@ -59,8 +59,8 @@
           <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-packages">Read More</a>
         </div>
       </div>
-      <div class="col-md-6 blue3 order-md-2 order-1 text-center mb-5 mb-lg-0 ">
-        <a class="text-packages" href="{{.RelPermalink}}"><img class="img-fluid p-5 w-75" src="{{ .Params.image | relURL }}" alt=""></a>
+      <div class="col-lg-4 col-md-12 col-xs-12 col-sm-12 order-md-1 order-lg-2 order-1 text-center mb-5 mb-lg-0 border-left">
+        <a class="text-packages" href="{{.RelPermalink}}"><img class="img-fluid p-5 w-75" src="{{ .Params.icon | relURL }}" alt=""></a>
       </div>
     </div>
     {{ end }}

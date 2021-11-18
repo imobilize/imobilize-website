@@ -1,5 +1,5 @@
 ---
-title: "Startup Packages"
+title: "Business Startup Packages"
 subtitle: "Lets Rocket your bussiness..."
 image: "images/packages/logo-startup.png"
 layout: "custom"
