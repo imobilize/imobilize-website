@@ -15,9 +15,9 @@ process_images:
     "images/portfolio/skyQ_process2.jpg",
     "images/portfolio/skyQ_process3.png",
   ]
-
+icon: "images/packages/seo.png"
 logo: "images/packages/website-logo.png"
-
+summary: "Is your current website slow or not generating new business for you? Then it might be time for a new website! All our websites are built from scratch, speed-tested, and search-engine optimised. Your website is a powerful marketing asset, so our designers will build you something remarkable. We have a wide range of web design and digital marketing packages to suit most budgets."
 Clients: ["Barrettventures", "Fit Freaks"]
 description: "bleh bleh"
 bg: "packagegradient"

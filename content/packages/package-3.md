@@ -16,9 +16,9 @@ process_images:
     "images/portfolio/skyQ_process2.jpg",
     "images/portfolio/skyQ_process3.png",
   ]
-
+icon : "images/packages/start-up.png"
 logo: "images/packages/logo-startup.png"
-
+summary: "The problem is, a lot of Startups underestimate the importance of a Brand. Most of them don’t realise the simple mistakes that they are making when putting one together. These mistakes cost them dearly in lack of customers and lack of revenue. It ultimately causes their Startups to fail. The good news is these mistakes are easy to fix if you know what you are doing. And they are just as easy to learn and apply. It doesn’t require a ton of money to be spent designing a logo. And it doesn’t require any highly paid expertise. It simply requires you to follow a few simple principles."
 Clients: ["Barrettventures", "Fit Freaks"]
 description: "bleh bleh"
 bg: "packagegradient"

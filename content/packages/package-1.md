@@ -17,14 +17,18 @@ process_images:
     "images/packages/social-media-3.png",
     "images/packages/social-media-4.png",
   ]
-
+icon: "images/packages/social-media-icon.png"
 logo: "images/packages/social-media-package-transparent.png"
 
 Clients: ["Barrettventures", "Fit Freaks"]
 description: "This is meta discription."
 bg: "packagegradient"
 cover: "socialmediacover"
-
+summary: "When it comes to client’s business, iMobilize sets the following
+objectives: Formalize the overall branding of the Client Business.
+The objective of the whole digital marketing strategy is to
+increase business sales & market awareness about its unique
+brand proposition."
 content: "When it comes to client’s business, iMobilize sets the following
 objectives:
 </br> </br>

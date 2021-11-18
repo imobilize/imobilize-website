@@ -1241,6 +1241,7 @@ blockquote {
 }
 
 .blue1 {
+  
   background-image: radial-gradient( circle 530px at 16.2% 50.0%,  #14286a 89.9%, #ffffff 90% );}
 
 .blue2 {
@@ -1267,4 +1268,82 @@ border: 5px solid;
 }
 .text-darkblue {
   color: #14286a;
+}
+
+/* Services section */
+
+.service {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  transition: transform 0.5s, background 0.5s;
+  i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  h3 {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+}
+
+.service:hover {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
+  i {
+    color: #117cbe;
+  }
+  p {
+    color: rgb(0, 0, 0)
+  }
+  h3 {
+    color: #000000;
+  }
+}
+
+// Hero 2
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 30em solid transparent;
+	border-left: 60em solid #14286a; 
+	border-bottom: 30em solid transparent;
+    z-index: 2;
+    position: relative;
+    }
+    .regular {
+        z-index: 1;
+        position: relative;
+    }
+    .bg-shape {
+  position: relative;
+  overflow: hidden;
+  padding: 50px;
+}
+.horizontal-gradient {
+  background: linear-gradient(to right, rgb(22, 22, 129), rgb(0, 0, 0));
+}
+.bg-shape:after {
+  content: '';
+  width: 0;
+	height: 0;
+	border-top: 30em solid transparent;
+	border-left: 60em solid #14286a ; 
+	border-bottom: 30em solid transparent;
+    position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  top: 0%; /* change value as required */
+  right: 60%; /* change value as required */
 }

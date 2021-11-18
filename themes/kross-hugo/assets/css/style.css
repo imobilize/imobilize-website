@@ -685,7 +685,7 @@ textarea.form-control {
 }
 .layer {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
 }
 
 #l1 {
@@ -1318,7 +1318,7 @@ blockquote {
 
 .arrow1 {
   position: absolute;
-  bottom: -30PX;
+  bottom: -10PX;
   left: 450px;
   width: calc(50% - 200px);
   transform: scaleX(-1);
@@ -1366,7 +1366,7 @@ blockquote {
 
 .arrow2 {
   position: absolute;
-  bottom: -100px;
+  bottom: -50px;
   left: -200px;
   width: calc(50% - 200px);
   height: 80%;
@@ -1636,3 +1636,5 @@ hr.packages-card{
 .packagegradient{
   background-image: radial-gradient( circle 987px at 99% 2%,  rgba(22,183,229,1) 0%, rgba(9,54,103,1) 90% );
 }
+
+
