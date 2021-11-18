@@ -6,10 +6,6 @@
 
 {{ partial "about-section.html" . }}
 
-{{ partial "how-can-we-help.html" . }}
-
-
-
 {{ if site.Data.homepage.testimonial.enable }}
 {{ with site.Data.homepage.testimonial }}
 <!-- testimonial -->
@@ -24,7 +20,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block-line ml-3 mb-3"></div>
-      <p class="subheading text-justify mb-5 pl-3 pr-3 font-weight-bold text-secondary">Click <a href="portfolio" class="nav-item">here</a> to explore our porfolio</p>
+        <p class="subheading text-justify mb-5 pl-3 pr-3 font-weight-bold text-secondary">Click <a href="portfolio" class="nav-item">here</a> to explore our porfolio</p>
       </div>
     </div>
   </div>
@@ -53,6 +49,10 @@
 </div>
 
 </section>
+
+{{ partial "how-can-we-help.html" . }}
+
+{{ partial "packages-section.html" . }}
 
 {{ partial "latest-blogs.html" . }}
 

@@ -1,20 +1,10 @@
 {{ define "main" }}
-<style>
-  .subheading {
-    color: #3c3c3c;
-  padding-bottom: 15px;
-  text-transform: capitalize;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 45px;
-  }
 
-</style>
 {{ if site.Data.packages.heading.enable }}
 {{ with site.Data.packages.heading }}
 <!-- page title -->
-<section class="page-title-alt skyq position-relative overflow-hidden">
-  <div class="container">
+<section class="page-title-alt darkblue position-relative overflow-hidden">
+  <div class="container mb-5">
     <div class="row">
       <div class="col-12">
         <h1 class="text-white font-tertiary">{{ .title | markdownify }}</h1>
@@ -31,41 +21,46 @@
 <!-- /page title -->
 {{ end }}
 {{ end }}
-<section class="feature-list section">
-  <div class="container">
-    <div class="p-3"></div>
+<section class="feature-list section ml-3 mr-3">
+  <div class="container  pl-2 pr-2">
     {{ range $index, $element := (where .Site.RegularPages "Section" "packages") }}
     {{- if ne (mod $index 2) 1 }}
-    <div class="row mb-40 {{.Params.bg}} rounded-right">
-      <div class="col-md-6 text-center mb-5 mb-lg-0">
+    <div class="row mb-40 rounded-right packages-card rounded h-100">
+      <div class="col-lg-4 col-md-12 col-xs-12 col-sm-12 border-right text-center mb-5 mb-lg-0">
         <div class="align-middle">
-          <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-5 mt-5 zoom" src="{{ .Params.image | relURL }}" alt="">
+          <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid p-3 mt-5 w-75" src="{{ .Params.icon | relURL }}" alt="">
         </a>
           </div>
       </div>
-      <div class="col-md-6 align-self-center text-center text-md-left">
+      <div class="col-lg-8 col-md-12 col-xs-12 col-sm-12 align-self-center text-center text-md-left">
         <div class="content">
-          <h4 class="subheading pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h4>
+          <h3 class="pt-3 font-weight-bold"><a class="text-packages" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h3>
+          {{ with .Params.Price1}}
+          <h4 class="text-left">Starting from <span class="text-darkblue font-weight-bold">{{. | markdownify}}</span></h4>
+          {{ end }}
           {{ with .Params.content}}
-        <p class="text-white h5 text-justify font-weight-bold">{{. | markdownify}}</p>
+        <p class="text-dark h5 text-justify">{{. | markdownify}}</p>
         {{ end }}
-          <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-white">Read More</a>
+          <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-packages">Read More</a>
         </div>
       </div>
     </div>
     {{- else }}
-    <div class="row mb-40 {{.Params.bg}} rounded-left">
-      <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
+    <div class="row mb-40 rounded-left packages-card rounded h-100">
+      <div class="col-md-8 col-xs-12 col-sm-12 order-md-2 order-2 align-self-center text-center text-md-left">
         <div class="content">
-          <h4 class="subheading pt-3"><a class="text-white" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h4>
+          <h3 class=" pt-3 font-weight-bold"><a class="text-packages" href="{{.RelPermalink}}">{{ .Title | markdownify }}</a></h3>
+          {{ with .Params.Price1}}
+          <h4 class="text-left">Starting from <span class="text-darkblue font-weight-bold">{{. | markdownify}}</span></h4>
+          {{ end }}
           {{ with .Params.content}}
-        <p class="text-white h5 text-justify font-weight-bold">{{. | markdownify}}</p>
+        <p class="text-dark h5 text-justify">{{. | markdownify}}</p>
         {{ end }}
-          <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-white">Read More</a>
+          <a href="{{ .RelPermalink }}" class="btn btn-main btn-main-sm text-packages">Read More</a>
         </div>
       </div>
-      <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0 ">
-        <a class="text-white" href="{{.RelPermalink}}"><img class="img-fluid zoom" src="{{ .Params.image | relURL }}" alt=""></a>
+      <div class="col-lg-4 col-md-12 col-xs-12 col-sm-12 order-md-1 order-lg-2 order-1 text-center mb-5 mb-lg-0 border-left">
+        <a class="text-packages" href="{{.RelPermalink}}"><img class="img-fluid p-5 w-75" src="{{ .Params.icon | relURL }}" alt=""></a>
       </div>
     </div>
     {{ end }}

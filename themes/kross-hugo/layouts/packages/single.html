@@ -1,68 +1,103 @@
 {{ define "main" }}
 
-{{ partial "page-title.html" . }}
+{{ partial "packages-title.html" . }}
 
 <!-- portfolio -->
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mb-5">
-        {{ with .Params.content}}
-        <p class="text-secondary h5 text-justify font-weight-bold">{{. | markdownify}}</p>
+      <div class="col-md-7 col-xs-12">
+        {{ with .Params.question}}
+        <h3 class="text-packages heading text-left pt-5 pb-3 font-weight-bold">{{. | markdownify}}</h3>
         {{ end }}
-        <div class="col-sm-12 d-flex justify-content-center pt-1">
-          <div class="col-lg-12 mx-auto justify-content-center testimonial-slider">
-            {{ range .Params.images}}
-            <img class="img-fluid d-inline-block" src="{{. | safeHTML | relURL }}">
-            {{end}}
-          </div>
-        </div>
+        {{ with .Params.content}}
+        <p class="text-left">{{. | markdownify}}</p>
+        {{ end }}
       </div>
-      <div class="col-lg-4 mb-5 mb-lg-0 ">
-        <p class="h3 text-secondary font-weight-bold">Happy Clients</p>
-        {{ range .Params.Client}}
-        <p class="potfolio-line-height">
-          {{.| safeHTML}}
-          <hr class="line-color">
-        </p>
-        {{end}}
-      </div>
-      <div class="col-lg-12 mb-5">
-      <p class="h3 text-secondary font-weight-bold">Process</p>
-      {{with .Params.process}}
-      <p class="text-secondary h5 text-justify font-weight-bold">{{. | safeHTML}}</p>
-      {{end}}
-      </div>
-      <div class="col-md-12 d-flex justify-content-center pt-5">
-        <div class="col-md-8 mx-auto justify-content-center testimonial-slider">
-          {{ range .Params.process_images}}
+      <div class="col-md-5 col-xs-12 justify-content-center testimonial-slider align-middle pt-5">
+          {{ range .Params.images}}
           <img class="img-fluid d-inline-block" src="{{. | safeHTML | relURL }}">
           {{end}}
-        </div>
       </div>
     </div>
+  </div>
+</section>
+<!-- Second section -->
+<section class="pt-5 pb-5 {{.Params.bg}} position-relative overflow-hidden section">
+  <div class="container">
     <div class="row">
-      
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<div class="container">
-    <div class="row mt-5">
-      <div class="col-md-12">
-        {{with .Params.Packagetitle}}
-        <h3 class="font-weight-bold text-secondary">{{. | safeHTML}}</h3>
-        <div class="block-line ml-3 mb-5"></div>
+      <div class="col-md-12 text-center">
+        {{ with .Params.heading2}}
+        <h2 class="text-white font-tertiary font-weight-bold p-3">{{. | markdownify}}</h2>
+        {{ end }}
+        {{ with .Params.process}}
+        <h5 class="text-white font-tertiary p-3 mb-5">{{. | markdownify}}</h5>
         {{ end }}
       </div>
     </div>
+    <div class="row mb-5 d-flex">
+      {{ range .Params.listcontent}}
+      <div class="col-lg-2 col-md-12 col-xs-12 ml-3 mr-3 mt-3 mb-3">
+        <center>
+          <div class="packages-list-item font-tertiary font-weight-bolder text-center text-nowrap wobble-top">
+            {{. | markdownify}}
+          </div>
+        </center>
+        <div class="d-flex justify-content-center">
+          
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Second section end -->
+
+<!-- Safe payment start  -->
+<section class="section">
+  <div class="container">
     <div class="row">
-        <div class="col-md-4 p-3">
-            <div class="card border border-info">
+      <div class="col-md-12 col-xs-12 justify-content-center d-flex">
+        <img src="/images/packages/money-back.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-md-12 col-xs-12 d-flex justify-content-center">
+        <div class="white-rectangle">
+          <h5 class="secure-checkout-text font-weight-bold">
+            GAURANTEED SAFE CHECHOUT
+          </h5>
+        </div>
+        <div class="checkout-rectangle">
+          <img src="/images/packages/secure-payment.png" class="img-fluid p-4">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Safe payment end -->
+
+
+<!-- Packages Card Start -->
+<section class="section">
+    <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-12 col-xs-12 text-center">
+            {{with .Params.Packagetitle}}
+            <h3 class="font-weight-bold text-packages heading mb-5 ">{{. | safeHTML}}</h3>
+            {{ end }}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12 p-4">
+            <div class="card packages-card h-100">
                 <div class="card-body">
-                  {{with .Params.Packagename1}}
-                    <h3 class="text-center about-us-color card-title">{{. | safeHTML}}</h3>
-                  {{ end }}
                   {{with .Params.Price1}}
-                  <h2 class="text-center card-text text-primary">{{. | safeHTML}}</h2>
+                  <h3 class="text-justify card-text text-primary font-weight-bold">{{. | safeHTML}}</h2>
+                  {{ end }}
+                  {{with .Params.Packagename1}}
+                    <h4 class="text-left text-packages card-title font-weight-bolder">{{. | safeHTML}}</h4>
                   {{ end }}
                     <hr>
                     {{ range .Params.list1}}
@@ -72,20 +107,23 @@
                         </li>
                     </ul>
                     {{ end }}
-                    <div class="d-flex justify-content-center mt-3 mb-3">
-                        <a href="#" class="btn btn-main btn-lg">Get Started</a>
-                    </div>
+                      <hr>
                 </div>
+                <div class="d-flex justify-content-center">
+                  <div class=" mt-auto p-3">
+                      <a href="/contact/" class="btn btn-sm btn-primary">Get Started</a>
+                  </div>
+              </div>
             </div>
         </div>
-        <div class="col-md-4 p-3">
-            <div class="card border border-info">
+        <div class="col-lg-4 col-md-12 col-sm-12 p-4">
+          <div class="card packages-card h-100">
               <div class="card-body">
-                {{with .Params.Packagename2}}
-                  <h3 class="text-center about-us-color card-title">{{. | safeHTML}}</h3>
-                {{ end }}
                 {{with .Params.Price2}}
-                  <h2 class="text-center card-text text-primary">{{. | safeHTML}}</h2>
+                <h3 class="text-justify card-text text-primary font-weight-bold">{{. | safeHTML}}</h2>
+                {{ end }}
+                {{with .Params.Packagename2}}
+                  <h4 class="text-left text-packages card-title font-weight-bolder">{{. | safeHTML}}</h4>
                 {{ end }}
                   <hr>
                   {{ range .Params.list2}}
@@ -95,20 +133,23 @@
                       </li>
                   </ul>
                   {{ end }}
-                  <div class="d-flex justify-content-center mt-3 mb-3">
-                      <a href="#" class="btn btn-main btn-lg">Get Started</a>
-                  </div>
+                  <hr>
               </div>
-            </div>
-        </div>
-        <div class="col-md-4 p-3">
-          <div class="card border border-info">
+              <div class="d-flex justify-content-center">
+                <div class=" mt-auto p-3">
+                    <a href="/contact/" class="btn btn-sm btn-primary">Get Started</a>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 p-4">
+        <div class="card packages-card h-100">
             <div class="card-body">
-              {{with .Params.Packagename3}}
-                <h3 class="text-center about-us-color card-title">{{. | safeHTML}}</h3>
-              {{ end }}
               {{with .Params.Price3}}
-                <h2 class="text-center card-text text-primary">{{. | safeHTML}}</h2>
+              <h3 class="text-justify card-text text-primary font-weight-bold">{{. | safeHTML}}</h2>
+              {{ end }}
+              {{with .Params.Packagename3}}
+                <h4 class="text-left text-packages card-title font-weight-bolder">{{. | safeHTML}}</h4>
               {{ end }}
                 <hr>
                 {{ range .Params.list3}}
@@ -118,19 +159,15 @@
                     </li>
                 </ul>
                 {{ end }}
-                <div class="d-flex justify-content-center mt-3 mb-3">
-                    <a href="#" class="btn btn-main btn-lg">Get Started</a>
-                </div>
+                <hr>
             </div>
+            <div class="d-flex justify-content-center">
+              <div class=" mt-auto p-3">
+                  <a href="/contact/" class="btn btn-sm btn-primary">Get Started</a>
+              </div>
           </div>
         </div>
     </div>
-</div>
-
-    </div>
-  </div>
 </section>
-<!-- /portfolio -->
-
+<!-- Text end -->
 {{ end }}
-

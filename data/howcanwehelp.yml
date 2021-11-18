@@ -1,0 +1,23 @@
+# step 1
+stepone:
+  enable: true
+  title : "I'm New To Business. I Need To Put Together An"
+  content: "Branding For Profit is a brand new counterintuitive approach to creating a highly profitable brand on a budget."
+  image: "images/products/branding-for-profit.png"
+  span_text: "Effective Brand"
+# step 2
+step_two: 
+  enable: true
+  title : "I'm An Early-Stage Entrepreneur Who Wants To Know How To "
+  content: "Our Software Startup Academy was created to show entrepreneurs how to launch and run a Startup for a digital or software-based product. It is for anyone who wants to scale up quickly and profitably. And most importantly, it shows you how to avoid being part of the dreaded startup failure statistic."
+  image: "images/products/software-startup-academy-course.png"
+  span_text: "Run A Profitable Startup"
+#step 3
+stepthree:
+  enable: true
+  title : "Ready To Develop That"
+  content: "If you are ready to develop a mobile optimized website or native mobile application we can help. We would need some basic information to determine how we go about building the project. Fill in the form to estimate your project."
+  image: "images/products/Fit-freaks-app-website.png"
+  span_text: "Killer App"
+  remaining_title: "Or Market Disrupting Digital Product?"
+

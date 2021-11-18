@@ -92,6 +92,22 @@ h6,
   font-size: 14px;
 }
 
+.btn-orange {
+  font-size: 28px;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  padding: 7px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  border: 1;
+  position: relative;
+  z-index: 1;
+  transition: 0.2s ease;
+  background-color: #ff882e;
+  border-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
 .btn {
   font-size: 16px;
   font-family: "Lato", sans-serif;
@@ -478,9 +494,24 @@ textarea.form-control {
   padding: 15px 100px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .navigation.nav-bg {
     padding: 15px 20px;
+  }
+  .btn-orange {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    text-transform: capitalize;
+    padding: 7px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+    border: 1;
+    position: relative;
+    z-index: 1;
+    transition: 0.2s ease;
+    background-color: #ff882e;
+    border-color: rgb(255, 255, 255);
+    color: #ff882e;
   }
 }
 
@@ -511,6 +542,23 @@ textarea.form-control {
   height: auto;
 }
 
+.portfolio_startup {
+  background-image: url("/images/packages/startup-cover.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.portfolio_cover-startup {
+  background-image: url("/images/packages/startup-cover.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
 .portfolio_webdevelopment-bg {
   background-image: url("/images/packages/new-web-development-bg.png");
   height: 500px;
@@ -519,14 +567,31 @@ textarea.form-control {
   background-repeat: no-repeat;
 }
 
-.portfolio_socialmedia {
-  background-image: url("/images/packages/social-media-bg.jpg");
+.portfolio_webdevelopmentpackage-bg {
+  background-image: url("/images/packages/web-development-package-bg.png");
   height: 500px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
+
+.portfolio_socialmedia {
+  background-image: url("/images/packages/social-media-packages-cover.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.portfolio_socialmediacover {
+  background-image: url("/images/packages/social-media-packages-cover.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 90%;
+}
 
 .portfolio_skyq {
   background-image: url("/images/portfolio/skyQ_cover.jpg");
@@ -620,7 +685,7 @@ textarea.form-control {
 }
 .layer {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
 }
 
 #l1 {
@@ -746,13 +811,13 @@ textarea.form-control {
   color: #fff;
 }
 
-.hover-shadow {
+/* .hover-shadow {
   transition: 0.5s ease;
 }
 
 .hover-shadow:hover {
   box-shadow: 0 5px 3px 3px #14286a !important;
-}
+} */
 
 .hover-wrapper {
   overflow: hidden;
@@ -936,7 +1001,7 @@ blockquote {
 }
 
 .page-title-alt {
-  padding: 350px 0 70px;
+  padding: 150px 0 70px;
 }
 
 .border-thick {
@@ -997,14 +1062,14 @@ blockquote {
 }
 
 .page-title {
-  padding: 200px 0 150px;
+  padding: 150px 0 0px;
 }
 
 .page-title-portfolio {
   padding: 150px 0 0px;
 }
 .blog-hero-portfolio {
-  padding: 200px 0 20px !important;
+  padding: 150px 0 0px !important;
 }
 .blog-hero-portfolio .container {
   position: relative;
@@ -1249,11 +1314,12 @@ blockquote {
 .object__intro-text {
   font-size: large;
   line-height: 1.5;
+  
 }
 
 .arrow1 {
   position: absolute;
-  bottom: -30PX;
+  bottom: -10PX;
   left: 450px;
   width: calc(50% - 200px);
   transform: scaleX(-1);
@@ -1275,7 +1341,7 @@ blockquote {
 .arrow__body1::after {
   content: '';
   position: absolute;
-  bottom: -50px;
+  bottom: -80px;
   left: -10px;
   width: 0;
 	height: 0;
@@ -1301,7 +1367,7 @@ blockquote {
 
 .arrow2 {
   position: absolute;
-  bottom: -100px;
+  bottom: -50px;
   left: -200px;
   width: calc(50% - 200px);
   height: 80%;
@@ -1425,15 +1491,36 @@ blockquote {
 .instagrad {
   background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
+.startupgrad {
+  background: linear-gradient(to right, #f7971e, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.nighthawk{
+  background: linear-gradient(to right, #2980b9, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .darkbluegrad {
   background:linear-gradient(120deg, #1B1E3E, #43455e);
+}
+.darkblue {
+  background-color: #14286a;
+}
+.purplebliss {
+  background: linear-gradient(to right, #531550, #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bluelagoo {
+  background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.newsocialmediapackage {
+  background:linear-gradient(120deg, #63A2C6, #EE7171);
+}
+.startup-grad {
+  background: linear-gradient(90deg, rgba(250,250,210,1) 0%, rgba(238,215,170,1) 17%, rgba(233,150,81,1) 100%);
 }
 /* Gradient end */
 
 
 /* Send in blue form */
-<style>
   @font-face {
     font-display: block;
     font-family: Roboto;
@@ -1471,13 +1558,84 @@ blockquote {
     font-family: "Helvetica", sans-serif;
     color: #c0ccda;
   }
-</style>
-
 /* Sendinblue form end */
 
 
 .subheading {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
 }
+
+.text-packages {
+  color: #14286A;
+}
+
+.packages-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+
+  position: relative;
+  width: max-content;
+  align-items: center;
+  min-width: 210px;
+  height: 72px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.packages-card {
+  background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+hr.packages-card{
+  border: 0.4px solid #000000;
+}
+
+/* Animations */
+
+.checkout-rectangle {
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+.startup2 {
+  background: linear-gradient(to right, #f7971e, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.orange {
+  background-color: #ff882e;
+}
+
+.text-orange {
+  color: #ff882e;
+}
+
+/* Shades of blue */
+
+.blue1 {
+  background-color: #23395d
+}
+
+.blue3 {
+  background-color: #1c2e4a
+}
+
+
+.packagegradient{
+  background-image: radial-gradient( circle 987px at 99% 2%,  rgba(22,183,229,1) 0%, rgba(9,54,103,1) 90% );
+}
+
+

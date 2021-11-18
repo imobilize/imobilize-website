@@ -119,3 +119,7 @@ URL = "https://www.instagram.com/imobilizeltd/"
 [[params.social]]
 icon = "ti-twitter-alt"
 URL = "https://twitter.com/imobilizeltd"
+
+#blog
+[permalinks]
+  blog = "/:filename"
