@@ -6,6 +6,13 @@
 
 {{ partial "about-section.html" . }}
 
+{{ partial "how-can-we-help.html" . }}
+
+{{ partial "services-section.html" . }}
+
+{{ partial "latest-blogs.html" . }}
+
+
 {{ if site.Data.homepage.testimonial.enable }}
 {{ with site.Data.homepage.testimonial }}
 <!-- testimonial -->
@@ -50,11 +57,8 @@
 
 </section>
 
-{{ partial "how-can-we-help.html" . }}
 
-{{ partial "packages-section.html" . }}
 
-{{ partial "latest-blogs.html" . }}
 
 {{ end }}
 {{ end }}

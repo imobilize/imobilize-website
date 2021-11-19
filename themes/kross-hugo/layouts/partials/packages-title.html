@@ -18,6 +18,28 @@
   transform: translate(-50%, -50%);
   z-index: 2;
     }
+    @media (max-width: 600px) {
+      .cover-title{
+        margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+    }
+    .cover-subtitle{
+        margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 18px;
+  align-self: center;
+    }
+}
     
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -33,8 +55,8 @@ $(document).ready(function(){
 
 <section class="page-title-portfolio  {{.Params.bg}} position-relative overflow-hidden">
   <div class="portfolio_{{.Params.cover}}" id="cover" style="display: none;">
-    <h2 class="text-white font-tertiary font-weight-bold cover-title opacity-100">{{.Title}}</h2>
-    <h5 class="text-white font-tertiary pb-4 cover-subtitle opacity-100">{{.Params.subtitle}}</h5>
+    <h2 class="text-white  text-center font-tertiary font-weight-bold cover-title opacity-100">{{.Title}}</h2>
+    <p class="text-white text-center font-tertiary pb-4 cover-subtitle hero-subheading opacity-100">{{.Params.subtitle}}</p>
   </div>
  
 </section>

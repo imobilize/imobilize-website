@@ -604,18 +604,18 @@ textarea.form-control {
 }
 
 #l2 {
-  top: 190px;
-  left: -250px;
+  top: 20%;
+  right: 1px;
 }
 
 #l3 {
-  top: 200px;
-  left: 40%;
+  top: 20%;
+  left: 50%;
 }
 
 #l4 {
   top: 200px;
-  right: 40%;
+  right: 60%;
 }
 
 #l5 {
@@ -624,8 +624,8 @@ textarea.form-control {
 }
 
 #l6 {
-  bottom: -20px;
-  left: 10%;
+  bottom: -10px;
+  left: 70%;
 }
 
 #l7 {
@@ -1277,7 +1277,6 @@ border: 5px solid;
   padding: 30px 20px;
   border-radius: 5px;
   font-size: 14px;
-  cursor: pointer;
   background: transparent;
   transition: transform 0.5s, background 0.5s;
   i {
@@ -1285,8 +1284,8 @@ border: 5px solid;
     margin-bottom: 10px;
     color: #ffffff;
   }
-  h3 {
-    font-weight: 600;
+  h4 {
+    font-weight: 800;
     margin-bottom: 8px;
     color: #fff;
   }
@@ -1295,20 +1294,21 @@ border: 5px solid;
   }
 }
 
-.service:hover {
-  background: #ffffff;
-  color: rgb(0, 0, 0);
-  transform: scale(1.05);
-  i {
-    color: #117cbe;
-  }
-  p {
-    color: rgb(0, 0, 0)
-  }
-  h3 {
-    color: #000000;
-  }
-}
+// Aniamtion for services
+// .service:hover { 
+//   background: #ffffff;
+//   color: rgb(0, 0, 0);
+//   transform: scale(1.05);
+//   i {
+//     color: #117cbe;
+//   }
+//   p {
+//     color: rgb(0, 0, 0)
+//   }
+//   h3 {
+//     color: #000000;
+//   }
+// }
 
 // Hero 2
 
@@ -1357,4 +1357,96 @@ border: 5px solid;
   -webkit-box-orient: vertical;
 }
 
+
+// CTA BUTTON ANIMATION
+
+.button-cta {
+  position: relative;
+  color: #ff882e;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 22px;
+  border: 4px solid white;
+  border-radius: 1000px;
+  padding: 10px 20px;
+  margin: 40px;
+  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+  transition: .5s all ease-in-out;
+  &:hover {
+    cursor: pointer;
+    background: white;
+    color: #ff882e;
+    animation: none;
+    //animation-play-state: paused;
+  }
+}
+
+.button-wiggle {
+  animation: wiggle 3s 2s infinite;
+}
+
+@keyframes wiggle {
+	5%,
+	50% {
+		transform: scale(1);
+	}
+	10% {
+		transform: scale(0.9);
+	}
+	15% {
+		transform: scale(1.15);
+	}
+	20% {
+		transform: scale(1.15) rotate(-5deg);
+	}
+	25% {
+		transform: scale(1.15) rotate(5deg);
+	}
+	30% {
+		transform: scale(1.15) rotate(-3deg);
+	}
+	35% {
+		transform: scale(1.15) rotate(2deg);
+	}
+	40% {
+		transform: scale(1.15) rotate(0);
+	}
+}
+
+@media (max-width: 1020px) {
+  .button-cta {
+    position: relative;
+    color: #ff882e;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 1000px;
+    padding: 10px 20px;
+    margin: 40px;
+    box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+    transition: .5s all ease-in-out;
+  }
+}
+
+.hero-subheading {
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.above-content {
+  position: absolute;
+  z-index: 1;
+}
+.below-content {
+  position: absolute;
+  z-index: 0;
+}
 
