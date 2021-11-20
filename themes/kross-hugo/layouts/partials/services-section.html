@@ -1,0 +1,36 @@
+<section class="section">
+    <div class="container-fluid horizontal-gradient">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-md-12">
+                    <h1 class="text-justify heading text-white font-weight-bold">Services</h1>
+                    <div class="block-line ml-3 mb-5"></div>
+                </div>
+            </div>
+            <div class="row">
+                {{ if site.Data.services.servicessection.enable }}
+                {{ with site.Data.services.servicessection }}
+                {{ range .item }}
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="{{.class}}"></i>
+                        <h4>{{ .title | markdownify }}<sub>{{ .sub | safeHTML }}</sub></h4>
+                        <p>
+                            {{ .content | safeHTML }}
+                        </p>
+                      </div>
+                </div>
+                {{ end }}
+                {{ end }}
+                {{ end }}
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="d-flex justify-content-center p-5">
+                    <a href="/packages/" class="btn btn-main bg-white text-primary border border-primary">See all packages</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

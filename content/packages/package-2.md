@@ -15,35 +15,19 @@ process_images:
     "images/portfolio/skyQ_process2.jpg",
     "images/portfolio/skyQ_process3.png",
   ]
-
+icon: "images/packages/seo.png"
 logo: "images/packages/website-logo.png"
-
+summary: "Is your current website slow or not generating new business for you? Then it might be time for a new website! All our websites are built from scratch, speed-tested, and search-engine optimised. Your website is a powerful marketing asset, so our designers will build you something remarkable. We have a wide range of web design and digital marketing packages to suit most budgets."
 Clients: ["Barrettventures", "Fit Freaks"]
 description: "bleh bleh"
-bg: "darkbluegrad"
-cover: "webdevelopment-bg"
-
-content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias natus beatae consectetur dolores dolor! Eveniet deserunt vel omnis possimus animi, maiores, quidem deleniti autem assumenda expedita repudiandae id molestias."
-
-process: "Developers at iMobilize have specialized in mobile software for many years and
-during this time we have witnessed many changes to this
-fast-moving and exciting
-industry. The mobile software industry really gathered pace after the initial launch of the first smartphones
-resulting in explosive growth and a fragmented ecosystem
-with many platforms to build software applications. Today there are 2 clear
-winners;
-Android and iOS who together dominate the mobile apps market with more than
-90% of the entire market share between them.
-</br> </br>
-Our Specialists move with the market and there are many solutions our clients
-adopt to create applications across various mobile platforms
-and web browsers
-accessible on the many devices in the market today. Some clients seek Consultancy
-advice on how best to drive and
-deliver their mobile products to market. As such we
-do provide experienced Consultants who can implement strategy, advise on
-direction
-and analyse requirements. </br> </br>
+bg: "packagegradient"
+cover: "webdevelopmentpackage-bg"
+heading2: "Process"
+content: "Is your current website slow or not generating new business for you? Then it might be time for a new website! All our websites are built from scratch, speed-tested, and search-engine optimised. Your website is a powerful marketing asset, so our designers will build you something remarkable. We have a wide range of web design and digital marketing packages to suit most budgets.
+"
+question: "Why you need a Website for your business?"
+listcontent: ["Strategy", "Design", "Development", "Launch", "Life Cycle Managment", ]
+process: "
 iMobilize has groomed a pool of candidates who are experienced in developing,
 testing and distributing mobile websites and mobile
 applications. With the market
@@ -55,7 +39,7 @@ talent our mobile development specialists have;"
 draft: false
 Packagetitle: Web Development Packages
 Packagename1: "Landing Page"
-Price1: "799£"
+Price1: "$799"
 list1: ["1 Page Website",
  "1 year domain and hositng",
  "Search Engine Optimization",
@@ -69,7 +53,7 @@ list1: ["1 Page Website",
 
 ]
 Packagename2: "Bussiness Website"
-Price2: "1200£"
+Price2: "$1200"
 list2: ["5 Page Website",
  "1 year domain and hosting",
  "Search Engine Optimization",
@@ -82,7 +66,7 @@ list2: ["5 Page Website",
 
 ]
 Packagename3: "Corporate Website"
-Price3: "1600£"
+Price3: "$1600"
 list3: [  "10 Page Website",
  "1 year domain and hosting",
  "Search Engine Optimization",
