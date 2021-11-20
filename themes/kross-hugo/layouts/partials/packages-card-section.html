@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <h3 class="font-weight-bold text-center text-white p-5">Check out the packages we made for you</h3>
+        </div>          
+    </div>
+</div>
+<div class="container p-5">
+    <div class="row">
+        {{- range ( where site.RegularPages "Section" "packages" | first 3 ) }}
+        <div class="col-md-4 p-3">
+            <div class="card packages-card h-100">
+                <div class="card-body d-flex align-items-start flex-column">
+                    <hr>
+                  <div class="d-flex justify-content-center">
+                    {{with .Params.icon}}
+                    <img class="img-fluid w-50" src="{{. | safeHTML | relURL }}">
+                    {{ end }}
+                  </div>
+                  {{with .Params.title}}
+                    <h4 class="text-center font-tertiary p-3 card-title font-weight-bold">{{. | safeHTML}}</h4>
+                  {{ end }}
+                  <div class="d-inline-block d-flex align-self-end font-weight-bold mb-5 mt-3">
+                        <sub>Starting from</sub><h3>{{ .Params.Price1 }}</h3>
+                  </div>
+                  <p class="card-paragrapgh">{{ .Summary }}</p>
+                    <hr>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class=" mt-auto p-3">
+                        <a href="{{.RelPermalink}}" class="btn btn-sm btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>

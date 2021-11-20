@@ -123,3 +123,7 @@ URL = "https://twitter.com/imobilizeltd"
 #blog
 [permalinks]
   blog = "/:filename"
+
+#pagination
+paginate = 2
+PaginatePath = "blog"

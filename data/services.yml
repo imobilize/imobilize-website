@@ -1,0 +1,43 @@
+servicessection:
+  enable : true
+  title : "Work Process"
+  item:
+  - title : "Digital Marketing"
+    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    class: "fas fa-chart-line"
+
+    
+  - title : "Web Development"
+    class: "fas fa-laptop-code"
+    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+
+
+  - title : "Saas"
+    sub: "(Software as a service)"
+    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    class: "fas fa-database"
+
+  - title : "Mobile app development"
+    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    class: "fas fa-mobile-alt"
+
+  - title : "Branding and Logos"
+    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    class: "far fa-gem"
+
+
+  - title : "CMS Development"
+    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    class: "fas fa-network-wired"
+
+
+  - title : "Business Consultation"
+    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    class: "fas fa-chalkboard-teacher"
+
+
+  - title : "UI UX Graphic design"
+    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    class: "fas fa-palette"
+
+
