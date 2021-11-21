@@ -3,41 +3,44 @@ servicessection:
   title : "Work Process"
   item:
   - title : "Digital Marketing"
-    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    content : "SEO / Content Marketing  / Organic Social Media / Paid Advertising / Email Marketing
+Putting your message in front of a global market by harnessing the power of digital marketing"
     class: "fas fa-chart-line"
 
     
   - title : "Web Development"
     class: "fas fa-laptop-code"
-    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    content : "Bespoke Web development / Response web design solutions that help you market, 
+create automated processes, improve efficiencies and add value for you and your customers"
 
 
   - title : "Saas"
-    sub: "(Software as a service)"
-    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    content : "(Software as a service) Full-cycle development processes using agile, to create, support and maintain cloud-based solutions"
     class: "fas fa-database"
 
   - title : "Mobile app development"
-    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    content : "Cross-platform iOS and Android / App design
+Building robust mobile apps with a focus on user experience to deliver profitable results"
     class: "fas fa-mobile-alt"
 
   - title : "Branding and Logos"
-    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    content : "Brand Strategy / Brand Creation / Brand Story
+Let your business skyrocket with branding done the right way"
     class: "far fa-gem"
 
 
   - title : "CMS Development"
-    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    content : "First class development of sophisticated content management systems to deliver, video, audio, documents and more. Made with a simple intuitive user interface"
     class: "fas fa-network-wired"
 
 
   - title : "Business Consultation"
-    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    content : "Strategic Product and Service consultation to ensure your investment in tech gives you the best return"
     class: "fas fa-chalkboard-teacher"
 
 
   - title : "UI UX Graphic design"
-    content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?"
+    content : "Enterprise-grade design principles and solutions to get the highest engagement from your customers"
     class: "fas fa-palette"
 
 
