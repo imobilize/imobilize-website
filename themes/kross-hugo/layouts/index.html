@@ -10,10 +10,6 @@
 
 {{ partial "services-section.html" . }}
 
-{{ partial "latest-blogs.html" . }}
-
-{{ partial "test-file.html" . }}
-
 
 {{ if site.Data.homepage.testimonial.enable }}
 {{ with site.Data.homepage.testimonial }}
@@ -60,6 +56,7 @@
 </section>
 
 
+{{ partial "latest-blogs.html" . }}
 
 
 {{ end }}

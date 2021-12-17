@@ -1,21 +1,10 @@
-<!-- page title -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  
-    $("#heading").fadeIn(1000);
-    $("#cover").fadeIn(2000);
-    $("#logo").fadeIn(3000);
-  
-});
-</script>
 
 <section class="page-title-portfolio  {{.Params.bg}} position-relative overflow-hidden">
   
   <div class="container">
     <div class="row">
      
-      <div class="col-12 text-start" id="heading" style="display: none;">
+      <div class="col-12 text-start">
         
         <h2 class="text-white font-tertiary font-weight-bold">{{.Title}}</h2>
         <p class="text-white font-tertiary hero-subheading pb-4">{{.Params.subtitle}}</p>
@@ -23,9 +12,9 @@ $(document).ready(function(){
       </div>
     </div>
   </div>
-  <div class="portfolio_{{.Params.cover}}" id="cover" style="display: none;">
+  <div class="portfolio_{{.Params.cover}}">
   </div>
 </section>
-<img src="{{ .Params.logo | absURL }}" class="img-fluid logo-position" style="display: none;" id="logo" alt="{{ .Title }}">
+<img src="{{ .Params.logo | absURL }}" class="img-fluid logo-position" alt="{{ .Title }}">
 
 <!-- /page title -->
