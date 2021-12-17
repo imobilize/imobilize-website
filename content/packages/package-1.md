@@ -1,6 +1,15 @@
 ---
-title: "Social Media Packages"
-subtitle: "We create posts that sell!"
+title: "Social Media & Digital Marketing Best Packages plan & Pricing
+"
+subtitle: "Your prodcut, our lauch. Your success, our happiness"
+hero_Paragraph: "We offers the best Social Media & Digital Marketing Packages in affordable budget. The business website is now the backbone and the infrastructure around which you build your business."
+list_item_1: "Custom Website Design"
+list_item_2: "All Final Master Files"
+list_item_3: "Unlimited Revisions"
+list_item_4: "24/7 Design Consultancy"
+list_item_5: "100% Ownership Rights"
+list_item_6: "100% Money Back Garuantee"
+hero_image: "images/packages/social-media-illustration.png"
 image: "images/packages/social-media-package-transparent.png"
 images:
   [
@@ -19,10 +28,9 @@ process_images:
   ]
 icon: "images/packages/social-media-icon.png"
 logo: "images/packages/social-media-package-transparent.png"
-
 Clients: ["Barrettventures", "Fit Freaks"]
 description: "This is meta discription."
-bg: "packagegradient"
+bg: "digital_marketing"
 cover: "socialmediacover"
 summary: "When it comes to client’s business, iMobilize sets the following
 objectives: Formalize the overall branding of the Client Business.
@@ -103,5 +111,30 @@ question: "Why You need Social Media Marketing?"
 heading2: "Process"
 
 listcontent: ["English Content", "Illustrations", "Video Content / Gifs","Real-Life Images", "Pictorial Content" ]
+
+feature_card_image_1: "/images/packages/google-ranking.png"
+features_card_heading_1: "Rank #1 on Google"
+features_card_text_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate ac faucibus eleifend sit. Morbi at id id tortor eget mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+
+feature_card_image_2: "/images/packages/social-media-icon-card.png"
+features_card_heading_2: "Social Media Managment"
+features_card_text_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate ac faucibus eleifend sit. Morbi at id id tortor eget mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+
+feature_card_image_3: "/images/packages/social-media-icon-card.png"
+features_card_heading_3: "Hashtag Optimization"
+features_card_text_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate ac faucibus eleifend sit. Morbi at id id tortor eget mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+
+benifits_list_heading_1: "Rank #1 on Google"
+benifits_list_paragraph_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_2: "Rank #1 on Google"
+benifits_list_paragraph_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_3: "Rank #1 on Google"
+benifits_list_paragraph_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_4: "Rank #1 on Google"
+benifits_list_paragraph_4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_5: "Rank #1 on Google"
+benifits_list_paragraph_5: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_6: "Rank #1 on Google"
+benifits_list_paragraph_6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
 ---
 

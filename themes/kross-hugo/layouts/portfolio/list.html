@@ -25,7 +25,7 @@
 <!-- /page title -->
 {{ end }}
 {{ end }}
-<div class="container p-5">
+<!-- <div class="container p-5">
   <div class="row">
     {{ range $index, $element := (where .Site.RegularPages "Section" "portfolio") }}
     
@@ -89,7 +89,41 @@
     </div>
     {{ end }}
   </div>
+</div> -->
+<div class="container p-5">
+  <div class="row">
+    {{ range $index, $element := (where .Site.RegularPages "Section" "portfolio") }}  
+      <div class="col-md-4 col-xs-12 mt-5">
+        <div class="portfolio-card">
+          <div class="portfolio-image">
+            <div class="d-flex justify-content-center">
+              <img class="img-responsive w-50 rounded-circle" src="{{ .Params.image | relURL }}" alt="">
+            </div>
+          </div>
+            <div class="mt-auto">
+              {{with .Params.title}}
+            <div class="portfolio-card-title">
+              {{. | safeHTML}}
+            </div>
+            {{ end }}
+            </div>
+            {{with .Params.subtitle}}
+            <div class="portfolio-card-subtitle">
+              {{. | safeHTML}}
+            </div>
+            {{ end }}
+            <div class="mt-auto">
+            <hr>
+            <div class="d-flex justify-content-start ml-2">
+                  <a href="{{.RelPermalink}}" class="btn btn-sm btn-primary">Get Started</a>
+            </div>
+            </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
 </div>
+
 <section class="section">
   
 </section>
