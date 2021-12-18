@@ -1,6 +1,114 @@
 {{ define "main" }}
 
-{{ partial "packages-title.html" . }}
+<!-- page title -->
+<style>
+  .vector {
+    position:absolute;
+    z-index:0;
+  }
+  
+  .vector2 {
+    position:absolute;
+    z-index: 0;
+  left: 359px;
+  top: -4px;
+  
+  }
+  .hero_image {
+    position: relative;
+    z-index: 2;
+  }
+  
+  ul li.a:before {
+   content: '✓';
+   color: rgb(0, 219, 0); 
+  }
+  ul li.b:before {
+    content: '&#9676;'
+  }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    
+      $("#heading").fadeIn(1000);
+      $("#cover").fadeIn(2000);
+      $("#logo").fadeIn(3000);
+    
+  });
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+  })
+  </script>
+  
+  <section class="page-title-portfolio bg-white position-relative overflow-hidden">
+    <div class="mb-5" id="cover" style="display: none;">
+      <img src="/images/packages/vector-1.png" class="vector img-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-xs-12">
+            <h3 class="mt-3 text-left text-packages font-weight-bold">{{.Title}}</h3>
+            <p class="subheading mt-3 text-left text-packages">{{.Params.subtitle}}</p>
+            <p class="mt-3 text-left text-packages">{{.Params.hero_Paragraph}}</p>
+            <div class="d-flex d-inline-block">
+              <div class="col-md-6 mt-3">
+                <ul>
+                  <li class="a font-weight-bold text-packages " style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_1}}</span></li>
+                  <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_2}}</span></li>
+                  <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_3}}</span></li>
+                </ul>
+                <!-- <div class="mt-3">
+                  <a class="btn btn-lg btn-light" href="/packages">Packages</a>
+                </div> -->
+              </div>
+              <div class="col-lg-6 col-xs-12 mt-3">
+                <div class="d-flex justify-content-center">
+                  <ul>
+                    <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                    margin-left: -38px;"><span class="ml-3">{{.Params.list_item_4}}</span></li>
+                    <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_5}}</span></li>
+                  <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_6}}</span></li>            
+                  </ul>
+                </div>
+                <!-- <div class="mt-3">
+                  <a class="btn btn-lg btn-secondary btn-light" href="/packages">Get a Quote</a>
+                </div> -->
+              </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+              <a href="#" class="button-socialmedia button-wiggle">Get A Quote</a>
+            </div>
+          </div>
+          <div class="col-md-6 align-self-center">
+              <img src="/images/packages/vector-6.png" class="vector2 img-fluid">
+            <img src="{{ .Params.hero_image | relURL }}" class="img-fluid hero_image">
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </section>
+
 <script>
   $(document).ready(function(){
   
@@ -34,6 +142,9 @@
         {{ with .Params.content}}
         <p class="text-left">{{. | markdownify}}</p>
         {{ end }}
+        <div class="d-flex justify-content-center mt-5">
+          <a href="/contact" class="button-socialmedia button-wiggle">Get A Quote</a>
+        </div>
       </div>
       <div class="col-md-5 col-xs-12 justify-content-center testimonial-slider align-middle pt-5">
           {{ range .Params.images}}
@@ -116,6 +227,9 @@
         {{ with .Params.content2}}
         <p class="text-left">{{. | markdownify}}</p>
         {{ end }}
+        <div class="d-flex justify-content-center mt-5">
+          <a href="/contact" class="button-socialmedia button-wiggle">Get A Quote</a>
+        </div>
       </div>
     </div>
   </div>
@@ -189,6 +303,7 @@
         {{ with .Params.content3}}
         <p class="text-left">{{. | markdownify}}</p>
         {{ end }}
+        
       </div>
       <div class="col-md-5 col-xs-12 justify-content-center testimonial-slider align-middle pt-5">
           {{ range .Params.images}}
@@ -265,7 +380,7 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 mt-5">
+      <div class="col-md-6 align-self-center">
         <img src="/images/packages/benifit-illustration.png" class="img-fluid">
       </div>
       <div class="col-md-6">
@@ -275,16 +390,16 @@
           <div class="col-sm">
             <ul class="numbered-list">
               <li>
-                <h4 class="text-left">Hello world</h4>
-                <p class="text-left font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit. </p>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_1 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_1 }}</p>
               </li>
               <li>
-                <h4 class="text-left">Hello world</h4>
-                <p class="text-left font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit. </p>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_1 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_1 }}</p>
               </li>
               <li>
-                <h4 class="text-left">Hello world</h4>
-                <p class="text-left font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit. </p>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_1 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_1 }}</p>
               </li>
               </ul>
           </div>
@@ -292,16 +407,16 @@
             <ul class="numbered-list" start="4">
 
               <li>
-                <h4 class="text-left">Hello world</h4>
-                <p class="text-left font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit. </p>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_4 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_4 }} </p>
               </li>
               <li>
-                <h4 class="text-left">Hello world</h4>
-                <p class="text-left font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit. </p>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_5 }}</h4>
+                <p class="text-left font-weight-light list-paragraph"> {{.Params.benifits_list_paragraph_5 }}</p>
               </li>
               <li>
-                <h4 class="text-left">Hello world</h4>
-                <p class="text-left font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit. </p>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_6 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_6 }}</p>
               </li>
               </ul>
           </div>
@@ -310,31 +425,11 @@
     </div>
   </div>
   <div class="d-flex justify-content-center mt-5">
-    <a href="#" class="button-socialmedia">Get A Quote & Save Upto 35%</a>
+    <a href="/contact" class="button-socialmedia">GET A QUOTE</a>
   </div>
 </section>
 <!-- Benifits end -->
 
-
-<section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-xs-12">
-          {{ with .Params.question3}}
-          <h3 class="text-packages heading text-left pt-5 pb-3 font-weight-bold">{{. | markdownify}}</h3>
-          {{ end }}
-          {{ with .Params.content3}}
-          <p class="text-left">{{. | markdownify}}</p>
-          {{ end }}
-        </div>
-        <div class="col-md-5 col-xs-12 justify-content-center testimonial-slider align-middle pt-5">
-            {{ range .Params.images}}
-            <img class="img-fluid" src="{{. | safeHTML | relURL }}">
-            {{end}}
-        </div>
-      </div>
-    </div>
-</section>
 <section class="section">
   <div class="container">
     <div class="row">
