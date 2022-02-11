@@ -1585,3 +1585,169 @@ hr.packages-card{
 }
 
 
+/* Faq start */
+
+/* body {
+  padding:0;
+  margin:0;
+  background:#131617;
+  overflow-x: hidden;
+} */
+.main-section {
+  float: left;
+  width: 100%;
+  display: block;
+  background: #0A192F;
+}
+/* .container {
+    float: left;
+    width: 80%;
+    margin: 2rem 10%;
+} */
+.fullwidth-container {display:block;width:80%;margin:2rem 10%}
+#faq-content-section {}
+#  .faq-content {
+  overflow: hidden;
+  width: calc(100% - 8%);
+  padding: 5px 2%;
+  transition: all .25s ease-in-out 0s;
+  background: #0b1629;
+  border: 1px solid hsla(0,0%,51.4%,.16);
+  border-radius: 7px;
+  max-height: 0px;
+  visibility: hidden;
+}
+#faqSection .faq-content p {
+  font-family: sans-serif;
+  color: #c2c2c2;
+  line-height: 140%;
+  font-size: 14px;
+  margin: 0 0 12px;
+  text-shadow: 1px 1px 0 rgb(0 0 0 / 80%);
+  font-weight: 100;
+}
+.line-heading {
+  font-family: sans-serif;
+  color: #ccd6f6;
+  font-weight: 600;
+  line-height: 1.1;
+  display: flex;
+  align-items: center;
+  /* margin: 10px 0 40px 10%; */
+  white-space: nowrap;
+  font-size: 26px;
+  text-shadow: 1px 1px 1px rgb(0,0,0);
+  position: relative;
+}
+.line-heading:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 1px;
+  margin: 0 0 0 20px;
+  background: rgba(204,214,246,.2);
+  text-shadow: none;
+  transition: all .6s ease-in-out 0s
+}
+.line-heading:hover:after{
+  width: 180px;
+  background: rgba(204,214,246,.6);
+}
+h3.large-heading {
+  font-family: sans-serif;
+  margin: 0 0 0 10%;
+  font-size: 52px;
+  line-height: 1.1;
+  letter-spacing: -.045em;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgb(0 0 0);
+}
+/** The Faq Section **/
+.collapsible {
+  background-color: #112240;
+  border: 1px solid hsla(0,0%,51.4%,.16);
+  border-radius: 7px;
+  box-shadow: 0 10px 30px -15px rgb(0 0 0);
+  transition: box-shadow .2s ease 0s;
+  color: #ccd6f6;
+  margin: 0 0 8px;
+  width: 100%;
+  padding: 12px;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align:left;
+}
+.collapsible:hover {
+  box-shadow: 0 10px 60px -15px rgba(0,0,0,1);
+}
+.collapsible:active, .collapsible:hover {}
+.collapsible:after {content:"\002B";font-weight:bold;float:right;margin-left:5px}
+.active:after {content:"\2212"}
+.faq-content p  {
+  overflow: hidden;
+  width: calc(100% - 8%);
+  padding: 5px 2%;
+  /* transition: all .25s ease-in-out 0s; */
+  background: #0B1629;
+  border: 1px solid hsla(0,0%,51.4%,.16);
+  border-radius: 7px;
+  max-height: 0px;
+  visibility: hidden;
+  
+}
+.faq-content::after {
+  overflow: hidden;
+  width: calc(100% - 8%);
+  padding: 5px 2%;
+  /* transition: all .25s ease-in-out 0s; */
+  background: #0B1629;
+  border: 1px solid hsla(0,0%,51.4%,.16);
+  border-radius: 7px;
+  max-height: 0px;
+  visibility: visible;
+  /* display: inline-block; */
+}
+.faq-content p {
+  font-family: sans-serif;
+  overflow: hidden;
+  width: calc(100% - 8%);
+  padding: 5px 2%;
+  /* transition: all .25s ease-in-out 0s; */
+  background: #0b1629;
+  border: 1px solid hsla(0,0%,51.4%,.16);
+  border-radius: 7px;
+}
+.faqtest {
+  overflow: hidden;
+  width: calc(100% - 8%);
+  padding: 5px 2%;
+  /* transition: all .25s ease-in-out 0s; */
+  background: #0b1629;
+  border: 1px solid hsla(0,0%,51.4%,.16);
+  border-radius: 7px;
+  max-height: 0px;
+}
+.myFooter {
+  float: left;
+  width: 100%;
+  display: block;
+  background: #0A192F;
+  text-align:center;
+  height:10vh
+}
+.myFooter p {
+  color: #fff;
+  font-family: sans-serif;
+  text-shadow: 1px 1px 0 rgb(0 0 0);
+}
+.myFooter a {
+  color: #00C58E;
+  text-decoration:none
+}
+.tryone {
+    background: #0b1629;
+  border: 1px solid hsla(0,0%,51.4%,.16);
+  border-radius: 7px;
+}
+/* Faq End */
