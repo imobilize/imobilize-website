@@ -1606,7 +1606,7 @@ hr.packages-card{
 } */
 .fullwidth-container {display:block;width:80%;margin:2rem 10%}
 #faq-content-section {}
-#  .faq-content {
+.faq-content {
   overflow: hidden;
   width: calc(100% - 8%);
   padding: 5px 2%;
@@ -1617,7 +1617,7 @@ hr.packages-card{
   max-height: 0px;
   visibility: hidden;
 }
-#faqSection .faq-content p {
+.faq-content p {
   font-family: sans-serif;
   color: #c2c2c2;
   line-height: 140%;
@@ -1682,6 +1682,7 @@ h3.large-heading {
   box-shadow: 0 10px 60px -15px rgba(0,0,0,1);
 }
 .collapsible:active, .collapsible:hover {}
+
 .collapsible:after {content:"\002B";font-weight:bold;float:right;margin-left:5px}
 .active:after {content:"\2212"}
 .faq-content p  {
@@ -1696,7 +1697,7 @@ h3.large-heading {
   visibility: hidden;
   
 }
-.faq-content::after {
+.faq-content:after {
   overflow: hidden;
   width: calc(100% - 8%);
   padding: 5px 2%;
