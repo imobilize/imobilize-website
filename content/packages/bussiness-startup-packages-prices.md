@@ -1,6 +1,14 @@
 ---
 title: "Business Startup Packages"
 subtitle: "Lets Rocket your bussiness..."
+hero_Paragraph: "We offers the best Social Media & Digital Marketing Packages in affordable budget. The business website is now the backbone and the infrastructure around which you build your business."
+list_item_1: "Custom Website Design"
+list_item_2: "All Final Master Files"
+list_item_3: "Unlimited Revisions"
+list_item_4: "24/7 Design Consultancy"
+list_item_5: "100% Ownership Rights"
+list_item_6: "100% Money Back Garuantee"
+hero_image: "images/packages/bussiness-startup-package-illustration.png"
 image: "images/packages/logo-startup.png"
 layout: "custom"
 images:
@@ -26,6 +34,11 @@ cover: "startup"
 question: "Growing a Business Should Not Be a Mystery."
 question2: "Social Media Marketing is a must
 for any Startup"
+question3: "Why you need a Website for your business?"
+content3: "Developers at iMobilize have specialized in mobile software for many years and during this time we have witnessed many changes to this fast-moving and exciting industry. The mobile software industry really gathered pace after the initial launch of the first smartphones resulting in explosive growth and a fragmented ecosystem with many platforms to build software applications. Today there are 2 clear winners; Android and iOS who together dominate the mobile apps market with more than 90% of the entire market share between them.
+
+Our Specialists move with the market and there are many solutions our clients adopt to create applications across various mobile platforms and web browsers accessible on the many devices in the market today. Some clients seek Consultancy advice on how best to drive and deliver their mobile products to market. As such we do provide experienced Consultants who can implement strategy, advise on direction and analyse requirements.
+"
 question3: "Why you need a Website for your business?"
 listcontent: ["Strategy", "Design", "Development", "Launch", "Life Cycle Managment", ]
 content: "The problem is, a lot of Startups underestimate the importance of a Brand. Most of them don’t realise the simple mistakes that they are making when putting one together. These mistakes cost them dearly in lack of customers and lack of revenue. It ultimately causes their Startups to fail. The good news is these mistakes are easy to fix if you know what you are doing. And they are just as easy to learn and apply. It doesn’t require a ton of money to be spent designing a logo. And it doesn’t require any highly paid expertise. It simply requires you to follow a few simple principles."
@@ -85,6 +98,46 @@ development_image2: "images/packages/development-2.png"
 development_image3: "images/packages/development-3.png"
 development_heading: "Website Development"
 development_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+feature_card_image_1: "/images/packages/google-ranking.png"
+features_card_heading_1: "Rank #1 on Google"
+features_card_text_1: "Search is often the primary source of digital traffic for brands and complements other marketing channels. Greater visibility and ranking higher in search results than your competition can have a material impact on your bottom line."
+
+feature_card_image_2: "/images/packages/social-media-icon-card.png"
+features_card_heading_2: "Social Media Managment"
+features_card_text_2: "Artisans of the written word, our content creators and the team of copywriters take the time to get to know your company and brand. Through this involvement process, we can ensure that each piece of content is curated with the right brand voice and message. You have a story to tell your audience"
+
+feature_card_image_3: "/images/packages/social-media-icon-card.png"
+features_card_heading_3: "Logo Design and Artwork"
+features_card_text_3: "A logo is a symbol made up of text and images that identifies a business. A good logo shows what a company does and what the brand values."
+Packagename3: "Corporate Website"
+
+benifits_list_heading_1: "Rank #1 on Google"
+benifits_list_paragraph_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_2: "Rank #1 on Google"
+benifits_list_paragraph_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_3: "Rank #1 on Google"
+benifits_list_paragraph_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_4: "Rank #1 on Google"
+benifits_list_paragraph_4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_5: "Rank #1 on Google"
+benifits_list_paragraph_5: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_6: "Rank #1 on Google"
+benifits_list_paragraph_6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+
+faq_section_heading: "Some of the most common questions asked about Business startups."
+
+faq_question_1: "Do you work full time as a developer?"
+faq_question_2: "Do you work full time as a developer?"
+faq_question_3: "Do you work full time as a developer?"
+faq_question_4: "Do you work full time as a developer?"
+faq_question_5: "Do you work full time as a developer?"
+faq_question_6: "Do you work full time as a developer?"
+
+faq_answer_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_5: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
 ---
 
 ---
