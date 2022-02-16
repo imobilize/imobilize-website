@@ -343,7 +343,7 @@
                 <h4 class="font-weight-bold mt-3 mb-3">{{.Params.features_card_heading_1}} </h4>
               </div>
               <div class="feature-card-paragraph">
-                <p class="p-5"> {{.Params.features_card_text_1}} </p>
+                <p class=""> {{.Params.features_card_text_1}} </p>
               </div>
             </div>
           </div>
@@ -357,7 +357,7 @@
                 <h4 class="font-weight-bold mt-3 mb-3">{{.Params.features_card_heading_2}} </h4>
               </div>
               <div class="feature-card-paragraph">
-                <p class="p-5"> {{.Params.features_card_text_2}} </p>
+                <p class=""> {{.Params.features_card_text_2}} </p>
               </div>
             </div>
           </div>
@@ -371,7 +371,7 @@
                 <h4 class="font-weight-bold mt-3 mb-3">{{.Params.features_card_heading_3}} </h4>
               </div>
               <div class="feature-card-paragraph">
-                <p class="p-5"> {{.Params.features_card_text_3}} </p>
+                <p class=""> {{.Params.features_card_text_3}} </p>
               </div>
             </div>
           </div>
@@ -441,68 +441,28 @@
 <section class="main-section">
   <div id="faqs" class="container">
     <h2 class="line-heading p-3">Frequently Asked Questions</h2>
-    <h3 class="large-heading">Some of the most common questions asked about Website Design & Development.</h3>
+    <h3 class="large-heading">{{.Params.faq_section_heading}}</h3>
     <div id="faqSection" class="fullwidth-container">
       <div>
-        <button class="collapsible">Do you work full time as a developer?</button>
+        <button class="collapsible">{{.Params.faq_question_1 }}</button>
         <div class="faq-content">
-          <p id="texty" class="pl-1 tryone texty1 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus,
-            vitae tincidunt dolor eleifend vitae. Praesent sollicitudin eros in finibus posuere. Quisque at turpis arcu.
-            Sed condimentum elit ac elit rhoncus, volutpat feugiat orci accumsan. Maecenas tincidunt diam odio, sit amet
-            tincidunt est tincidunt at. Suspendisse luctus dolor quis aliquam pulvinar. Ut non neque in lorem
-            ullamcorper faucibus. In et neque in sem ultrices mattis. Duis eu mauris urna. Suspendisse vitae suscipit
-            odio, suscipit convallis odio. Integer at consectetur sapien. Mauris ex tortor, gravida vel diam sit amet,
-            congue ullamcorper enim. Curabitur viverra bibendum leo, et condimentum enim efficitur eu. Ut euismod
-            finibus ligula at volutpat. Nulla sit amet sem non elit posuere fringilla in eu justo.</p>
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_1}}</p>
         </div>
-        <button class="collapsible">Do you work full time as a developer?</button>
+        <button class="collapsible">{{.Params.faq_question_2 }}</button>
         <div class="faq-content">
-          <p id="texty" class="pl-1 tryone texty1 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus,
-            vitae tincidunt dolor eleifend vitae. Praesent sollicitudin eros in finibus posuere. Quisque at turpis arcu.
-            Sed condimentum elit ac elit rhoncus, volutpat feugiat orci accumsan. Maecenas tincidunt diam odio, sit amet
-            tincidunt est tincidunt at. Suspendisse luctus dolor quis aliquam pulvinar. Ut non neque in lorem
-            ullamcorper faucibus. In et neque in sem ultrices mattis. Duis eu mauris urna. Suspendisse vitae suscipit
-            odio, suscipit convallis odio. Integer at consectetur sapien. Mauris ex tortor, gravida vel diam sit amet,
-            congue ullamcorper enim. Curabitur viverra bibendum leo, et condimentum enim efficitur eu. Ut euismod
-            finibus ligula at volutpat. Nulla sit amet sem non elit posuere fringilla in eu justo.</p>
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_2}}</p>
         </div>
-        <button class="collapsible">Do you work full time as a developer?</button>
+        <button class="collapsible">{{.Params.faq_question_3 }}</button>
         <div class="faq-content">
-          <p id="texty" class="pl-1 tryone texty1 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus,
-            vitae tincidunt dolor eleifend vitae. Praesent sollicitudin eros in finibus posuere. Quisque at turpis arcu.
-            Sed condimentum elit ac elit rhoncus, volutpat feugiat orci accumsan. Maecenas tincidunt diam odio, sit amet
-            tincidunt est tincidunt at. Suspendisse luctus dolor quis aliquam pulvinar. Ut non neque in lorem
-            ullamcorper faucibus. In et neque in sem ultrices mattis. Duis eu mauris urna. Suspendisse vitae suscipit
-            odio, suscipit convallis odio. Integer at consectetur sapien. Mauris ex tortor, gravida vel diam sit amet,
-            congue ullamcorper enim. Curabitur viverra bibendum leo, et condimentum enim efficitur eu. Ut euismod
-            finibus ligula at volutpat. Nulla sit amet sem non elit posuere fringilla in eu justo.</p>
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_3}}</p>
         </div>
-        <button class="collapsible">Do you work full time as a developer?</button>
+        <button class="collapsible">{{.Params.faq_question_4 }}</button>
         <div class="faq-content">
-          <p id="texty" class="pl-1 tryone texty1 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus,
-            vitae tincidunt dolor eleifend vitae. Praesent sollicitudin eros in finibus posuere. Quisque at turpis arcu.
-            Sed condimentum elit ac elit rhoncus, volutpat feugiat orci accumsan. Maecenas tincidunt diam odio, sit amet
-            tincidunt est tincidunt at. Suspendisse luctus dolor quis aliquam pulvinar. Ut non neque in lorem
-            ullamcorper faucibus. In et neque in sem ultrices mattis. Duis eu mauris urna. Suspendisse vitae suscipit
-            odio, suscipit convallis odio. Integer at consectetur sapien. Mauris ex tortor, gravida vel diam sit amet,
-            congue ullamcorper enim. Curabitur viverra bibendum leo, et condimentum enim efficitur eu. Ut euismod
-            finibus ligula at volutpat. Nulla sit amet sem non elit posuere fringilla in eu justo.</p>
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_4}}</p>
         </div>
-        <button class="collapsible">Do you work full time as a developer?</button>
+        <button class="collapsible">{{.Params.faq_question_5 }}</button>
         <div class="faq-content">
-          <p id="texty" class="pl-1 tryone texty1 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus,
-            vitae tincidunt dolor eleifend vitae. Praesent sollicitudin eros in finibus posuere. Quisque at turpis arcu.
-            Sed condimentum elit ac elit rhoncus, volutpat feugiat orci accumsan. Maecenas tincidunt diam odio, sit amet
-            tincidunt est tincidunt at. Suspendisse luctus dolor quis aliquam pulvinar. Ut non neque in lorem
-            ullamcorper faucibus. In et neque in sem ultrices mattis. Duis eu mauris urna. Suspendisse vitae suscipit
-            odio, suscipit convallis odio. Integer at consectetur sapien. Mauris ex tortor, gravida vel diam sit amet,
-            congue ullamcorper enim. Curabitur viverra bibendum leo, et condimentum enim efficitur eu. Ut euismod
-            finibus ligula at volutpat. Nulla sit amet sem non elit posuere fringilla in eu justo.</p>
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_5}}</p>
         </div>
       </div>
     </div>

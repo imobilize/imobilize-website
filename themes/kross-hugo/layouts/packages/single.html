@@ -106,7 +106,7 @@
                 <h4 class="font-weight-bold mt-3 mb-3">{{.Params.features_card_heading_1}} </h4>
               </div>
               <div class="feature-card-paragraph">
-                <p class="p-5"> {{.Params.features_card_text_1}} </p>
+                <p class=""> {{.Params.features_card_text_1}} </p>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@
                 <h4 class="font-weight-bold mt-3 mb-3">{{.Params.features_card_heading_2}} </h4>
               </div>
               <div class="feature-card-paragraph">
-                <p class="p-5"> {{.Params.features_card_text_2}} </p>
+                <p class=""> {{.Params.features_card_text_2}} </p>
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@
                 <h4 class="font-weight-bold mt-3 mb-3">{{.Params.features_card_heading_3}} </h4>
               </div>
               <div class="feature-card-paragraph">
-                <p class="p-5"> {{.Params.features_card_text_3}} </p>
+                <p class=""> {{.Params.features_card_text_3}} </p>
               </div>
             </div>
           </div>
@@ -196,6 +196,41 @@
   </div>
 </section>
 <!-- Benifits end -->
+
+<!-- Faq Start -->
+<section class="main-section">
+  <div id="faqs" class="container">
+    <h2 class="line-heading p-3">Frequently Asked Questions</h2>
+    <h3 class="large-heading">{{.Params.faq_section_heading}}</h3>
+    <div id="faqSection" class="fullwidth-container">
+      <div>
+        <button class="collapsible">{{.Params.faq_question_1 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_1}}</p>
+        </div>
+        <button class="collapsible">{{.Params.faq_question_2 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_2}}</p>
+        </div>
+        <button class="collapsible">{{.Params.faq_question_3 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_3}}</p>
+        </div>
+        <button class="collapsible">{{.Params.faq_question_4 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_4}}</p>
+        </div>
+        <button class="collapsible">{{.Params.faq_question_5 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_5}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="myFooter">
+      <p>Contact us for more qureis <a href="/contact" target="_blank">Here</a></p>
+    </div>
+</section>
+<!-- Faq End -->
 
 
 <!-- Safe payment start  -->
@@ -314,6 +349,18 @@
     </div>
 </section>
 <!-- Text end -->
+
+<script>
+  let acc = document.getElementsByClassName("collapsible");
+  let i;
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      panel.classList.toggle("faq-content")
+    });
+  }
+</script>
 
 {{ end }}
 

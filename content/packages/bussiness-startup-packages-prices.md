@@ -100,15 +100,15 @@ development_heading: "Website Development"
 development_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 feature_card_image_1: "/images/packages/google-ranking.png"
 features_card_heading_1: "Rank #1 on Google"
-features_card_text_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate ac faucibus eleifend sit. Morbi at id id tortor eget mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+features_card_text_1: "Search is often the primary source of digital traffic for brands and complements other marketing channels. Greater visibility and ranking higher in search results than your competition can have a material impact on your bottom line."
 
 feature_card_image_2: "/images/packages/social-media-icon-card.png"
 features_card_heading_2: "Social Media Managment"
-features_card_text_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate ac faucibus eleifend sit. Morbi at id id tortor eget mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+features_card_text_2: "Artisans of the written word, our content creators and the team of copywriters take the time to get to know your company and brand. Through this involvement process, we can ensure that each piece of content is curated with the right brand voice and message. You have a story to tell your audience"
 
 feature_card_image_3: "/images/packages/social-media-icon-card.png"
-features_card_heading_3: "Hashtag Optimization"
-features_card_text_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate ac faucibus eleifend sit. Morbi at id id tortor eget mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+features_card_heading_3: "Logo Design and Artwork"
+features_card_text_3: "A logo is a symbol made up of text and images that identifies a business. A good logo shows what a company does and what the brand values."
 Packagename3: "Corporate Website"
 
 benifits_list_heading_1: "Rank #1 on Google"
@@ -124,6 +124,20 @@ benifits_list_paragraph_5: "Lorem ipsum dolor sit amet, consectetur adipisicing 
 benifits_list_heading_6: "Rank #1 on Google"
 benifits_list_paragraph_6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
 
+faq_section_heading: "Some of the most common questions asked about Business startups."
+
+faq_question_1: "Do you work full time as a developer?"
+faq_question_2: "Do you work full time as a developer?"
+faq_question_3: "Do you work full time as a developer?"
+faq_question_4: "Do you work full time as a developer?"
+faq_question_5: "Do you work full time as a developer?"
+faq_question_6: "Do you work full time as a developer?"
+
+faq_answer_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_5: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
 ---
 
 ---

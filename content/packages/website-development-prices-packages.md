@@ -88,16 +88,16 @@ benifits_list_heading_6: "Rank #1 on Google"
 benifits_list_paragraph_6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
 
 feature_card_image_1: "/images/packages/google-ranking.png"
-features_card_heading_1: "Rank #1 on Google"
-features_card_text_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate ac faucibus eleifend sit. Morbi at id id tortor eget mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+features_card_heading_1: "SEO - Search Engine Optimization"
+features_card_text_1: "Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic (known as natural or organic results) rather than direct traffic or paid traffic."
 
 feature_card_image_2: "/images/packages/social-media-icon-card.png"
-features_card_heading_2: "Social Media Managment"
-features_card_text_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate ac faucibus eleifend sit. Morbi at id id tortor eget mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+features_card_heading_2: "Mobile Responsiveness"
+features_card_text_2: "Responsive web design (RWD) is a web development approach that creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view it"
 
 feature_card_image_3: "/images/packages/social-media-icon-card.png"
 features_card_heading_3: "Hashtag Optimization"
-features_card_text_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate ac faucibus eleifend sit. Morbi at id id tortor eget mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+features_card_text_3: "By measuring and monitoring hashtag performance, you'll know whether your hashtag targeting needs further improvement or is already working just fine. This data is essential for your marketing team to determine why some posts are doing well while others are not."
 Packagename3: "Corporate Website"
 Price3: "$1600"
 list3: [  "10 Page Website",
@@ -108,7 +108,24 @@ list3: [  "10 Page Website",
  "CMS Integration",
  "3 Month Free Website Maintaince and Fixtures",
  "100% Money Back Guarantee",
- "Unlimited Revisions",]
+ "Unlimited Revisions",
+]
+
+faq_section_heading: "Some of the most common questions asked about Website Design & Development."
+
+faq_question_1: "Do you work full time as a developer?"
+faq_question_2: "Do you work full time as a developer?"
+faq_question_3: "Do you work full time as a developer?"
+faq_question_4: "Do you work full time as a developer?"
+faq_question_5: "Do you work full time as a developer?"
+faq_question_6: "Do you work full time as a developer?"
+
+faq_answer_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_5: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+
 ---
 
 ---
