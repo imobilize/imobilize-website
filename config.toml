@@ -123,6 +123,8 @@ URL = "https://twitter.com/imobilizeltd"
 #blog
 [permalinks]
   blog = "/:filename"
+  portfolio = "/:filename"
+  packages = "/:filename"
 
 #pagination
 paginate = 2

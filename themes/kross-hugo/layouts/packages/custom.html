@@ -1,7 +1,139 @@
 {{ define "main" }}
 
-{{ partial "packages-title.html" . }}
+<!-- page title -->
+<style>
+  .vector {
+    position: absolute;
+    z-index: 0;
+  }
 
+  .vector2 {
+    position: absolute;
+    z-index: 0;
+    left: 359px;
+    top: -4px;
+
+  }
+
+  .hero_image {
+    position: relative;
+    z-index: 2;
+  }
+
+  ul li.a:before {
+    content: '✓';
+    color: rgb(0, 219, 0);
+  }
+
+  ul li.b:before {
+    content: '&#9676;'
+  }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+
+    $("#heading").fadeIn(1000);
+    $("#cover").fadeIn(2000);
+    $("#logo").fadeIn(3000);
+
+  });
+</script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 5
+      }
+    }
+  })
+</script>
+
+
+<section class="page-title-portfolio bg-white position-relative overflow-hidden">
+  <div class="mb-5" id="cover" style="display: none;">
+    <img src="/images/packages/vector-1.png" class="vector img-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-xs-12">
+          <h3 class="mt-3 text-left text-packages font-weight-bold">{{.Title}}</h3>
+          <p class="subheading mt-3 text-left text-packages">{{.Params.subtitle}}</p>
+          <p class="mt-3 text-left text-packages">{{.Params.hero_Paragraph}}</p>
+          <div class="d-flex d-inline-block">
+            <div class="col-md-6 mt-3">
+              <ul>
+                <li class="a font-weight-bold text-packages " style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_1}}</span></li>
+                <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_2}}</span></li>
+                <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_3}}</span></li>
+              </ul>
+              <!-- <div class="mt-3">
+                  <a class="btn btn-lg btn-light" href="/packages">Packages</a>
+                </div> -->
+            </div>
+            <div class="col-lg-6 col-xs-12 mt-3">
+              <div class="d-flex justify-content-center">
+                <ul>
+                  <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                    margin-left: -38px;"><span class="ml-3">{{.Params.list_item_4}}</span></li>
+                  <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_5}}</span></li>
+                  <li class="a font-weight-bold text-packages" style="list-style-type: none; 	
+                  margin-left: -38px;"><span class="ml-3">{{.Params.list_item_6}}</span></li>
+                </ul>
+              </div>
+              <!-- <div class="mt-3">
+                  <a class="btn btn-lg btn-secondary btn-light" href="/packages">Get a Quote</a>
+                </div> -->
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+            <a href="#" class="button-socialmedia button-wiggle">Get A Quote</a>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <img src="/images/packages/vector-6.png" class="vector2 img-fluid">
+          <img src="{{ .Params.hero_image | relURL }}" class="img-fluid hero_image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<script>
+  $(document).ready(function () {
+
+    $('.owl-two').owlCarousel({
+      loop: true,
+      margin: 20,
+      stagedpadding: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  });
+</script>
 <!-- portfolio -->
 <section class="section">
   <div class="container">
@@ -13,11 +145,14 @@
         {{ with .Params.content}}
         <p class="text-left">{{. | markdownify}}</p>
         {{ end }}
+        <div class="d-flex justify-content-center mt-5">
+          <a href="/contact" class="button-socialmedia button-wiggle">Get A Quote</a>
+        </div>
       </div>
       <div class="col-md-5 col-xs-12 justify-content-center testimonial-slider align-middle pt-5">
-          {{ range .Params.images}}
-          <img class="img-fluid" src="{{. | safeHTML | relURL }}">
-          {{end}}
+        {{ range .Params.images}}
+        <img class="img-fluid" src="{{. | safeHTML | relURL }}">
+        {{end}}
       </div>
     </div>
   </div>
@@ -84,9 +219,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 col-xs-12 justify-content-center testimonial-slider align-middle pt-5">
-          {{ range .Params.images}}
-          <img class="img-fluid p-3" src="{{. | safeHTML | relURL }}">
-          {{end}}
+        {{ range .Params.images}}
+        <img class="img-fluid p-3" src="{{. | safeHTML | relURL }}">
+        {{end}}
       </div>
       <div class="col-md-7 col-xs-12">
         {{ with .Params.question2}}
@@ -95,6 +230,9 @@
         {{ with .Params.content2}}
         <p class="text-left">{{. | markdownify}}</p>
         {{ end }}
+        <div class="d-flex justify-content-center mt-5">
+          <a href="/contact" class="button-socialmedia button-wiggle">Get A Quote</a>
+        </div>
       </div>
     </div>
   </div>
@@ -157,29 +295,186 @@
     </div>
   </div>
 </section>
-<section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-xs-12">
-          {{ with .Params.question3}}
-          <h3 class="text-packages heading text-left pt-5 pb-3 font-weight-bold">{{. | markdownify}}</h3>
-          {{ end }}
-          {{ with .Params.content3}}
-          <p class="text-left">{{. | markdownify}}</p>
-          {{ end }}
-        </div>
-        <div class="col-md-5 col-xs-12 justify-content-center testimonial-slider align-middle pt-5">
-            {{ range .Params.images}}
-            <img class="img-fluid" src="{{. | safeHTML | relURL }}">
-            {{end}}
-        </div>
-      </div>
-    </div>
-</section>
+
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 col-xs-12 justify-content-center d-flex">
+      <div class="col-md-7 col-xs-12">
+        {{ with .Params.question3}}
+        <h3 class="text-packages heading text-left pt-5 pb-3 font-weight-bold">{{. | markdownify}}</h3>
+        {{ end }}
+        {{ with .Params.content3}}
+        <p class="text-left">{{. | markdownify}}</p>
+        {{ end }}
+
+      </div>
+      <div class="col-md-5 col-xs-12 justify-content-center testimonial-slider align-middle pt-5">
+        {{ range .Params.images}}
+        <img class="img-fluid p-3" src="{{. | safeHTML | relURL }}">
+        {{end}}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features section -->
+<section class="section">
+  <img src="/images/packages/vector-3.png" class="vector img-fluid" id="vector3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-justify text-packages font-weight-bold">Features</h3>
+        <p class="text-justify">We will provide you with the best of featrures to skyrocket your online business.</p>
+      </div>
+    </div>
+    <div class="flex-row">
+      <div class="col-md-12">
+      </div>
+      <div class="col-md-12">
+
+        <div class="owl-carousel owl-two owl-theme">
+          <div class="item">
+            <div class="feature-card">
+              <div class="feature-card-header">
+                <img src="{{ .Params.feature_card_image_1 | relURL }}"
+                  alt="Best Social Media Packages for bussinessess">
+              </div>
+              <div class="feature-card-title">
+                <h4 class="font-weight-bold mt-3 mb-3">{{.Params.features_card_heading_1}} </h4>
+              </div>
+              <div class="feature-card-paragraph">
+                <p class=""> {{.Params.features_card_text_1}} </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="feature-card">
+              <div class="feature-card-header">
+                <img src="{{ .Params.feature_card_image_2 | relURL }}"
+                  alt="Best Social Media Packages for bussinessess">
+              </div>
+              <div class="feature-card-title">
+                <h4 class="font-weight-bold mt-3 mb-3">{{.Params.features_card_heading_2}} </h4>
+              </div>
+              <div class="feature-card-paragraph">
+                <p class=""> {{.Params.features_card_text_2}} </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="feature-card">
+              <div class="feature-card-header">
+                <img src="{{ .Params.feature_card_image_3 | relURL }}"
+                  alt="Best Social Media Packages for bussinessess">
+              </div>
+              <div class="feature-card-title">
+                <h4 class="font-weight-bold mt-3 mb-3">{{.Params.features_card_heading_3}} </h4>
+              </div>
+              <div class="feature-card-paragraph">
+                <p class=""> {{.Params.features_card_text_3}} </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features end -->
+<!-- Benifits start -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 align-self-center">
+        <img src="/images/packages/benifit-illustration.png" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h3 class="font-weight-bold text-justify text-packages">Benifits</h3>
+        <p class="text-justify">We will provide you with the best of featrures to skyrocket your online business. Here are some benifits of having an online business</p>
+        <div class="d-flex d-inline-block">
+          <div class="col-sm">
+            <ul class="numbered-list">
+              <li>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_1 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_1 }}</p>
+              </li>
+              <li>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_2 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_2 }}</p>
+              </li>
+              <li>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_3 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_3 }}</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul class="numbered-list" start="4">
+
+              <li>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_4 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_4 }} </p>
+              </li>
+              <li>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_5 }}</h4>
+                <p class="text-left font-weight-light list-paragraph"> {{.Params.benifits_list_paragraph_5 }}</p>
+              </li>
+              <li>
+                <h4 class="text-left list-heading">{{.Params.benifits_list_heading_6 }}</h4>
+                <p class="text-left font-weight-light list-paragraph">{{.Params.benifits_list_paragraph_6 }}</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center mt-5">
+    <a href="/contact" class="button-socialmedia">GET A QUOTE</a>
+  </div>
+</section>
+<!-- Benifits end -->
+
+<!-- Faq Start -->
+<section class="main-section">
+  <div id="faqs" class="container">
+    <h2 class="line-heading p-3">Frequently Asked Questions</h2>
+    <h3 class="large-heading">{{.Params.faq_section_heading}}</h3>
+    <div id="faqSection" class="fullwidth-container">
+      <div>
+        <button class="collapsible">{{.Params.faq_question_1 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_1}}</p>
+        </div>
+        <button class="collapsible">{{.Params.faq_question_2 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_2}}</p>
+        </div>
+        <button class="collapsible">{{.Params.faq_question_3 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_3}}</p>
+        </div>
+        <button class="collapsible">{{.Params.faq_question_4 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_4}}</p>
+        </div>
+        <button class="collapsible">{{.Params.faq_question_5 }}</button>
+        <div class="faq-content">
+          <p id="texty" class="pl-1 tryone texty1 text-white">{{.Params.faq_answer_5}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="myFooter">
+      <p>Contact us for more qureis <a href="/contact" target="_blank">Here</a></p>
+    </div>
+</section>
+<!-- Faq End -->
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-xs-12 justify-content-center d-flex mt-3">
         <img src="/images/packages/money-back.png" class="img-fluid">
       </div>
     </div>
@@ -198,96 +493,107 @@
   </div>
 </section>
 <!-- Text end -->
-    <!-- Packages Card Start -->
-    <section class="section">
-          <div class="container">
-              <div class="row mt-5">
-                <div class="col-md-12 text-center">
-                  {{with .Params.Packagetitle}}
-                  <h3 class="font-weight-bold text-packages heading mb-5 ">{{. | safeHTML}}</h3>
-                  {{ end }}
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12 p-4">
-                  <div class="card packages-card h-100">
-                      <div class="card-body">
-                        {{with .Params.Price1}}
-                        <h3 class="text-justify card-text text-primary font-weight-bold">{{. | safeHTML}}</h2>
-                        {{ end }}
-                        {{with .Params.Packagename1}}
-                          <h4 class="text-left text-packages card-title font-weight-bolder">{{. | safeHTML}}</h4>
-                        {{ end }}
-                          <hr>
-                          {{ range .Params.list1}}
-                          <ul class="list-group list-group-flush">
-                              <li class="list-group-item"> 
-                                {{.| safeHTML}}
-                              </li>
-                          </ul>
-                          {{ end }}
-                      </div>
-                      <hr>
-                      <div class="d-flex justify-content-center">
-                        <div class=" mt-auto p-3">
-                            <a href="/contact/" class="btn btn-sm btn-primary">Get Started</a>
-                        </div>
-                    </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-12 col-sm-12 p-4">
-                <div class="card packages-card h-100">
-                    <div class="card-body">
-                      {{with .Params.Price2}}
-                      <h3 class="text-justify card-text text-primary font-weight-bold">{{. | safeHTML}}</h2>
-                      {{ end }}
-                      {{with .Params.Packagename2}}
-                        <h4 class="text-left text-packages card-title font-weight-bolder">{{. | safeHTML}}</h4>
-                      {{ end }}
-                        <hr>
-                        {{ range .Params.list2}}
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"> 
-                              {{.| safeHTML}}
-                            </li>
-                        </ul>
-                        {{ end }}                        
-                    </div>
-                    <hr>
-                    <div class="d-flex justify-content-center">
-                      <div class=" mt-auto p-3">
-                          <a href="/contact/" class="btn btn-sm btn-primary">Get Started</a>
-                      </div>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 p-4">
-              <div class="card packages-card h-100">
-                  <div class="card-body">
-                    {{with .Params.Price3}}
-                    <h3 class="text-justify card-text text-primary font-weight-bold">{{. | safeHTML}}</h2>
-                    {{ end }}
-                    {{with .Params.Packagename3}}
-                      <h4 class="text-left text-packages card-title font-weight-bolder">{{. | safeHTML}}</h4>
-                    {{ end }}
-                      <hr>
-                      {{ range .Params.list3}}
-                      <ul class="list-group list-group-flush">
-                          <li class="list-group-item"> 
-                            {{.| safeHTML}}
-                          </li>
-                      </ul>
-                      {{ end }}
-                      
-                  </div>
-                  <hr>
-
-                  <div class="d-flex justify-content-center">
-                    <div class=" mt-auto p-3">
-                        <a href="/contact/" class="btn btn-sm btn-primary">Get Started</a>
-                    </div>
-                </div>
-              </div>
+<!-- Packages Card Start -->
+<section class="section">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-12 text-center">
+        {{with .Params.Packagetitle}}
+        <h3 class="font-weight-bold text-packages heading mb-5 ">{{. | safeHTML}}</h3>
+        {{ end }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 p-4">
+        <div class="card packages-card h-100">
+          <div class="card-body">
+            {{with .Params.Price1}}
+            <h3 class="text-justify card-text text-primary font-weight-bold">{{. | safeHTML}}</h2>
+              {{ end }}
+              {{with .Params.Packagename1}}
+              <h4 class="text-left text-packages card-title font-weight-bolder">{{. | safeHTML}}</h4>
+              {{ end }}
+              <hr>
+              {{ range .Params.list1}}
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  {{.| safeHTML}}
+                </li>
+              </ul>
+              {{ end }}
           </div>
-    </section>
+          <hr>
+          <div class="d-flex justify-content-center">
+            <div class=" mt-auto p-3">
+              <a href="/contact/" class="btn btn-sm btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 p-4">
+        <div class="card packages-card h-100">
+          <div class="card-body">
+            {{with .Params.Price2}}
+            <h3 class="text-justify card-text text-primary font-weight-bold">{{. | safeHTML}}</h2>
+              {{ end }}
+              {{with .Params.Packagename2}}
+              <h4 class="text-left text-packages card-title font-weight-bolder">{{. | safeHTML}}</h4>
+              {{ end }}
+              <hr>
+              {{ range .Params.list2}}
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  {{.| safeHTML}}
+                </li>
+              </ul>
+              {{ end }}
+          </div>
+          <hr>
+          <div class="d-flex justify-content-center">
+            <div class=" mt-auto p-3">
+              <a href="/contact/" class="btn btn-sm btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 p-4">
+        <div class="card packages-card h-100">
+          <div class="card-body">
+            {{with .Params.Price3}}
+            <h3 class="text-justify card-text text-primary font-weight-bold">{{. | safeHTML}}</h2>
+              {{ end }}
+              {{with .Params.Packagename3}}
+              <h4 class="text-left text-packages card-title font-weight-bolder">{{. | safeHTML}}</h4>
+              {{ end }}
+              <hr>
+              {{ range .Params.list3}}
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  {{.| safeHTML}}
+                </li>
+              </ul>
+              {{ end }}
+
+          </div>
+          <hr>
+
+          <div class="d-flex justify-content-center">
+            <div class="mt-auto p-3">
+              <a href="/contact/" class="btn btn-sm btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<script>
+  let acc = document.getElementsByClassName("collapsible");
+  let i;
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      panel.classList.toggle("faq-content")
+    });
+  }
+</script>
 {{ end }}

@@ -2,29 +2,37 @@
 
 <!-- {{ partial "hero.html" . }} -->
 
-{{ partial "hero-2.html" . }}
+  {{ partial "hero-2.html" . }}
+  {{ partial "about-section.html" . }}
+  {{ partial "how-can-we-help.html" . }} 
+  {{ partial "services-section.html" . }}
+  {{ partial "latest-blogs.html" . }}
 
-{{ partial "about-section.html" . }}
+<!-- {{ partial "test-file.html" . }} -->
 
-{{ partial "how-can-we-help.html" . }}
-
-{{ partial "services-section.html" . }}
 
 {{ if site.Data.homepage.testimonial.enable }}
 {{ with site.Data.homepage.testimonial }}
 <!-- testimonial -->
 
-<section class="section " id="portfolio">
+<section class="section" id="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="ml-3 text-uppercase text-secondary font-weight-bold">Portfolio</h2>
+        <h2 class="ml-3 text-uppercase text-secondary font-weight-bold">
+          Portfolio
+        </h2>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div class="block-line ml-3 mb-3"></div>
-        <p class="subheading text-justify mb-5 pl-3 pr-3 font-weight-bold text-secondary">Click <a href="portfolio" class="nav-item">here</a> to explore our porfolio</p>
+        <p
+          class="subheading text-justify mb-5 pl-3 pr-3 font-weight-bold text-secondary"
+        >
+          Click <a href="portfolio" class="nav-item">here</a> to explore our
+          porfolio
+        </p>
       </div>
     </div>
   </div>
@@ -36,28 +44,33 @@
         <div class="testimonial-content {{.color}}">
           <div class="row align-items-center">
             <div class="col-sm-6 align-self-center">
-              <h2 class="text-white text-center font-weight-bold">{{.name }}</h2>
-              <p class="text-white text-center font-weight-bold h4 mb-4">{{.content | markdownify}} <br> <a href="{{.url}}" class="btn btn-outline-dark text-white text-uppercase mt-5 mb-3">Explore
-                <i class="ti-angle-right"></i></a></p>
+              <h2 class="text-white text-center font-weight-bold">
+                {{.name }}
+              </h2>
+              <p class="text-white text-center font-weight-bold h4 mb-4">
+                {{.content | markdownify}} <br />
+                <a
+                  href="{{.url}}"
+                  class="btn btn-outline-dark text-white text-uppercase mt-5 mb-3"
+                  >Explore <i class="ti-angle-right"></i
+                ></a>
+              </p>
             </div>
             <div class="col-sm-6 d-flex justify-content-center">
-              <img class="img-fluid d-inline-block" src="{{.image | absURL }}" alt="client-image">
-              
+              <img
+                class="img-fluid d-inline-block"
+                src="{{.image | absURL }}"
+                alt="client-image"
+              />
             </div>
           </div>
         </div>
-        
-      {{ end }}
+
+        {{ end }}
+      </div>
     </div>
   </div>
-</div>
-
 </section>
 
+{{ end }} {{ end }} {{ end }} 
 
-{{ partial "latest-blogs.html" . }}
-
-
-{{ end }}
-{{ end }}
-{{ end }}
