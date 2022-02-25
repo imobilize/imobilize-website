@@ -74,18 +74,18 @@ list2: ["5 Page Website",
 
 ]
 
-benifits_list_heading_1: "Rank #1 on Google"
-benifits_list_paragraph_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
-benifits_list_heading_2: "Rank #1 on Google"
-benifits_list_paragraph_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
-benifits_list_heading_3: "Rank #1 on Google"
-benifits_list_paragraph_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
-benifits_list_heading_4: "Rank #1 on Google"
-benifits_list_paragraph_4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
-benifits_list_heading_5: "Rank #1 on Google"
-benifits_list_paragraph_5: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
-benifits_list_heading_6: "Rank #1 on Google"
-benifits_list_paragraph_6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita voluptate molestias et ipsam vitae sunt ducimus illum, quidem est officiis laborum porro quos blanditiis eum? Quis maiores facere odit."
+benifits_list_heading_1: "Build Credibility "
+benifits_list_paragraph_1: "As a small business, you need to establish your credibility before people will trust you enough to buy from you."
+benifits_list_heading_2: "Establish Brand Identity"
+benifits_list_paragraph_2: "Building a website is the best possible way to showcase all of these important elements for consumers to easily find. You can feature these aspects on an “about us” page or even on your homepage so that consumers start to get an idea of who you are as a brand. "
+benifits_list_heading_3: "Builds Relations with Customers"
+benifits_list_paragraph_3: " A website that is centered around easy user experience and personalizes the customer’s visits, will help make that customer have a more positive response to your business. "
+benifits_list_heading_4: "Drives Sales"
+benifits_list_paragraph_4: "A website makes you reach people all over the world to expose them to your products/services. The more exposure your business receives, the more sales it will get, and the more your business will grow."
+benifits_list_heading_5: " Customer Service Made Easier"
+benifits_list_paragraph_5: "Your website can make customers look up their questions on your site instead of taking the time to call you. Of course, you will have a few customers who will still feel the need to call, but that number will go drastically down. "
+benifits_list_heading_6: "Bussiness Updates"
+benifits_list_paragraph_6: "Your business is growing and therefore changing as it does. As a result, you may struggle to keep your clients updated on what is new with your business."
 
 feature_card_image_1: "/images/packages/google-ranking.png"
 features_card_heading_1: "SEO - Search Engine Optimization"
@@ -113,18 +113,20 @@ list3: [  "10 Page Website",
 
 faq_section_heading: "Some of the most common questions asked about Website Design & Development."
 
-faq_question_1: "Do you work full time as a developer?"
-faq_question_2: "Do you work full time as a developer?"
-faq_question_3: "Do you work full time as a developer?"
-faq_question_4: "Do you work full time as a developer?"
-faq_question_5: "Do you work full time as a developer?"
+faq_question_1: "​What if I am not happy with my web design, do you offer a refund?"
+faq_question_2: "Will my website be available to all Apple and Android devices?"
+faq_question_3: "Will you maintain my site for me?"
+faq_question_4: "Why are you so expensive?"
+faq_question_5: "How long does it take to build a website?
+"
 faq_question_6: "Do you work full time as a developer?"
 
-faq_answer_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_5: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_1: "If you are not happy with your draft site, remember we have a comprehensive revision process to capture any feedback to improve the site. If you are still not happy after this, we offer a money back guarantee at no risk to you."
+faq_answer_2: "​Yes, all of our websites are smartphone and tablet-friendly and standard with our website development service. ​​
+"
+faq_answer_3: "We can! We provide on-going support for many of our clients."
+faq_answer_4: "The process we use to build your website takes a certain amount of time and a lot of planning and research. Unlike other agencies, we DON’T use templates. We build your website from scratch, which means you get a unique design tailored around your business. Buying a website from us should not just simply be seen as a business expense as your website is a sales tool that should earn you money."
+faq_answer_5: "It takes approximately 6-10 weeks to build a website from start to finish, providing we have all the information from you. Our full web design process is broken down here. Generally speaking, the website will only take a long time if we are still waiting for text and images from yourself."
 
 ---
 
