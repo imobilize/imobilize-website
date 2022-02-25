@@ -146,6 +146,7 @@ faq_answer_3: "You'll be given access to a portal that contains Fast Start Brand
 The perfect story guide, Buyers Journey Template, The perfect customer template, The persuasive brand guide, Launch checklist and access to the Entrepreneurs and startup community. And moreover the knowladge about what logo suits you, how you should pick a brand name and all the information regarding your business idea."
 faq_answer_4: "Living in the digital world, a website is crucial for any business. If you have a business and don’t have a website, you are probably losing out on opportunities for your business. A website can be used to accomplish many different marketing strategies to help your business grow. The web has a far more extensive reach than any other form of advertising. Your website will be the center of your company’s online presence. You can advertise your business around the web on social networking sites, forums and through pay-per-click advertising programs."
 faq_answer_5: "Our one-to-one business consultancy servies allows us to understand your business model and make improvments to it and drive more sales."
+
 ---
 
 ---
