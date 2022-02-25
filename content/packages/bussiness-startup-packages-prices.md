@@ -40,7 +40,7 @@ content3: "Developers at iMobilize have specialized in mobile software for many 
 Our Specialists move with the market and there are many solutions our clients adopt to create applications across various mobile platforms and web browsers accessible on the many devices in the market today. Some clients seek Consultancy advice on how best to drive and deliver their mobile products to market. As such we do provide experienced Consultants who can implement strategy, advise on direction and analyse requirements.
 "
 question3: "Why you need a Website for your business?"
-listcontent: ["Strategy", "Design", "Development", "Launch", "Life Cycle Managment", ]
+listcontent: ["Strategy", "Design", "Development", "Launch", "Life Cycle Management", ]
 content: "The problem is, a lot of Startups underestimate the importance of a Brand. Most of them don’t realise the simple mistakes that they are making when putting one together. These mistakes cost them dearly in lack of customers and lack of revenue. It ultimately causes their Startups to fail. The good news is these mistakes are easy to fix if you know what you are doing. And they are just as easy to learn and apply. It doesn’t require a ton of money to be spent designing a logo. And it doesn’t require any highly paid expertise. It simply requires you to follow a few simple principles."
 content2: "The problem is, a lot of Startups underestimate the importance of a Brand. Most of them don’t realise the simple mistakes that they are making when putting one together. These mistakes cost them dearly in lack of customers and lack of revenue. It ultimately causes their Startups to fail. The good news is these mistakes are easy to fix if you know what you are doing. And they are just as easy to learn and apply. It doesn’t require a ton of money to be spent designing a logo. And it doesn’t require any highly paid expertise. It simply requires you to follow a few simple principles."
 content3: "Developers at iMobilize have specialized in mobile software for many years and during this time we have witnessed many changes to this fast-moving and exciting industry. The mobile software industry really gathered pace after the initial launch of the first smartphones resulting in explosive growth and a fragmented ecosystem with many platforms to build software applications. Today there are 2 clear winners; Android and iOS who together dominate the mobile apps market with more than 90% of the entire market share between them.
@@ -110,7 +110,7 @@ features_card_heading_1: "Rank #1 on Google"
 features_card_text_1: "Search is often the primary source of digital traffic for brands and complements other marketing channels. Greater visibility and ranking higher in search results than your competition can have a material impact on your bottom line."
 
 feature_card_image_2: "/images/packages/social-media-icon-card.png"
-features_card_heading_2: "Social Media Managment"
+features_card_heading_2: "Social Media Management"
 features_card_text_2: "Artisans of the written word, our content creators and the team of copywriters take the time to get to know your company and brand. Through this involvement process, we can ensure that each piece of content is curated with the right brand voice and message. You have a story to tell your audience"
 
 feature_card_image_3: "/images/packages/social-media-icon-card.png"
@@ -136,7 +136,7 @@ faq_section_heading: "Some of the most common questions asked about Business sta
 faq_question_1: "How will iMobilize help me with my business Startup"
 faq_question_2: "What is branding for profit?"
 faq_question_3: "What is included in branding for profit bundle?"
-faq_question_4: "Why do i need a website for my business?"
+faq_question_4: "Why do I need a website for my business?"
 faq_question_5: "What business consultancy will I be getting?"
 faq_question_6: "Do you work full time as a developer?"
 

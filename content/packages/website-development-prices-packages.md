@@ -34,7 +34,7 @@ heading2: "Process"
 content: "Is your current website slow or not generating new business for you? Then it might be time for a new website! All our websites are built from scratch, speed-tested, and search-engine optimised. Your website is a powerful marketing asset, so our designers will build you something remarkable. We have a wide range of web design and digital marketing packages to suit most budgets.
 "
 question: "Why you need a Website for your business?"
-listcontent: ["Strategy", "Design", "Development", "Launch", "Life Cycle Managment", ]
+listcontent: ["Strategy", "Design", "Development", "Launch", "Life Cycle Management", ]
 process: "
 iMobilize has groomed a pool of candidates who are experienced in developing,
 testing and distributing mobile websites and mobile
