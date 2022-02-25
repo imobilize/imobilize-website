@@ -60,7 +60,7 @@ list1: ["1 Page Website",
  "100% Money Back Guarantee",
 
 ]
-Packagename2: "Bussiness Website"
+Packagename2: "Business Website"
 Price2: "$1200"
 list2: ["5 Page Website",
  "1 year domain and hosting",
@@ -84,7 +84,7 @@ benifits_list_heading_4: "Drives Sales"
 benifits_list_paragraph_4: "A website makes you reach people all over the world to expose them to your products/services. The more exposure your business receives, the more sales it will get, and the more your business will grow."
 benifits_list_heading_5: " Customer Service Made Easier"
 benifits_list_paragraph_5: "Your website can make customers look up their questions on your site instead of taking the time to call you. Of course, you will have a few customers who will still feel the need to call, but that number will go drastically down. "
-benifits_list_heading_6: "Bussiness Updates"
+benifits_list_heading_6: "business Updates"
 benifits_list_paragraph_6: "Your business is growing and therefore changing as it does. As a result, you may struggle to keep your clients updated on what is new with your business."
 
 feature_card_image_1: "/images/packages/google-ranking.png"
