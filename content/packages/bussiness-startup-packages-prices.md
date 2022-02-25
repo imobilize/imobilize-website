@@ -1,6 +1,6 @@
 ---
 title: "Business Startup Packages"
-subtitle: "Lets Rocket your bussiness..."
+subtitle: "Lets Rocket your business..."
 hero_Paragraph: "We offers the best Social Media & Digital Marketing Packages in affordable budget. The business website is now the backbone and the infrastructure around which you build your business."
 list_item_1: "Custom Website Design"
 list_item_2: "All Final Master Files"
@@ -40,7 +40,7 @@ content3: "Developers at iMobilize have specialized in mobile software for many 
 Our Specialists move with the market and there are many solutions our clients adopt to create applications across various mobile platforms and web browsers accessible on the many devices in the market today. Some clients seek Consultancy advice on how best to drive and deliver their mobile products to market. As such we do provide experienced Consultants who can implement strategy, advise on direction and analyse requirements.
 "
 question3: "Why you need a Website for your business?"
-listcontent: ["Strategy", "Design", "Development", "Launch", "Life Cycle Managment", ]
+listcontent: ["Strategy", "Design", "Development", "Launch", "Life Cycle Management", ]
 content: "The problem is, a lot of Startups underestimate the importance of a Brand. Most of them don’t realise the simple mistakes that they are making when putting one together. These mistakes cost them dearly in lack of customers and lack of revenue. It ultimately causes their Startups to fail. The good news is these mistakes are easy to fix if you know what you are doing. And they are just as easy to learn and apply. It doesn’t require a ton of money to be spent designing a logo. And it doesn’t require any highly paid expertise. It simply requires you to follow a few simple principles."
 content2: "The problem is, a lot of Startups underestimate the importance of a Brand. Most of them don’t realise the simple mistakes that they are making when putting one together. These mistakes cost them dearly in lack of customers and lack of revenue. It ultimately causes their Startups to fail. The good news is these mistakes are easy to fix if you know what you are doing. And they are just as easy to learn and apply. It doesn’t require a ton of money to be spent designing a logo. And it doesn’t require any highly paid expertise. It simply requires you to follow a few simple principles."
 content3: "Developers at iMobilize have specialized in mobile software for many years and during this time we have witnessed many changes to this fast-moving and exciting industry. The mobile software industry really gathered pace after the initial launch of the first smartphones resulting in explosive growth and a fragmented ecosystem with many platforms to build software applications. Today there are 2 clear winners; Android and iOS who together dominate the mobile apps market with more than 90% of the entire market share between them.
@@ -55,7 +55,7 @@ Generating customers is also the #1 expense a business will incur in it’s ques
 …That’s why we developed the Startup model to allow you to attract prospective customers automatically…
 …And then turn those customers into loyal fans that buy from you on repeat."
 draft: false
-Packagetitle: Startup Bussiness Owner Packages
+Packagetitle: Startup business Owner Packages
 Packagename1: "Standard Startup"
 Price1: "$999"
 list1: ["1 Page Website",
@@ -72,7 +72,7 @@ list2: ["5 Page Website",
     "8 Social Media Post templates( Instagram only )",
     "Branding for Profit Book - a Perfect Startup guide",
     "100% Money Back Guarantee",
-    "2 hour Bussiness Consultancy",
+    "2 hour business Consultancy",
 ]
 Packagename3: "Elite Startup"
 Price3: "$2000"
@@ -83,9 +83,9 @@ list3: [
     "Logo Designs and Artwork",
     "20 Social Media Post templates( Instagram only )",
     "Branding for Profit Book - a Perfect Startup guide",
-    "Fast Start Bussiness startup package",
+    "Fast Start business startup package",
     "100% Money Back Guarantee",
-    "Bussiness Consultancy",
+    "Business Consultancy",
 ]
 heading: "Process"
 makerting_text: "Social media marketing is the medium to promote a business, products, services, and a person using social media platforms like Facebook, Instagram, Linkedin, and Twitter, etc. Social media marketing is a good platform for both consumers and businesses. But for businesses what matters is the content should be unique, engaging, informational, and friendly that people love to like, retweet, and share on their profile.
@@ -110,7 +110,7 @@ features_card_heading_1: "Rank #1 on Google"
 features_card_text_1: "Search is often the primary source of digital traffic for brands and complements other marketing channels. Greater visibility and ranking higher in search results than your competition can have a material impact on your bottom line."
 
 feature_card_image_2: "/images/packages/social-media-icon-card.png"
-features_card_heading_2: "Social Media Managment"
+features_card_heading_2: "Social Media Management"
 features_card_text_2: "Artisans of the written word, our content creators and the team of copywriters take the time to get to know your company and brand. Through this involvement process, we can ensure that each piece of content is curated with the right brand voice and message. You have a story to tell your audience"
 
 feature_card_image_3: "/images/packages/social-media-icon-card.png"
@@ -133,19 +133,20 @@ benifits_list_paragraph_6: "With one traditional job comes a single salary. With
 
 faq_section_heading: "Some of the most common questions asked about Business startups."
 
-faq_question_1: "How will iMobilize help me with my Bussiness Startup"
+faq_question_1: "How will iMobilize help me with my business Startup"
 faq_question_2: "What is branding for profit?"
 faq_question_3: "What is included in branding for profit bundle?"
-faq_question_4: "Why do i need a website for my bussiness?"
-faq_question_5: "What bussiness consultancy will I be getting?"
+faq_question_4: "Why do I need a website for my business?"
+faq_question_5: "What business consultancy will I be getting?"
 faq_question_6: "Do you work full time as a developer?"
 
-faq_answer_1: "With our bussiness consultancy offer, Imobilize will help you out with all the necessary information adn tools to start your digital bussiness. We're a company that does branding, Develop strategies, Develop websites that actually sell!"
+faq_answer_1: "With our business consultancy offer, Imobilize will help you out with all the necessary information adn tools to start your digital business. We're a company that does branding, Develop strategies, Develop websites that actually sell!"
 faq_answer_2: "Branding For Profit is a brand new counterintuitive approach to creating a highly profitable brand. When starting a business, most people make the mistake of considering a brand to be simply the brand elements i.e the name and the logo. They create these elements, do a launch, and then wonder they struggle to make sales."
 faq_answer_3: "You'll be given access to a portal that contains Fast Start Branding Video Series, Brand style guide template, Branding for profit Kindle supported E-Book,
-The perfect story guide, Buyers Journey Template, The perfect customer template, The persuasive brand guide, Launch checklist and access to the Entrepreneurs and startup community. And moreover the knowladge about what logo suits you, how you should pick a brand name and all the information regarding your bussiness idea."
+The perfect story guide, Buyers Journey Template, The perfect customer template, The persuasive brand guide, Launch checklist and access to the Entrepreneurs and startup community. And moreover the knowladge about what logo suits you, how you should pick a brand name and all the information regarding your business idea."
 faq_answer_4: "Living in the digital world, a website is crucial for any business. If you have a business and don’t have a website, you are probably losing out on opportunities for your business. A website can be used to accomplish many different marketing strategies to help your business grow. The web has a far more extensive reach than any other form of advertising. Your website will be the center of your company’s online presence. You can advertise your business around the web on social networking sites, forums and through pay-per-click advertising programs."
-faq_answer_5: "Our one-to-one bussiness consultancy servies allows us to understand your bussiness model and make improvments to it and drive more sales."
+faq_answer_5: "Our one-to-one business consultancy servies allows us to understand your business model and make improvments to it and drive more sales."
+
 ---
 
 ---
