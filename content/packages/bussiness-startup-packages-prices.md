@@ -136,7 +136,7 @@ faq_section_heading: "Some of the most common questions asked about Business sta
 faq_question_1: "How will iMobilize help me with my business Startup"
 faq_question_2: "What is branding for profit?"
 faq_question_3: "What is included in branding for profit bundle?"
-faq_question_4: "Why do i need a website for my business?"
+faq_question_4: "Why do I need a website for my business?"
 faq_question_5: "What business consultancy will I be getting?"
 faq_question_6: "Do you work full time as a developer?"
 

@@ -141,7 +141,7 @@ faq_section_heading: "Some of the most common questions asked about Social Media
 
 faq_question_1: "What does a Social Media Agency do?"
 faq_question_2: "Which social media platform should I use to promote my business?"
-faq_question_3: "10. How can I get more followers on social media?
+faq_question_3: "How can I get more followers on social media?
 "
 faq_question_4: "How do I get started with social media marketing?"
 faq_question_5: "How to increase Your Overall ROI"
