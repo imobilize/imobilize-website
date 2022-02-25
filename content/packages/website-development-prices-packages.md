@@ -113,18 +113,20 @@ list3: [  "10 Page Website",
 
 faq_section_heading: "Some of the most common questions asked about Website Design & Development."
 
-faq_question_1: "Do you work full time as a developer?"
-faq_question_2: "Do you work full time as a developer?"
-faq_question_3: "Do you work full time as a developer?"
-faq_question_4: "Do you work full time as a developer?"
-faq_question_5: "Do you work full time as a developer?"
+faq_question_1: "​What if I am not happy with my web design, do you offer a refund?"
+faq_question_2: "Will my website be available to all Apple and Android devices?"
+faq_question_3: "Will you maintain my site for me?"
+faq_question_4: "Why are you so expensive?"
+faq_question_5: "How long does it take to build a website?
+"
 faq_question_6: "Do you work full time as a developer?"
 
-faq_answer_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_5: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_1: "If you are not happy with your draft site, remember we have a comprehensive revision process to capture any feedback to improve the site. If you are still not happy after this, we offer a money back guarantee at no risk to you."
+faq_answer_2: "​Yes, all of our websites are smartphone and tablet-friendly and standard with our website development service. ​​
+"
+faq_answer_3: "We can! We provide on-going support for many of our clients."
+faq_answer_4: "The process we use to build your website takes a certain amount of time and a lot of planning and research. Unlike other agencies, we DON’T use templates. We build your website from scratch, which means you get a unique design tailored around your business. Buying a website from us should not just simply be seen as a business expense as your website is a sales tool that should earn you money."
+faq_answer_5: "It takes approximately 6-10 weeks to build a website from start to finish, providing we have all the information from you. Our full web design process is broken down here. Generally speaking, the website will only take a long time if we are still waiting for text and images from yourself."
 
 ---
 

@@ -139,17 +139,22 @@ benifits_list_paragraph_6: "Using social media to share your brand’s mission a
 
 faq_section_heading: "Some of the most common questions asked about Social Media Marketing."
 
-faq_question_1: "Do you work full time as a developer?"
-faq_question_2: "Do you work full time as a developer?"
-faq_question_3: "Do you work full time as a developer?"
-faq_question_4: "Do you work full time as a developer?"
-faq_question_5: "Do you work full time as a developer?"
+faq_question_1: "What does a Social Media Agency do?"
+faq_question_2: "Which social media platform should I use to promote my business?"
+faq_question_3: "10. How can I get more followers on social media?
+"
+faq_question_4: "How do I get started with social media marketing?"
+faq_question_5: "How to increase Your Overall ROI"
 faq_question_6: "Do you work full time as a developer?"
 
-faq_answer_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
-faq_answer_5: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat neque eu odio convallis, porta consequat erat rhoncus. Curabitur vulputate porttitor lectus, vitae tincidunt dolor eleifend vitae."
+faq_answer_1: "A Social Media Agency, or Social Media Marketing Agency works to grow your social media presence and following through tailored social media packages. Agencies optimise social media profiles, create both visual and written content for posts, and engage with users to grow your business social media accounts."
+faq_answer_2: "While the natural assumption is that you should be on all the popular platforms, this can be counterproductive if not executed with a strategy. Instead, focus on a couple of platforms that are highly popular among your target audience. So the best platforms to use will vary for each business."
+faq_answer_3: "Growing your social media following involves a lot of planning and strategizing as well as posting the right content and targeting the right audience."
+faq_answer_4: "There are a few things you need to begin marketing on social media – a goal, a target audience and a strategy. "
+faq_answer_5: "Social media marketing and advertising can help you increase your return on investment, as the cost of advertising on these social media forums is often less than the return, giving you more revenue.
+
+Because you use digital marketing, you can reach hundreds and thousands of people by simply targeting ads, reducing your advertisement costs.
+
+Facebook and Instagram help you in attracting your potential buyers, and at the same time, they aim to keep the potential customers engaged on their specific social media networks so that you and they both can benefit from this. "
 ---
 
