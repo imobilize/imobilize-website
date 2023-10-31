@@ -2,7 +2,7 @@
 title: "MOBILE APPS IN OUR DAILY LIFE AND HOW IMPORTANT THEY ARE FOR THE BUSINESS"
 date: 2015-05-25T12:14:34+06:00
 author: "MAYA GARDEVA"
-image: "images/blog/Mobile-App-Developers.jpg"
+image: "images/blog/app.png"
 tags: ["android", "ios", "responsive design", "mobile app"]
 description: "This is meta description."
 draft: false
