@@ -2,7 +2,7 @@
 title: "HOW TO EXPLAIN WHAT IS A SOFTWARE DESIGN PATTERN TO YOUR GRANDMA"
 date: 2015-05-09T12:14:34+06:00
 author: "ANDRE BARRETT"
-image: "images/blog/wheel.gif"
+image: "images/blog/software-grandma.png"
 tags: ["software development", "design patterns", "software craftsmanship"]
 description: "This is meta description."
 draft: false

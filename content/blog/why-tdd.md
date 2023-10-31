@@ -2,7 +2,7 @@
 title: "WHY TDD?"
 date: 2015-04-28T12:14:34+06:00
 author: "GENADI TODOROV"
-image: "images/blog/Test-First.jpg"
+image: "images/blog/testing-first.jpg"
 tags: ["tdd", "testing"]
 description: "This is meta description."
 draft: false

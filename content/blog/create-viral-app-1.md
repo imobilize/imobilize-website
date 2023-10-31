@@ -2,7 +2,7 @@
 title: "BEYOND ‘KILLER APPS’: HOW TO MAKE YOUR NEXT APP GO VIRAL [PART 1]"
 date: 2016-08-01T12:14:34+06:00
 author: "DAVID"
-image: "images/blog/OAYTDM0.png"
+image: "images/blog/killer-apps.jpg"
 description: "This is meta description."
 draft: false
 ---
